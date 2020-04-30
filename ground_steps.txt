@@ -1,1052 +1,1052 @@
-murder_on_play-0-8b78['ann', 'ann', 'fakeknife']
-	preconditions:
-		killed['ann', 'ann']
-	effects:
-		weapon['fakeknife']
-		set['fakeknife']
-		onplay['ann', 'ann']
-
-murder_on_play-1-8b78['ann', 'ann', 'realknife']
-	preconditions:
-		killed['ann', 'ann']
-	effects:
-		weapon['realknife']
-		set['realknife']
-		onplay['ann', 'ann']
-
-murder_on_play-2-8b78['ann', 'diana', 'fakeknife']
-	preconditions:
-		killed['ann', 'diana']
-	effects:
-		weapon['fakeknife']
-		set['fakeknife']
-		onplay['ann', 'diana']
-
-murder_on_play-3-8b78['ann', 'diana', 'realknife']
-	preconditions:
-		killed['ann', 'diana']
-	effects:
-		weapon['realknife']
-		set['realknife']
-		onplay['ann', 'diana']
-
-murder_on_play-4-8b78['ann', 'alex', 'fakeknife']
-	preconditions:
-		killed['ann', 'alex']
-	effects:
-		weapon['fakeknife']
-		set['fakeknife']
-		onplay['ann', 'alex']
-
-murder_on_play-5-8b78['ann', 'alex', 'realknife']
-	preconditions:
-		killed['ann', 'alex']
-	effects:
-		weapon['realknife']
-		set['realknife']
-		onplay['ann', 'alex']
-
-murder_on_play-6-8b78['diana', 'ann', 'fakeknife']
-	preconditions:
-		killed['diana', 'ann']
-	effects:
-		weapon['fakeknife']
-		set['fakeknife']
-		onplay['diana', 'ann']
-
-murder_on_play-7-8b78['diana', 'ann', 'realknife']
-	preconditions:
-		killed['diana', 'ann']
-	effects:
-		weapon['realknife']
-		set['realknife']
-		onplay['diana', 'ann']
-
-murder_on_play-8-8b78['diana', 'diana', 'fakeknife']
-	preconditions:
-		killed['diana', 'diana']
-	effects:
-		weapon['fakeknife']
-		set['fakeknife']
-		onplay['diana', 'diana']
-
-murder_on_play-9-8b78['diana', 'diana', 'realknife']
-	preconditions:
-		killed['diana', 'diana']
-	effects:
-		weapon['realknife']
-		set['realknife']
-		onplay['diana', 'diana']
-
-murder_on_play-10-8b78['diana', 'alex', 'fakeknife']
-	preconditions:
-		killed['diana', 'alex']
-	effects:
-		weapon['fakeknife']
-		set['fakeknife']
-		onplay['diana', 'alex']
-
-murder_on_play-11-8b78['diana', 'alex', 'realknife']
-	preconditions:
-		killed['diana', 'alex']
-	effects:
-		weapon['realknife']
-		set['realknife']
-		onplay['diana', 'alex']
-
-murder_on_play-12-8b78['alex', 'ann', 'fakeknife']
-	preconditions:
-		killed['alex', 'ann']
-	effects:
-		weapon['fakeknife']
-		set['fakeknife']
-		onplay['alex', 'ann']
-
-murder_on_play-13-8b78['alex', 'ann', 'realknife']
-	preconditions:
-		killed['alex', 'ann']
-	effects:
-		weapon['realknife']
-		set['realknife']
-		onplay['alex', 'ann']
-
-murder_on_play-14-8b78['alex', 'diana', 'fakeknife']
-	preconditions:
-		killed['alex', 'diana']
-	effects:
-		weapon['fakeknife']
-		set['fakeknife']
-		onplay['alex', 'diana']
-
-murder_on_play-15-8b78['alex', 'diana', 'realknife']
-	preconditions:
-		killed['alex', 'diana']
-	effects:
-		weapon['realknife']
-		set['realknife']
-		onplay['alex', 'diana']
-
-murder_on_play-16-8b78['alex', 'alex', 'fakeknife']
-	preconditions:
-		killed['alex', 'alex']
-	effects:
-		weapon['fakeknife']
-		set['fakeknife']
-		onplay['alex', 'alex']
-
-murder_on_play-17-8b78['alex', 'alex', 'realknife']
-	preconditions:
-		killed['alex', 'alex']
-	effects:
-		weapon['realknife']
-		set['realknife']
-		onplay['alex', 'alex']
-
-want_to_change_role-18-b525['ann', 'supporting', 'supporting']
+want_to_change_role-0-9a02['ann', 'supporting', 'supporting']
 	preconditions:
 		planmurder['ann']
 	effects:
+		takerole['ann', 'supporting']
 		moreimportant['supporting', 'supporting']
-		takerole['ann', 'supporting']
 
-want_to_change_role-19-b525['ann', 'supporting', 'starring']
+want_to_change_role-1-9a02['ann', 'supporting', 'starring']
 	preconditions:
 		planmurder['ann']
 	effects:
+		takerole['ann', 'supporting']
 		moreimportant['starring', 'supporting']
-		takerole['ann', 'supporting']
 
-want_to_change_role-20-b525['ann', 'starring', 'supporting']
+want_to_change_role-2-9a02['ann', 'starring', 'supporting']
 	preconditions:
 		planmurder['ann']
 	effects:
+		takerole['ann', 'starring']
 		moreimportant['supporting', 'starring']
-		takerole['ann', 'starring']
 
-want_to_change_role-21-b525['ann', 'starring', 'starring']
+want_to_change_role-3-9a02['ann', 'starring', 'starring']
 	preconditions:
 		planmurder['ann']
 	effects:
-		moreimportant['starring', 'starring']
 		takerole['ann', 'starring']
+		moreimportant['starring', 'starring']
 
-want_to_change_role-22-b525['diana', 'supporting', 'supporting']
+want_to_change_role-4-9a02['diana', 'supporting', 'supporting']
 	preconditions:
 		planmurder['diana']
 	effects:
+		takerole['diana', 'supporting']
 		moreimportant['supporting', 'supporting']
-		takerole['diana', 'supporting']
 
-want_to_change_role-23-b525['diana', 'supporting', 'starring']
+want_to_change_role-5-9a02['diana', 'supporting', 'starring']
 	preconditions:
 		planmurder['diana']
 	effects:
+		takerole['diana', 'supporting']
 		moreimportant['starring', 'supporting']
-		takerole['diana', 'supporting']
 
-want_to_change_role-24-b525['diana', 'starring', 'supporting']
+want_to_change_role-6-9a02['diana', 'starring', 'supporting']
 	preconditions:
 		planmurder['diana']
 	effects:
+		takerole['diana', 'starring']
 		moreimportant['supporting', 'starring']
-		takerole['diana', 'starring']
 
-want_to_change_role-25-b525['diana', 'starring', 'starring']
+want_to_change_role-7-9a02['diana', 'starring', 'starring']
 	preconditions:
 		planmurder['diana']
 	effects:
-		moreimportant['starring', 'starring']
 		takerole['diana', 'starring']
+		moreimportant['starring', 'starring']
 
-want_to_change_role-26-b525['alex', 'supporting', 'supporting']
+want_to_change_role-8-9a02['alex', 'supporting', 'supporting']
 	preconditions:
 		planmurder['alex']
 	effects:
+		takerole['alex', 'supporting']
 		moreimportant['supporting', 'supporting']
-		takerole['alex', 'supporting']
 
-want_to_change_role-27-b525['alex', 'supporting', 'starring']
+want_to_change_role-9-9a02['alex', 'supporting', 'starring']
 	preconditions:
 		planmurder['alex']
 	effects:
+		takerole['alex', 'supporting']
 		moreimportant['starring', 'supporting']
-		takerole['alex', 'supporting']
 
-want_to_change_role-28-b525['alex', 'starring', 'supporting']
+want_to_change_role-10-9a02['alex', 'starring', 'supporting']
 	preconditions:
 		planmurder['alex']
 	effects:
+		takerole['alex', 'starring']
 		moreimportant['supporting', 'starring']
-		takerole['alex', 'starring']
 
-want_to_change_role-29-b525['alex', 'starring', 'starring']
+want_to_change_role-11-9a02['alex', 'starring', 'starring']
 	preconditions:
 		planmurder['alex']
 	effects:
+		takerole['alex', 'starring']
 		moreimportant['starring', 'starring']
-		takerole['alex', 'starring']
 
-stage_setting-30-927d['fakeknife']
-	preconditions:
-		set['fakeknife']
-	effects:
-		not-set['fakeknife']
-		stageproperty['fakeknife']
-
-stage_setting-31-927d['realknife']
-	preconditions:
-		set['realknife']
-	effects:
-		not-set['realknife']
-		stageproperty['realknife']
-
-play_open-32-ad2a['ann', 'supporting', 'ann', 'supporting', 'fakeknife']
-	preconditions:
-		onplay['ann', 'ann']
-	effects:
-		takerole['ann', 'supporting']
-		set['fakeknife']
-		takerole['ann', 'supporting']
-
-play_open-33-ad2a['ann', 'supporting', 'ann', 'supporting', 'realknife']
-	preconditions:
-		onplay['ann', 'ann']
-	effects:
-		takerole['ann', 'supporting']
-		set['realknife']
-		takerole['ann', 'supporting']
-
-play_open-34-ad2a['ann', 'supporting', 'ann', 'starring', 'fakeknife']
-	preconditions:
-		onplay['ann', 'ann']
-	effects:
-		takerole['ann', 'starring']
-		set['fakeknife']
-		takerole['ann', 'supporting']
-
-play_open-35-ad2a['ann', 'supporting', 'ann', 'starring', 'realknife']
-	preconditions:
-		onplay['ann', 'ann']
-	effects:
-		takerole['ann', 'starring']
-		set['realknife']
-		takerole['ann', 'supporting']
-
-play_open-36-ad2a['ann', 'supporting', 'diana', 'supporting', 'fakeknife']
-	preconditions:
-		onplay['diana', 'ann']
-	effects:
-		takerole['diana', 'supporting']
-		set['fakeknife']
-		takerole['ann', 'supporting']
-
-play_open-37-ad2a['ann', 'supporting', 'diana', 'supporting', 'realknife']
-	preconditions:
-		onplay['diana', 'ann']
-	effects:
-		takerole['diana', 'supporting']
-		set['realknife']
-		takerole['ann', 'supporting']
-
-play_open-38-ad2a['ann', 'supporting', 'diana', 'starring', 'fakeknife']
-	preconditions:
-		onplay['diana', 'ann']
-	effects:
-		takerole['diana', 'starring']
-		set['fakeknife']
-		takerole['ann', 'supporting']
-
-play_open-39-ad2a['ann', 'supporting', 'diana', 'starring', 'realknife']
-	preconditions:
-		onplay['diana', 'ann']
-	effects:
-		takerole['diana', 'starring']
-		set['realknife']
-		takerole['ann', 'supporting']
-
-play_open-40-ad2a['ann', 'supporting', 'alex', 'supporting', 'fakeknife']
-	preconditions:
-		onplay['alex', 'ann']
-	effects:
-		takerole['alex', 'supporting']
-		set['fakeknife']
-		takerole['ann', 'supporting']
-
-play_open-41-ad2a['ann', 'supporting', 'alex', 'supporting', 'realknife']
-	preconditions:
-		onplay['alex', 'ann']
-	effects:
-		takerole['alex', 'supporting']
-		set['realknife']
-		takerole['ann', 'supporting']
-
-play_open-42-ad2a['ann', 'supporting', 'alex', 'starring', 'fakeknife']
-	preconditions:
-		onplay['alex', 'ann']
-	effects:
-		takerole['alex', 'starring']
-		set['fakeknife']
-		takerole['ann', 'supporting']
-
-play_open-43-ad2a['ann', 'supporting', 'alex', 'starring', 'realknife']
-	preconditions:
-		onplay['alex', 'ann']
-	effects:
-		takerole['alex', 'starring']
-		set['realknife']
-		takerole['ann', 'supporting']
-
-play_open-44-ad2a['ann', 'starring', 'ann', 'supporting', 'fakeknife']
-	preconditions:
-		onplay['ann', 'ann']
-	effects:
-		takerole['ann', 'supporting']
-		set['fakeknife']
-		takerole['ann', 'starring']
-
-play_open-45-ad2a['ann', 'starring', 'ann', 'supporting', 'realknife']
-	preconditions:
-		onplay['ann', 'ann']
-	effects:
-		takerole['ann', 'supporting']
-		set['realknife']
-		takerole['ann', 'starring']
-
-play_open-46-ad2a['ann', 'starring', 'ann', 'starring', 'fakeknife']
-	preconditions:
-		onplay['ann', 'ann']
-	effects:
-		takerole['ann', 'starring']
-		set['fakeknife']
-		takerole['ann', 'starring']
-
-play_open-47-ad2a['ann', 'starring', 'ann', 'starring', 'realknife']
-	preconditions:
-		onplay['ann', 'ann']
-	effects:
-		takerole['ann', 'starring']
-		set['realknife']
-		takerole['ann', 'starring']
-
-play_open-48-ad2a['ann', 'starring', 'diana', 'supporting', 'fakeknife']
-	preconditions:
-		onplay['diana', 'ann']
-	effects:
-		takerole['diana', 'supporting']
-		set['fakeknife']
-		takerole['ann', 'starring']
-
-play_open-49-ad2a['ann', 'starring', 'diana', 'supporting', 'realknife']
-	preconditions:
-		onplay['diana', 'ann']
-	effects:
-		takerole['diana', 'supporting']
-		set['realknife']
-		takerole['ann', 'starring']
-
-play_open-50-ad2a['ann', 'starring', 'diana', 'starring', 'fakeknife']
-	preconditions:
-		onplay['diana', 'ann']
-	effects:
-		takerole['diana', 'starring']
-		set['fakeknife']
-		takerole['ann', 'starring']
-
-play_open-51-ad2a['ann', 'starring', 'diana', 'starring', 'realknife']
-	preconditions:
-		onplay['diana', 'ann']
-	effects:
-		takerole['diana', 'starring']
-		set['realknife']
-		takerole['ann', 'starring']
-
-play_open-52-ad2a['ann', 'starring', 'alex', 'supporting', 'fakeknife']
-	preconditions:
-		onplay['alex', 'ann']
-	effects:
-		takerole['alex', 'supporting']
-		set['fakeknife']
-		takerole['ann', 'starring']
-
-play_open-53-ad2a['ann', 'starring', 'alex', 'supporting', 'realknife']
-	preconditions:
-		onplay['alex', 'ann']
-	effects:
-		takerole['alex', 'supporting']
-		set['realknife']
-		takerole['ann', 'starring']
-
-play_open-54-ad2a['ann', 'starring', 'alex', 'starring', 'fakeknife']
-	preconditions:
-		onplay['alex', 'ann']
-	effects:
-		takerole['alex', 'starring']
-		set['fakeknife']
-		takerole['ann', 'starring']
-
-play_open-55-ad2a['ann', 'starring', 'alex', 'starring', 'realknife']
-	preconditions:
-		onplay['alex', 'ann']
-	effects:
-		takerole['alex', 'starring']
-		set['realknife']
-		takerole['ann', 'starring']
-
-play_open-56-ad2a['diana', 'supporting', 'ann', 'supporting', 'fakeknife']
-	preconditions:
-		onplay['ann', 'diana']
-	effects:
-		takerole['ann', 'supporting']
-		set['fakeknife']
-		takerole['diana', 'supporting']
-
-play_open-57-ad2a['diana', 'supporting', 'ann', 'supporting', 'realknife']
-	preconditions:
-		onplay['ann', 'diana']
-	effects:
-		takerole['ann', 'supporting']
-		set['realknife']
-		takerole['diana', 'supporting']
-
-play_open-58-ad2a['diana', 'supporting', 'ann', 'starring', 'fakeknife']
-	preconditions:
-		onplay['ann', 'diana']
-	effects:
-		takerole['ann', 'starring']
-		set['fakeknife']
-		takerole['diana', 'supporting']
-
-play_open-59-ad2a['diana', 'supporting', 'ann', 'starring', 'realknife']
-	preconditions:
-		onplay['ann', 'diana']
-	effects:
-		takerole['ann', 'starring']
-		set['realknife']
-		takerole['diana', 'supporting']
-
-play_open-60-ad2a['diana', 'supporting', 'diana', 'supporting', 'fakeknife']
-	preconditions:
-		onplay['diana', 'diana']
-	effects:
-		takerole['diana', 'supporting']
-		set['fakeknife']
-		takerole['diana', 'supporting']
-
-play_open-61-ad2a['diana', 'supporting', 'diana', 'supporting', 'realknife']
-	preconditions:
-		onplay['diana', 'diana']
-	effects:
-		takerole['diana', 'supporting']
-		set['realknife']
-		takerole['diana', 'supporting']
-
-play_open-62-ad2a['diana', 'supporting', 'diana', 'starring', 'fakeknife']
-	preconditions:
-		onplay['diana', 'diana']
-	effects:
-		takerole['diana', 'starring']
-		set['fakeknife']
-		takerole['diana', 'supporting']
-
-play_open-63-ad2a['diana', 'supporting', 'diana', 'starring', 'realknife']
-	preconditions:
-		onplay['diana', 'diana']
-	effects:
-		takerole['diana', 'starring']
-		set['realknife']
-		takerole['diana', 'supporting']
-
-play_open-64-ad2a['diana', 'supporting', 'alex', 'supporting', 'fakeknife']
-	preconditions:
-		onplay['alex', 'diana']
-	effects:
-		takerole['alex', 'supporting']
-		set['fakeknife']
-		takerole['diana', 'supporting']
-
-play_open-65-ad2a['diana', 'supporting', 'alex', 'supporting', 'realknife']
-	preconditions:
-		onplay['alex', 'diana']
-	effects:
-		takerole['alex', 'supporting']
-		set['realknife']
-		takerole['diana', 'supporting']
-
-play_open-66-ad2a['diana', 'supporting', 'alex', 'starring', 'fakeknife']
-	preconditions:
-		onplay['alex', 'diana']
-	effects:
-		takerole['alex', 'starring']
-		set['fakeknife']
-		takerole['diana', 'supporting']
-
-play_open-67-ad2a['diana', 'supporting', 'alex', 'starring', 'realknife']
-	preconditions:
-		onplay['alex', 'diana']
-	effects:
-		takerole['alex', 'starring']
-		set['realknife']
-		takerole['diana', 'supporting']
-
-play_open-68-ad2a['diana', 'starring', 'ann', 'supporting', 'fakeknife']
-	preconditions:
-		onplay['ann', 'diana']
-	effects:
-		takerole['ann', 'supporting']
-		set['fakeknife']
-		takerole['diana', 'starring']
-
-play_open-69-ad2a['diana', 'starring', 'ann', 'supporting', 'realknife']
-	preconditions:
-		onplay['ann', 'diana']
-	effects:
-		takerole['ann', 'supporting']
-		set['realknife']
-		takerole['diana', 'starring']
-
-play_open-70-ad2a['diana', 'starring', 'ann', 'starring', 'fakeknife']
-	preconditions:
-		onplay['ann', 'diana']
-	effects:
-		takerole['ann', 'starring']
-		set['fakeknife']
-		takerole['diana', 'starring']
-
-play_open-71-ad2a['diana', 'starring', 'ann', 'starring', 'realknife']
-	preconditions:
-		onplay['ann', 'diana']
-	effects:
-		takerole['ann', 'starring']
-		set['realknife']
-		takerole['diana', 'starring']
-
-play_open-72-ad2a['diana', 'starring', 'diana', 'supporting', 'fakeknife']
-	preconditions:
-		onplay['diana', 'diana']
-	effects:
-		takerole['diana', 'supporting']
-		set['fakeknife']
-		takerole['diana', 'starring']
-
-play_open-73-ad2a['diana', 'starring', 'diana', 'supporting', 'realknife']
-	preconditions:
-		onplay['diana', 'diana']
-	effects:
-		takerole['diana', 'supporting']
-		set['realknife']
-		takerole['diana', 'starring']
-
-play_open-74-ad2a['diana', 'starring', 'diana', 'starring', 'fakeknife']
-	preconditions:
-		onplay['diana', 'diana']
-	effects:
-		takerole['diana', 'starring']
-		set['fakeknife']
-		takerole['diana', 'starring']
-
-play_open-75-ad2a['diana', 'starring', 'diana', 'starring', 'realknife']
-	preconditions:
-		onplay['diana', 'diana']
-	effects:
-		takerole['diana', 'starring']
-		set['realknife']
-		takerole['diana', 'starring']
-
-play_open-76-ad2a['diana', 'starring', 'alex', 'supporting', 'fakeknife']
-	preconditions:
-		onplay['alex', 'diana']
-	effects:
-		takerole['alex', 'supporting']
-		set['fakeknife']
-		takerole['diana', 'starring']
-
-play_open-77-ad2a['diana', 'starring', 'alex', 'supporting', 'realknife']
-	preconditions:
-		onplay['alex', 'diana']
-	effects:
-		takerole['alex', 'supporting']
-		set['realknife']
-		takerole['diana', 'starring']
-
-play_open-78-ad2a['diana', 'starring', 'alex', 'starring', 'fakeknife']
-	preconditions:
-		onplay['alex', 'diana']
-	effects:
-		takerole['alex', 'starring']
-		set['fakeknife']
-		takerole['diana', 'starring']
-
-play_open-79-ad2a['diana', 'starring', 'alex', 'starring', 'realknife']
-	preconditions:
-		onplay['alex', 'diana']
-	effects:
-		takerole['alex', 'starring']
-		set['realknife']
-		takerole['diana', 'starring']
-
-play_open-80-ad2a['alex', 'supporting', 'ann', 'supporting', 'fakeknife']
-	preconditions:
-		onplay['ann', 'alex']
-	effects:
-		takerole['ann', 'supporting']
-		set['fakeknife']
-		takerole['alex', 'supporting']
-
-play_open-81-ad2a['alex', 'supporting', 'ann', 'supporting', 'realknife']
-	preconditions:
-		onplay['ann', 'alex']
-	effects:
-		takerole['ann', 'supporting']
-		set['realknife']
-		takerole['alex', 'supporting']
-
-play_open-82-ad2a['alex', 'supporting', 'ann', 'starring', 'fakeknife']
-	preconditions:
-		onplay['ann', 'alex']
-	effects:
-		takerole['ann', 'starring']
-		set['fakeknife']
-		takerole['alex', 'supporting']
-
-play_open-83-ad2a['alex', 'supporting', 'ann', 'starring', 'realknife']
-	preconditions:
-		onplay['ann', 'alex']
-	effects:
-		takerole['ann', 'starring']
-		set['realknife']
-		takerole['alex', 'supporting']
-
-play_open-84-ad2a['alex', 'supporting', 'diana', 'supporting', 'fakeknife']
-	preconditions:
-		onplay['diana', 'alex']
-	effects:
-		takerole['diana', 'supporting']
-		set['fakeknife']
-		takerole['alex', 'supporting']
-
-play_open-85-ad2a['alex', 'supporting', 'diana', 'supporting', 'realknife']
-	preconditions:
-		onplay['diana', 'alex']
-	effects:
-		takerole['diana', 'supporting']
-		set['realknife']
-		takerole['alex', 'supporting']
-
-play_open-86-ad2a['alex', 'supporting', 'diana', 'starring', 'fakeknife']
-	preconditions:
-		onplay['diana', 'alex']
-	effects:
-		takerole['diana', 'starring']
-		set['fakeknife']
-		takerole['alex', 'supporting']
-
-play_open-87-ad2a['alex', 'supporting', 'diana', 'starring', 'realknife']
-	preconditions:
-		onplay['diana', 'alex']
-	effects:
-		takerole['diana', 'starring']
-		set['realknife']
-		takerole['alex', 'supporting']
-
-play_open-88-ad2a['alex', 'supporting', 'alex', 'supporting', 'fakeknife']
-	preconditions:
-		onplay['alex', 'alex']
-	effects:
-		takerole['alex', 'supporting']
-		set['fakeknife']
-		takerole['alex', 'supporting']
-
-play_open-89-ad2a['alex', 'supporting', 'alex', 'supporting', 'realknife']
-	preconditions:
-		onplay['alex', 'alex']
-	effects:
-		takerole['alex', 'supporting']
-		set['realknife']
-		takerole['alex', 'supporting']
-
-play_open-90-ad2a['alex', 'supporting', 'alex', 'starring', 'fakeknife']
-	preconditions:
-		onplay['alex', 'alex']
-	effects:
-		takerole['alex', 'starring']
-		set['fakeknife']
-		takerole['alex', 'supporting']
-
-play_open-91-ad2a['alex', 'supporting', 'alex', 'starring', 'realknife']
-	preconditions:
-		onplay['alex', 'alex']
-	effects:
-		takerole['alex', 'starring']
-		set['realknife']
-		takerole['alex', 'supporting']
-
-play_open-92-ad2a['alex', 'starring', 'ann', 'supporting', 'fakeknife']
-	preconditions:
-		onplay['ann', 'alex']
-	effects:
-		takerole['ann', 'supporting']
-		set['fakeknife']
-		takerole['alex', 'starring']
-
-play_open-93-ad2a['alex', 'starring', 'ann', 'supporting', 'realknife']
-	preconditions:
-		onplay['ann', 'alex']
-	effects:
-		takerole['ann', 'supporting']
-		set['realknife']
-		takerole['alex', 'starring']
-
-play_open-94-ad2a['alex', 'starring', 'ann', 'starring', 'fakeknife']
-	preconditions:
-		onplay['ann', 'alex']
-	effects:
-		takerole['ann', 'starring']
-		set['fakeknife']
-		takerole['alex', 'starring']
-
-play_open-95-ad2a['alex', 'starring', 'ann', 'starring', 'realknife']
-	preconditions:
-		onplay['ann', 'alex']
-	effects:
-		takerole['ann', 'starring']
-		set['realknife']
-		takerole['alex', 'starring']
-
-play_open-96-ad2a['alex', 'starring', 'diana', 'supporting', 'fakeknife']
-	preconditions:
-		onplay['diana', 'alex']
-	effects:
-		takerole['diana', 'supporting']
-		set['fakeknife']
-		takerole['alex', 'starring']
-
-play_open-97-ad2a['alex', 'starring', 'diana', 'supporting', 'realknife']
-	preconditions:
-		onplay['diana', 'alex']
-	effects:
-		takerole['diana', 'supporting']
-		set['realknife']
-		takerole['alex', 'starring']
-
-play_open-98-ad2a['alex', 'starring', 'diana', 'starring', 'fakeknife']
-	preconditions:
-		onplay['diana', 'alex']
-	effects:
-		takerole['diana', 'starring']
-		set['fakeknife']
-		takerole['alex', 'starring']
-
-play_open-99-ad2a['alex', 'starring', 'diana', 'starring', 'realknife']
-	preconditions:
-		onplay['diana', 'alex']
-	effects:
-		takerole['diana', 'starring']
-		set['realknife']
-		takerole['alex', 'starring']
-
-play_open-100-ad2a['alex', 'starring', 'alex', 'supporting', 'fakeknife']
-	preconditions:
-		onplay['alex', 'alex']
-	effects:
-		takerole['alex', 'supporting']
-		set['fakeknife']
-		takerole['alex', 'starring']
-
-play_open-101-ad2a['alex', 'starring', 'alex', 'supporting', 'realknife']
-	preconditions:
-		onplay['alex', 'alex']
-	effects:
-		takerole['alex', 'supporting']
-		set['realknife']
-		takerole['alex', 'starring']
-
-play_open-102-ad2a['alex', 'starring', 'alex', 'starring', 'fakeknife']
-	preconditions:
-		onplay['alex', 'alex']
-	effects:
-		takerole['alex', 'starring']
-		set['fakeknife']
-		takerole['alex', 'starring']
-
-play_open-103-ad2a['alex', 'starring', 'alex', 'starring', 'realknife']
-	preconditions:
-		onplay['alex', 'alex']
-	effects:
-		takerole['alex', 'starring']
-		set['realknife']
-		takerole['alex', 'starring']
-
-change_knife-104-b48d['ann', 'fakeknife', 'fakeknife']
-	preconditions:
-		set['fakeknife']
-		not-set['fakeknife']
-	effects:
-		planmurder['ann']
-		stageproperty['fakeknife']
-		weapon['fakeknife']
-		set['fakeknife']
-
-change_knife-105-b48d['ann', 'fakeknife', 'realknife']
-	preconditions:
-		set['realknife']
-		not-set['fakeknife']
-	effects:
-		planmurder['ann']
-		stageproperty['fakeknife']
-		weapon['realknife']
-		set['fakeknife']
-
-change_knife-106-b48d['ann', 'realknife', 'fakeknife']
-	preconditions:
-		set['fakeknife']
-		not-set['realknife']
-	effects:
-		planmurder['ann']
-		stageproperty['realknife']
-		weapon['fakeknife']
-		set['realknife']
-
-change_knife-107-b48d['ann', 'realknife', 'realknife']
+change_knife-12-80bd['ann', 'realknife', 'realknife']
 	preconditions:
 		set['realknife']
 		not-set['realknife']
 	effects:
 		planmurder['ann']
+		set['realknife']
+		weapon['realknife']
 		stageproperty['realknife']
-		weapon['realknife']
-		set['realknife']
 
-change_knife-108-b48d['diana', 'fakeknife', 'fakeknife']
+change_knife-13-80bd['ann', 'realknife', 'fakeknife']
 	preconditions:
 		set['fakeknife']
-		not-set['fakeknife']
+		not-set['realknife']
 	effects:
-		planmurder['diana']
-		stageproperty['fakeknife']
+		planmurder['ann']
+		set['realknife']
 		weapon['fakeknife']
-		set['fakeknife']
+		stageproperty['realknife']
 
-change_knife-109-b48d['diana', 'fakeknife', 'realknife']
+change_knife-14-80bd['ann', 'fakeknife', 'realknife']
 	preconditions:
 		set['realknife']
 		not-set['fakeknife']
 	effects:
-		planmurder['diana']
-		stageproperty['fakeknife']
-		weapon['realknife']
+		planmurder['ann']
 		set['fakeknife']
+		weapon['realknife']
+		stageproperty['fakeknife']
 
-change_knife-110-b48d['diana', 'realknife', 'fakeknife']
+change_knife-15-80bd['ann', 'fakeknife', 'fakeknife']
+	preconditions:
+		set['fakeknife']
+		not-set['fakeknife']
+	effects:
+		planmurder['ann']
+		set['fakeknife']
+		weapon['fakeknife']
+		stageproperty['fakeknife']
+
+change_knife-16-80bd['diana', 'realknife', 'realknife']
+	preconditions:
+		set['realknife']
+		not-set['realknife']
+	effects:
+		planmurder['diana']
+		set['realknife']
+		weapon['realknife']
+		stageproperty['realknife']
+
+change_knife-17-80bd['diana', 'realknife', 'fakeknife']
 	preconditions:
 		set['fakeknife']
 		not-set['realknife']
 	effects:
 		planmurder['diana']
-		stageproperty['realknife']
-		weapon['fakeknife']
 		set['realknife']
+		weapon['fakeknife']
+		stageproperty['realknife']
 
-change_knife-111-b48d['diana', 'realknife', 'realknife']
+change_knife-18-80bd['diana', 'fakeknife', 'realknife']
 	preconditions:
 		set['realknife']
-		not-set['realknife']
+		not-set['fakeknife']
 	effects:
 		planmurder['diana']
-		stageproperty['realknife']
+		set['fakeknife']
 		weapon['realknife']
-		set['realknife']
+		stageproperty['fakeknife']
 
-change_knife-112-b48d['alex', 'fakeknife', 'fakeknife']
+change_knife-19-80bd['diana', 'fakeknife', 'fakeknife']
 	preconditions:
 		set['fakeknife']
 		not-set['fakeknife']
 	effects:
-		planmurder['alex']
-		stageproperty['fakeknife']
+		planmurder['diana']
+		set['fakeknife']
 		weapon['fakeknife']
-		set['fakeknife']
-
-change_knife-113-b48d['alex', 'fakeknife', 'realknife']
-	preconditions:
-		set['realknife']
-		not-set['fakeknife']
-	effects:
-		planmurder['alex']
 		stageproperty['fakeknife']
-		weapon['realknife']
-		set['fakeknife']
 
-change_knife-114-b48d['alex', 'realknife', 'fakeknife']
-	preconditions:
-		set['fakeknife']
-		not-set['realknife']
-	effects:
-		planmurder['alex']
-		stageproperty['realknife']
-		weapon['fakeknife']
-		set['realknife']
-
-change_knife-115-b48d['alex', 'realknife', 'realknife']
+change_knife-20-80bd['alex', 'realknife', 'realknife']
 	preconditions:
 		set['realknife']
 		not-set['realknife']
 	effects:
 		planmurder['alex']
-		stageproperty['realknife']
-		weapon['realknife']
 		set['realknife']
+		weapon['realknife']
+		stageproperty['realknife']
 
-argue_often-116-8b36['ann', 'ann']
+change_knife-21-80bd['alex', 'realknife', 'fakeknife']
+	preconditions:
+		set['fakeknife']
+		not-set['realknife']
+	effects:
+		planmurder['alex']
+		set['realknife']
+		weapon['fakeknife']
+		stageproperty['realknife']
+
+change_knife-22-80bd['alex', 'fakeknife', 'realknife']
+	preconditions:
+		set['realknife']
+		not-set['fakeknife']
+	effects:
+		planmurder['alex']
+		set['fakeknife']
+		weapon['realknife']
+		stageproperty['fakeknife']
+
+change_knife-23-80bd['alex', 'fakeknife', 'fakeknife']
+	preconditions:
+		set['fakeknife']
+		not-set['fakeknife']
+	effects:
+		planmurder['alex']
+		set['fakeknife']
+		weapon['fakeknife']
+		stageproperty['fakeknife']
+
+argue_often-24-b405['ann', 'ann']
 	preconditions:
 		planmurder['ann']
 	effects:
 		hate['ann', 'ann']
 
-argue_often-117-8b36['ann', 'diana']
+argue_often-25-b405['ann', 'diana']
 	preconditions:
 		planmurder['ann']
 	effects:
 		hate['ann', 'diana']
 
-argue_often-118-8b36['ann', 'alex']
+argue_often-26-b405['ann', 'alex']
 	preconditions:
 		planmurder['ann']
 	effects:
 		hate['ann', 'alex']
 
-argue_often-119-8b36['diana', 'ann']
+argue_often-27-b405['diana', 'ann']
 	preconditions:
 		planmurder['diana']
 	effects:
 		hate['diana', 'ann']
 
-argue_often-120-8b36['diana', 'diana']
+argue_often-28-b405['diana', 'diana']
 	preconditions:
 		planmurder['diana']
 	effects:
 		hate['diana', 'diana']
 
-argue_often-121-8b36['diana', 'alex']
+argue_often-29-b405['diana', 'alex']
 	preconditions:
 		planmurder['diana']
 	effects:
 		hate['diana', 'alex']
 
-argue_often-122-8b36['alex', 'ann']
+argue_often-30-b405['alex', 'ann']
 	preconditions:
 		planmurder['alex']
 	effects:
 		hate['alex', 'ann']
 
-argue_often-123-8b36['alex', 'diana']
+argue_often-31-b405['alex', 'diana']
 	preconditions:
 		planmurder['alex']
 	effects:
 		hate['alex', 'diana']
 
-argue_often-124-8b36['alex', 'alex']
+argue_often-32-b405['alex', 'alex']
 	preconditions:
 		planmurder['alex']
 	effects:
 		hate['alex', 'alex']
 
-dummy_init-125-83b8[]
+murder_on_play-33-9079['ann', 'ann', 'realknife']
+	preconditions:
+		killed['ann', 'ann']
+	effects:
+		weapon['realknife']
+		onplay['ann', 'ann']
+		set['realknife']
+
+murder_on_play-34-9079['ann', 'ann', 'fakeknife']
+	preconditions:
+		killed['ann', 'ann']
+	effects:
+		weapon['fakeknife']
+		onplay['ann', 'ann']
+		set['fakeknife']
+
+murder_on_play-35-9079['ann', 'diana', 'realknife']
+	preconditions:
+		killed['ann', 'diana']
+	effects:
+		weapon['realknife']
+		onplay['ann', 'diana']
+		set['realknife']
+
+murder_on_play-36-9079['ann', 'diana', 'fakeknife']
+	preconditions:
+		killed['ann', 'diana']
+	effects:
+		weapon['fakeknife']
+		onplay['ann', 'diana']
+		set['fakeknife']
+
+murder_on_play-37-9079['ann', 'alex', 'realknife']
+	preconditions:
+		killed['ann', 'alex']
+	effects:
+		weapon['realknife']
+		onplay['ann', 'alex']
+		set['realknife']
+
+murder_on_play-38-9079['ann', 'alex', 'fakeknife']
+	preconditions:
+		killed['ann', 'alex']
+	effects:
+		weapon['fakeknife']
+		onplay['ann', 'alex']
+		set['fakeknife']
+
+murder_on_play-39-9079['diana', 'ann', 'realknife']
+	preconditions:
+		killed['diana', 'ann']
+	effects:
+		weapon['realknife']
+		onplay['diana', 'ann']
+		set['realknife']
+
+murder_on_play-40-9079['diana', 'ann', 'fakeknife']
+	preconditions:
+		killed['diana', 'ann']
+	effects:
+		weapon['fakeknife']
+		onplay['diana', 'ann']
+		set['fakeknife']
+
+murder_on_play-41-9079['diana', 'diana', 'realknife']
+	preconditions:
+		killed['diana', 'diana']
+	effects:
+		weapon['realknife']
+		onplay['diana', 'diana']
+		set['realknife']
+
+murder_on_play-42-9079['diana', 'diana', 'fakeknife']
+	preconditions:
+		killed['diana', 'diana']
+	effects:
+		weapon['fakeknife']
+		onplay['diana', 'diana']
+		set['fakeknife']
+
+murder_on_play-43-9079['diana', 'alex', 'realknife']
+	preconditions:
+		killed['diana', 'alex']
+	effects:
+		weapon['realknife']
+		onplay['diana', 'alex']
+		set['realknife']
+
+murder_on_play-44-9079['diana', 'alex', 'fakeknife']
+	preconditions:
+		killed['diana', 'alex']
+	effects:
+		weapon['fakeknife']
+		onplay['diana', 'alex']
+		set['fakeknife']
+
+murder_on_play-45-9079['alex', 'ann', 'realknife']
+	preconditions:
+		killed['alex', 'ann']
+	effects:
+		weapon['realknife']
+		onplay['alex', 'ann']
+		set['realknife']
+
+murder_on_play-46-9079['alex', 'ann', 'fakeknife']
+	preconditions:
+		killed['alex', 'ann']
+	effects:
+		weapon['fakeknife']
+		onplay['alex', 'ann']
+		set['fakeknife']
+
+murder_on_play-47-9079['alex', 'diana', 'realknife']
+	preconditions:
+		killed['alex', 'diana']
+	effects:
+		weapon['realknife']
+		onplay['alex', 'diana']
+		set['realknife']
+
+murder_on_play-48-9079['alex', 'diana', 'fakeknife']
+	preconditions:
+		killed['alex', 'diana']
+	effects:
+		weapon['fakeknife']
+		onplay['alex', 'diana']
+		set['fakeknife']
+
+murder_on_play-49-9079['alex', 'alex', 'realknife']
+	preconditions:
+		killed['alex', 'alex']
+	effects:
+		weapon['realknife']
+		onplay['alex', 'alex']
+		set['realknife']
+
+murder_on_play-50-9079['alex', 'alex', 'fakeknife']
+	preconditions:
+		killed['alex', 'alex']
+	effects:
+		weapon['fakeknife']
+		onplay['alex', 'alex']
+		set['fakeknife']
+
+play_open-51-8600['ann', 'supporting', 'ann', 'supporting', 'realknife']
+	preconditions:
+		onplay['ann', 'ann']
+	effects:
+		takerole['ann', 'supporting']
+		set['realknife']
+		takerole['ann', 'supporting']
+
+play_open-52-8600['ann', 'supporting', 'ann', 'supporting', 'fakeknife']
+	preconditions:
+		onplay['ann', 'ann']
+	effects:
+		takerole['ann', 'supporting']
+		set['fakeknife']
+		takerole['ann', 'supporting']
+
+play_open-53-8600['ann', 'supporting', 'ann', 'starring', 'realknife']
+	preconditions:
+		onplay['ann', 'ann']
+	effects:
+		takerole['ann', 'starring']
+		set['realknife']
+		takerole['ann', 'supporting']
+
+play_open-54-8600['ann', 'supporting', 'ann', 'starring', 'fakeknife']
+	preconditions:
+		onplay['ann', 'ann']
+	effects:
+		takerole['ann', 'starring']
+		set['fakeknife']
+		takerole['ann', 'supporting']
+
+play_open-55-8600['ann', 'supporting', 'diana', 'supporting', 'realknife']
+	preconditions:
+		onplay['diana', 'ann']
+	effects:
+		takerole['diana', 'supporting']
+		set['realknife']
+		takerole['ann', 'supporting']
+
+play_open-56-8600['ann', 'supporting', 'diana', 'supporting', 'fakeknife']
+	preconditions:
+		onplay['diana', 'ann']
+	effects:
+		takerole['diana', 'supporting']
+		set['fakeknife']
+		takerole['ann', 'supporting']
+
+play_open-57-8600['ann', 'supporting', 'diana', 'starring', 'realknife']
+	preconditions:
+		onplay['diana', 'ann']
+	effects:
+		takerole['diana', 'starring']
+		set['realknife']
+		takerole['ann', 'supporting']
+
+play_open-58-8600['ann', 'supporting', 'diana', 'starring', 'fakeknife']
+	preconditions:
+		onplay['diana', 'ann']
+	effects:
+		takerole['diana', 'starring']
+		set['fakeknife']
+		takerole['ann', 'supporting']
+
+play_open-59-8600['ann', 'supporting', 'alex', 'supporting', 'realknife']
+	preconditions:
+		onplay['alex', 'ann']
+	effects:
+		takerole['alex', 'supporting']
+		set['realknife']
+		takerole['ann', 'supporting']
+
+play_open-60-8600['ann', 'supporting', 'alex', 'supporting', 'fakeknife']
+	preconditions:
+		onplay['alex', 'ann']
+	effects:
+		takerole['alex', 'supporting']
+		set['fakeknife']
+		takerole['ann', 'supporting']
+
+play_open-61-8600['ann', 'supporting', 'alex', 'starring', 'realknife']
+	preconditions:
+		onplay['alex', 'ann']
+	effects:
+		takerole['alex', 'starring']
+		set['realknife']
+		takerole['ann', 'supporting']
+
+play_open-62-8600['ann', 'supporting', 'alex', 'starring', 'fakeknife']
+	preconditions:
+		onplay['alex', 'ann']
+	effects:
+		takerole['alex', 'starring']
+		set['fakeknife']
+		takerole['ann', 'supporting']
+
+play_open-63-8600['ann', 'starring', 'ann', 'supporting', 'realknife']
+	preconditions:
+		onplay['ann', 'ann']
+	effects:
+		takerole['ann', 'supporting']
+		set['realknife']
+		takerole['ann', 'starring']
+
+play_open-64-8600['ann', 'starring', 'ann', 'supporting', 'fakeknife']
+	preconditions:
+		onplay['ann', 'ann']
+	effects:
+		takerole['ann', 'supporting']
+		set['fakeknife']
+		takerole['ann', 'starring']
+
+play_open-65-8600['ann', 'starring', 'ann', 'starring', 'realknife']
+	preconditions:
+		onplay['ann', 'ann']
+	effects:
+		takerole['ann', 'starring']
+		set['realknife']
+		takerole['ann', 'starring']
+
+play_open-66-8600['ann', 'starring', 'ann', 'starring', 'fakeknife']
+	preconditions:
+		onplay['ann', 'ann']
+	effects:
+		takerole['ann', 'starring']
+		set['fakeknife']
+		takerole['ann', 'starring']
+
+play_open-67-8600['ann', 'starring', 'diana', 'supporting', 'realknife']
+	preconditions:
+		onplay['diana', 'ann']
+	effects:
+		takerole['diana', 'supporting']
+		set['realknife']
+		takerole['ann', 'starring']
+
+play_open-68-8600['ann', 'starring', 'diana', 'supporting', 'fakeknife']
+	preconditions:
+		onplay['diana', 'ann']
+	effects:
+		takerole['diana', 'supporting']
+		set['fakeknife']
+		takerole['ann', 'starring']
+
+play_open-69-8600['ann', 'starring', 'diana', 'starring', 'realknife']
+	preconditions:
+		onplay['diana', 'ann']
+	effects:
+		takerole['diana', 'starring']
+		set['realknife']
+		takerole['ann', 'starring']
+
+play_open-70-8600['ann', 'starring', 'diana', 'starring', 'fakeknife']
+	preconditions:
+		onplay['diana', 'ann']
+	effects:
+		takerole['diana', 'starring']
+		set['fakeknife']
+		takerole['ann', 'starring']
+
+play_open-71-8600['ann', 'starring', 'alex', 'supporting', 'realknife']
+	preconditions:
+		onplay['alex', 'ann']
+	effects:
+		takerole['alex', 'supporting']
+		set['realknife']
+		takerole['ann', 'starring']
+
+play_open-72-8600['ann', 'starring', 'alex', 'supporting', 'fakeknife']
+	preconditions:
+		onplay['alex', 'ann']
+	effects:
+		takerole['alex', 'supporting']
+		set['fakeknife']
+		takerole['ann', 'starring']
+
+play_open-73-8600['ann', 'starring', 'alex', 'starring', 'realknife']
+	preconditions:
+		onplay['alex', 'ann']
+	effects:
+		takerole['alex', 'starring']
+		set['realknife']
+		takerole['ann', 'starring']
+
+play_open-74-8600['ann', 'starring', 'alex', 'starring', 'fakeknife']
+	preconditions:
+		onplay['alex', 'ann']
+	effects:
+		takerole['alex', 'starring']
+		set['fakeknife']
+		takerole['ann', 'starring']
+
+play_open-75-8600['diana', 'supporting', 'ann', 'supporting', 'realknife']
+	preconditions:
+		onplay['ann', 'diana']
+	effects:
+		takerole['ann', 'supporting']
+		set['realknife']
+		takerole['diana', 'supporting']
+
+play_open-76-8600['diana', 'supporting', 'ann', 'supporting', 'fakeknife']
+	preconditions:
+		onplay['ann', 'diana']
+	effects:
+		takerole['ann', 'supporting']
+		set['fakeknife']
+		takerole['diana', 'supporting']
+
+play_open-77-8600['diana', 'supporting', 'ann', 'starring', 'realknife']
+	preconditions:
+		onplay['ann', 'diana']
+	effects:
+		takerole['ann', 'starring']
+		set['realknife']
+		takerole['diana', 'supporting']
+
+play_open-78-8600['diana', 'supporting', 'ann', 'starring', 'fakeknife']
+	preconditions:
+		onplay['ann', 'diana']
+	effects:
+		takerole['ann', 'starring']
+		set['fakeknife']
+		takerole['diana', 'supporting']
+
+play_open-79-8600['diana', 'supporting', 'diana', 'supporting', 'realknife']
+	preconditions:
+		onplay['diana', 'diana']
+	effects:
+		takerole['diana', 'supporting']
+		set['realknife']
+		takerole['diana', 'supporting']
+
+play_open-80-8600['diana', 'supporting', 'diana', 'supporting', 'fakeknife']
+	preconditions:
+		onplay['diana', 'diana']
+	effects:
+		takerole['diana', 'supporting']
+		set['fakeknife']
+		takerole['diana', 'supporting']
+
+play_open-81-8600['diana', 'supporting', 'diana', 'starring', 'realknife']
+	preconditions:
+		onplay['diana', 'diana']
+	effects:
+		takerole['diana', 'starring']
+		set['realknife']
+		takerole['diana', 'supporting']
+
+play_open-82-8600['diana', 'supporting', 'diana', 'starring', 'fakeknife']
+	preconditions:
+		onplay['diana', 'diana']
+	effects:
+		takerole['diana', 'starring']
+		set['fakeknife']
+		takerole['diana', 'supporting']
+
+play_open-83-8600['diana', 'supporting', 'alex', 'supporting', 'realknife']
+	preconditions:
+		onplay['alex', 'diana']
+	effects:
+		takerole['alex', 'supporting']
+		set['realknife']
+		takerole['diana', 'supporting']
+
+play_open-84-8600['diana', 'supporting', 'alex', 'supporting', 'fakeknife']
+	preconditions:
+		onplay['alex', 'diana']
+	effects:
+		takerole['alex', 'supporting']
+		set['fakeknife']
+		takerole['diana', 'supporting']
+
+play_open-85-8600['diana', 'supporting', 'alex', 'starring', 'realknife']
+	preconditions:
+		onplay['alex', 'diana']
+	effects:
+		takerole['alex', 'starring']
+		set['realknife']
+		takerole['diana', 'supporting']
+
+play_open-86-8600['diana', 'supporting', 'alex', 'starring', 'fakeknife']
+	preconditions:
+		onplay['alex', 'diana']
+	effects:
+		takerole['alex', 'starring']
+		set['fakeknife']
+		takerole['diana', 'supporting']
+
+play_open-87-8600['diana', 'starring', 'ann', 'supporting', 'realknife']
+	preconditions:
+		onplay['ann', 'diana']
+	effects:
+		takerole['ann', 'supporting']
+		set['realknife']
+		takerole['diana', 'starring']
+
+play_open-88-8600['diana', 'starring', 'ann', 'supporting', 'fakeknife']
+	preconditions:
+		onplay['ann', 'diana']
+	effects:
+		takerole['ann', 'supporting']
+		set['fakeknife']
+		takerole['diana', 'starring']
+
+play_open-89-8600['diana', 'starring', 'ann', 'starring', 'realknife']
+	preconditions:
+		onplay['ann', 'diana']
+	effects:
+		takerole['ann', 'starring']
+		set['realknife']
+		takerole['diana', 'starring']
+
+play_open-90-8600['diana', 'starring', 'ann', 'starring', 'fakeknife']
+	preconditions:
+		onplay['ann', 'diana']
+	effects:
+		takerole['ann', 'starring']
+		set['fakeknife']
+		takerole['diana', 'starring']
+
+play_open-91-8600['diana', 'starring', 'diana', 'supporting', 'realknife']
+	preconditions:
+		onplay['diana', 'diana']
+	effects:
+		takerole['diana', 'supporting']
+		set['realknife']
+		takerole['diana', 'starring']
+
+play_open-92-8600['diana', 'starring', 'diana', 'supporting', 'fakeknife']
+	preconditions:
+		onplay['diana', 'diana']
+	effects:
+		takerole['diana', 'supporting']
+		set['fakeknife']
+		takerole['diana', 'starring']
+
+play_open-93-8600['diana', 'starring', 'diana', 'starring', 'realknife']
+	preconditions:
+		onplay['diana', 'diana']
+	effects:
+		takerole['diana', 'starring']
+		set['realknife']
+		takerole['diana', 'starring']
+
+play_open-94-8600['diana', 'starring', 'diana', 'starring', 'fakeknife']
+	preconditions:
+		onplay['diana', 'diana']
+	effects:
+		takerole['diana', 'starring']
+		set['fakeknife']
+		takerole['diana', 'starring']
+
+play_open-95-8600['diana', 'starring', 'alex', 'supporting', 'realknife']
+	preconditions:
+		onplay['alex', 'diana']
+	effects:
+		takerole['alex', 'supporting']
+		set['realknife']
+		takerole['diana', 'starring']
+
+play_open-96-8600['diana', 'starring', 'alex', 'supporting', 'fakeknife']
+	preconditions:
+		onplay['alex', 'diana']
+	effects:
+		takerole['alex', 'supporting']
+		set['fakeknife']
+		takerole['diana', 'starring']
+
+play_open-97-8600['diana', 'starring', 'alex', 'starring', 'realknife']
+	preconditions:
+		onplay['alex', 'diana']
+	effects:
+		takerole['alex', 'starring']
+		set['realknife']
+		takerole['diana', 'starring']
+
+play_open-98-8600['diana', 'starring', 'alex', 'starring', 'fakeknife']
+	preconditions:
+		onplay['alex', 'diana']
+	effects:
+		takerole['alex', 'starring']
+		set['fakeknife']
+		takerole['diana', 'starring']
+
+play_open-99-8600['alex', 'supporting', 'ann', 'supporting', 'realknife']
+	preconditions:
+		onplay['ann', 'alex']
+	effects:
+		takerole['ann', 'supporting']
+		set['realknife']
+		takerole['alex', 'supporting']
+
+play_open-100-8600['alex', 'supporting', 'ann', 'supporting', 'fakeknife']
+	preconditions:
+		onplay['ann', 'alex']
+	effects:
+		takerole['ann', 'supporting']
+		set['fakeknife']
+		takerole['alex', 'supporting']
+
+play_open-101-8600['alex', 'supporting', 'ann', 'starring', 'realknife']
+	preconditions:
+		onplay['ann', 'alex']
+	effects:
+		takerole['ann', 'starring']
+		set['realknife']
+		takerole['alex', 'supporting']
+
+play_open-102-8600['alex', 'supporting', 'ann', 'starring', 'fakeknife']
+	preconditions:
+		onplay['ann', 'alex']
+	effects:
+		takerole['ann', 'starring']
+		set['fakeknife']
+		takerole['alex', 'supporting']
+
+play_open-103-8600['alex', 'supporting', 'diana', 'supporting', 'realknife']
+	preconditions:
+		onplay['diana', 'alex']
+	effects:
+		takerole['diana', 'supporting']
+		set['realknife']
+		takerole['alex', 'supporting']
+
+play_open-104-8600['alex', 'supporting', 'diana', 'supporting', 'fakeknife']
+	preconditions:
+		onplay['diana', 'alex']
+	effects:
+		takerole['diana', 'supporting']
+		set['fakeknife']
+		takerole['alex', 'supporting']
+
+play_open-105-8600['alex', 'supporting', 'diana', 'starring', 'realknife']
+	preconditions:
+		onplay['diana', 'alex']
+	effects:
+		takerole['diana', 'starring']
+		set['realknife']
+		takerole['alex', 'supporting']
+
+play_open-106-8600['alex', 'supporting', 'diana', 'starring', 'fakeknife']
+	preconditions:
+		onplay['diana', 'alex']
+	effects:
+		takerole['diana', 'starring']
+		set['fakeknife']
+		takerole['alex', 'supporting']
+
+play_open-107-8600['alex', 'supporting', 'alex', 'supporting', 'realknife']
+	preconditions:
+		onplay['alex', 'alex']
+	effects:
+		takerole['alex', 'supporting']
+		set['realknife']
+		takerole['alex', 'supporting']
+
+play_open-108-8600['alex', 'supporting', 'alex', 'supporting', 'fakeknife']
+	preconditions:
+		onplay['alex', 'alex']
+	effects:
+		takerole['alex', 'supporting']
+		set['fakeknife']
+		takerole['alex', 'supporting']
+
+play_open-109-8600['alex', 'supporting', 'alex', 'starring', 'realknife']
+	preconditions:
+		onplay['alex', 'alex']
+	effects:
+		takerole['alex', 'starring']
+		set['realknife']
+		takerole['alex', 'supporting']
+
+play_open-110-8600['alex', 'supporting', 'alex', 'starring', 'fakeknife']
+	preconditions:
+		onplay['alex', 'alex']
+	effects:
+		takerole['alex', 'starring']
+		set['fakeknife']
+		takerole['alex', 'supporting']
+
+play_open-111-8600['alex', 'starring', 'ann', 'supporting', 'realknife']
+	preconditions:
+		onplay['ann', 'alex']
+	effects:
+		takerole['ann', 'supporting']
+		set['realknife']
+		takerole['alex', 'starring']
+
+play_open-112-8600['alex', 'starring', 'ann', 'supporting', 'fakeknife']
+	preconditions:
+		onplay['ann', 'alex']
+	effects:
+		takerole['ann', 'supporting']
+		set['fakeknife']
+		takerole['alex', 'starring']
+
+play_open-113-8600['alex', 'starring', 'ann', 'starring', 'realknife']
+	preconditions:
+		onplay['ann', 'alex']
+	effects:
+		takerole['ann', 'starring']
+		set['realknife']
+		takerole['alex', 'starring']
+
+play_open-114-8600['alex', 'starring', 'ann', 'starring', 'fakeknife']
+	preconditions:
+		onplay['ann', 'alex']
+	effects:
+		takerole['ann', 'starring']
+		set['fakeknife']
+		takerole['alex', 'starring']
+
+play_open-115-8600['alex', 'starring', 'diana', 'supporting', 'realknife']
+	preconditions:
+		onplay['diana', 'alex']
+	effects:
+		takerole['diana', 'supporting']
+		set['realknife']
+		takerole['alex', 'starring']
+
+play_open-116-8600['alex', 'starring', 'diana', 'supporting', 'fakeknife']
+	preconditions:
+		onplay['diana', 'alex']
+	effects:
+		takerole['diana', 'supporting']
+		set['fakeknife']
+		takerole['alex', 'starring']
+
+play_open-117-8600['alex', 'starring', 'diana', 'starring', 'realknife']
+	preconditions:
+		onplay['diana', 'alex']
+	effects:
+		takerole['diana', 'starring']
+		set['realknife']
+		takerole['alex', 'starring']
+
+play_open-118-8600['alex', 'starring', 'diana', 'starring', 'fakeknife']
+	preconditions:
+		onplay['diana', 'alex']
+	effects:
+		takerole['diana', 'starring']
+		set['fakeknife']
+		takerole['alex', 'starring']
+
+play_open-119-8600['alex', 'starring', 'alex', 'supporting', 'realknife']
+	preconditions:
+		onplay['alex', 'alex']
+	effects:
+		takerole['alex', 'supporting']
+		set['realknife']
+		takerole['alex', 'starring']
+
+play_open-120-8600['alex', 'starring', 'alex', 'supporting', 'fakeknife']
+	preconditions:
+		onplay['alex', 'alex']
+	effects:
+		takerole['alex', 'supporting']
+		set['fakeknife']
+		takerole['alex', 'starring']
+
+play_open-121-8600['alex', 'starring', 'alex', 'starring', 'realknife']
+	preconditions:
+		onplay['alex', 'alex']
+	effects:
+		takerole['alex', 'starring']
+		set['realknife']
+		takerole['alex', 'starring']
+
+play_open-122-8600['alex', 'starring', 'alex', 'starring', 'fakeknife']
+	preconditions:
+		onplay['alex', 'alex']
+	effects:
+		takerole['alex', 'starring']
+		set['fakeknife']
+		takerole['alex', 'starring']
+
+stage_setting-123-9142['realknife']
+	preconditions:
+		set['realknife']
+	effects:
+		not-set['realknife']
+		stageproperty['realknife']
+
+stage_setting-124-9142['fakeknife']
+	preconditions:
+		set['fakeknife']
+	effects:
+		not-set['fakeknife']
+		stageproperty['fakeknife']
+
+dummy_init-125-8a09[]
 	preconditions:
 	effects:
-		not-onplay['ann', 'alex']
-		not-hate['alex', 'alex']
 		not-killed['alex', 'ann']
-		not-onplay['alex', 'diana']
-		not-planmurder['ann']
-		not-takerole['alex', 'starring']
-		not-stageproperty['fakeknife']
-		not-killed['diana', 'ann']
-		not-killed['alex', 'alex']
-		not-takerole['diana', 'supporting']
-		not-takerole['alex', 'supporting']
-		not-hate['ann', 'diana']
-		not-onplay['alex', 'alex']
-		not-moreimportant['supporting', 'supporting']
+		not-onplay['diana', 'diana']
 		not-onplay['alex', 'ann']
+		not-stageproperty['fakeknife']
+		not-killed['diana', 'diana']
+		not-onplay['ann', 'ann']
+		not-moreimportant['starring', 'starring']
+		not-takerole['alex', 'supporting']
+		not-killed['ann', 'ann']
+		not-weapon['realknife']
+		not-onplay['ann', 'diana']
+		not-hate['alex', 'ann']
+		not-hate['diana', 'diana']
+		not-set['fakeknife']
+		not-killed['diana', 'ann']
+		not-hate['alex', 'alex']
+		not-killed['alex', 'alex']
+		not-killed['diana', 'alex']
+		not-onplay['alex', 'alex']
+		not-killed['alex', 'diana']
+		not-takerole['diana', 'starring']
+		not-takerole['alex', 'starring']
+		not-hate['diana', 'alex']
+		not-takerole['ann', 'supporting']
+		not-killed['ann', 'diana']
+		not-onplay['alex', 'diana']
+		not-moreimportant['supporting', 'supporting']
+		not-moreimportant['supporting', 'starring']
+		not-onplay['diana', 'alex']
+		not-set['realknife']
+		not-takerole['ann', 'starring']
+		killed['ann', 'alex']
+		not-weapon['fakeknife']
+		not-planmurder['diana']
+		not-hate['diana', 'ann']
 		not-planmurder['alex']
 		not-hate['ann', 'alex']
-		not-onplay['diana', 'ann']
-		not-takerole['ann', 'starring']
-		not-takerole['diana', 'starring']
 		not-hate['ann', 'ann']
-		not-killed['ann', 'ann']
-		not-killed['alex', 'diana']
-		not-onplay['ann', 'ann']
-		not-moreimportant['starring', 'supporting']
-		not-killed['ann', 'diana']
-		not-stageproperty['realknife']
-		not-set['realknife']
-		not-onplay['diana', 'diana']
-		not-onplay['diana', 'alex']
-		not-weapon['fakeknife']
-		not-killed['diana', 'diana']
-		not-hate['diana', 'alex']
-		not-weapon['realknife']
-		killed['ann', 'alex']
-		not-hate['diana', 'ann']
 		not-hate['alex', 'diana']
-		not-hate['diana', 'diana']
-		not-moreimportant['starring', 'starring']
-		not-hate['alex', 'ann']
-		not-takerole['ann', 'supporting']
-		not-set['fakeknife']
-		not-onplay['ann', 'diana']
-		not-planmurder['diana']
-		not-killed['diana', 'alex']
-		not-moreimportant['supporting', 'starring']
+		not-hate['ann', 'diana']
+		not-planmurder['ann']
+		not-onplay['diana', 'ann']
+		not-stageproperty['realknife']
+		not-takerole['diana', 'supporting']
+		not-onplay['ann', 'alex']
+		not-moreimportant['starring', 'supporting']
 
-dummy_goal-126-ad16[]
+dummy_goal-126-ae01[]
 	preconditions:
+		stageproperty['fakeknife']
 		takerole['alex', 'starring']
-		weapon['realknife']
 		takerole['diana', 'supporting']
 		moreimportant['starring', 'supporting']
-		stageproperty['fakeknife']
 		takerole['ann', 'starring']
+		weapon['realknife']
 	effects:
 

@@ -40,7 +40,7 @@ if __name__ == '__main__':
 
 		# set RELOAD to 1 on first run afterwards set it to 0
 
-		RELOAD = 1
+		RELOAD = 0
 		if RELOAD:
 			print('reloading')
 			ground_steps = just_compile(domain_file, prob, uploadable_ground_step_library_name)

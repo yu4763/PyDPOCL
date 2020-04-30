@@ -1,3182 +1,1110 @@
 
 0
-stage_setting['realknife']_c533
+murder_on_play['ann', 'ann', 'fakeknife']_c508
 	preconditions:
-		not-set['realknife']
-			cndts:	[33, 34, 37, 38, 230, 29, 30]
-			risks:	[0, 33, 35, 37, 39, 29, 31]
-		stageproperty['realknife']
+		killed['ann', 'ann']
 			cndts:	[]
-			risks:	[230]
+			risks:	[125]
 
 
 1
-stage_setting['fakeknife']_85aa
+murder_on_play['ann', 'ann', 'realknife']_00be
 	preconditions:
-		not-set['fakeknife']
-			cndts:	[32, 35, 36, 230, 39, 40, 31]
-			risks:	[32, 1, 34, 36, 38, 40, 30]
-		stageproperty['fakeknife']
-			cndts:	[230]
-			risks:	[]
+		killed['ann', 'ann']
+			cndts:	[]
+			risks:	[125]
 
 
 2
-want_to_change_role['diana', 'roleb', 'roleb']_ef8a
+murder_on_play['ann', 'diana', 'fakeknife']_9176
 	preconditions:
-		takerole['diana', 'roleb']
+		killed['ann', 'diana']
 			cndts:	[]
-			risks:	[230]
-		moreimportant['roleb', 'roleb']
-			cndts:	[]
-			risks:	[230]
+			risks:	[125]
 
 
 3
-want_to_change_role['diana', 'roleb', 'rolec']_246b
+murder_on_play['ann', 'diana', 'realknife']_67d1
 	preconditions:
-		takerole['diana', 'roleb']
+		killed['ann', 'diana']
 			cndts:	[]
-			risks:	[230]
-		moreimportant['rolec', 'roleb']
-			cndts:	[]
-			risks:	[230]
+			risks:	[125]
 
 
 4
-want_to_change_role['diana', 'roleb', 'rolea']_36b2
+murder_on_play['ann', 'alex', 'fakeknife']_57e4
 	preconditions:
-		takerole['diana', 'roleb']
-			cndts:	[]
-			risks:	[230]
-		moreimportant['rolea', 'roleb']
-			cndts:	[]
-			risks:	[230]
+		killed['ann', 'alex']
+			cndts:	[125]
+			risks:	[]
 
 
 5
-want_to_change_role['diana', 'rolec', 'roleb']_2b30
+murder_on_play['ann', 'alex', 'realknife']_3c7a
 	preconditions:
-		takerole['diana', 'rolec']
-			cndts:	[230]
-			risks:	[]
-		moreimportant['roleb', 'rolec']
-			cndts:	[230]
+		killed['ann', 'alex']
+			cndts:	[125]
 			risks:	[]
 
 
 6
-want_to_change_role['diana', 'rolec', 'rolec']_646f
+murder_on_play['diana', 'ann', 'fakeknife']_a96c
 	preconditions:
-		takerole['diana', 'rolec']
-			cndts:	[230]
-			risks:	[]
-		moreimportant['rolec', 'rolec']
+		killed['diana', 'ann']
 			cndts:	[]
-			risks:	[230]
+			risks:	[125]
 
 
 7
-want_to_change_role['diana', 'rolec', 'rolea']_bd0a
+murder_on_play['diana', 'ann', 'realknife']_c38a
 	preconditions:
-		takerole['diana', 'rolec']
-			cndts:	[230]
-			risks:	[]
-		moreimportant['rolea', 'rolec']
+		killed['diana', 'ann']
 			cndts:	[]
-			risks:	[230]
+			risks:	[125]
 
 
 8
-want_to_change_role['diana', 'rolea', 'roleb']_8623
+murder_on_play['diana', 'diana', 'fakeknife']_3c9b
 	preconditions:
-		takerole['diana', 'rolea']
+		killed['diana', 'diana']
 			cndts:	[]
-			risks:	[230]
-		moreimportant['roleb', 'rolea']
-			cndts:	[]
-			risks:	[230]
+			risks:	[125]
 
 
 9
-want_to_change_role['diana', 'rolea', 'rolec']_cf2a
+murder_on_play['diana', 'diana', 'realknife']_7976
 	preconditions:
-		takerole['diana', 'rolea']
+		killed['diana', 'diana']
 			cndts:	[]
-			risks:	[230]
-		moreimportant['rolec', 'rolea']
-			cndts:	[]
-			risks:	[230]
+			risks:	[125]
 
 
 10
-want_to_change_role['diana', 'rolea', 'rolea']_a6f0
+murder_on_play['diana', 'alex', 'fakeknife']_0e06
 	preconditions:
-		takerole['diana', 'rolea']
+		killed['diana', 'alex']
 			cndts:	[]
-			risks:	[230]
-		moreimportant['rolea', 'rolea']
-			cndts:	[]
-			risks:	[230]
+			risks:	[125]
 
 
 11
-want_to_change_role['ann', 'roleb', 'roleb']_cf6a
+murder_on_play['diana', 'alex', 'realknife']_93a9
 	preconditions:
-		takerole['ann', 'roleb']
-			cndts:	[230]
-			risks:	[]
-		moreimportant['roleb', 'roleb']
+		killed['diana', 'alex']
 			cndts:	[]
-			risks:	[230]
+			risks:	[125]
 
 
 12
-want_to_change_role['ann', 'roleb', 'rolec']_a298
+murder_on_play['alex', 'ann', 'fakeknife']_ae60
 	preconditions:
-		takerole['ann', 'roleb']
-			cndts:	[230]
-			risks:	[]
-		moreimportant['rolec', 'roleb']
+		killed['alex', 'ann']
 			cndts:	[]
-			risks:	[230]
+			risks:	[125]
 
 
 13
-want_to_change_role['ann', 'roleb', 'rolea']_5821
+murder_on_play['alex', 'ann', 'realknife']_e06b
 	preconditions:
-		takerole['ann', 'roleb']
-			cndts:	[230]
-			risks:	[]
-		moreimportant['rolea', 'roleb']
+		killed['alex', 'ann']
 			cndts:	[]
-			risks:	[230]
+			risks:	[125]
 
 
 14
-want_to_change_role['ann', 'rolec', 'roleb']_73bb
+murder_on_play['alex', 'diana', 'fakeknife']_a9fc
 	preconditions:
-		takerole['ann', 'rolec']
+		killed['alex', 'diana']
 			cndts:	[]
-			risks:	[230]
-		moreimportant['roleb', 'rolec']
-			cndts:	[230]
-			risks:	[]
+			risks:	[125]
 
 
 15
-want_to_change_role['ann', 'rolec', 'rolec']_36e3
+murder_on_play['alex', 'diana', 'realknife']_0808
 	preconditions:
-		takerole['ann', 'rolec']
+		killed['alex', 'diana']
 			cndts:	[]
-			risks:	[230]
-		moreimportant['rolec', 'rolec']
-			cndts:	[]
-			risks:	[230]
+			risks:	[125]
 
 
 16
-want_to_change_role['ann', 'rolec', 'rolea']_3fe4
+murder_on_play['alex', 'alex', 'fakeknife']_4dd2
 	preconditions:
-		takerole['ann', 'rolec']
+		killed['alex', 'alex']
 			cndts:	[]
-			risks:	[230]
-		moreimportant['rolea', 'rolec']
-			cndts:	[]
-			risks:	[230]
+			risks:	[125]
 
 
 17
-want_to_change_role['ann', 'rolea', 'roleb']_7135
+murder_on_play['alex', 'alex', 'realknife']_0f5e
 	preconditions:
-		takerole['ann', 'rolea']
+		killed['alex', 'alex']
 			cndts:	[]
-			risks:	[230]
-		moreimportant['roleb', 'rolea']
-			cndts:	[]
-			risks:	[230]
+			risks:	[125]
 
 
 18
-want_to_change_role['ann', 'rolea', 'rolec']_58de
+want_to_change_role['ann', 'supporting', 'supporting']_f3ea
 	preconditions:
-		takerole['ann', 'rolea']
-			cndts:	[]
-			risks:	[230]
-		moreimportant['rolec', 'rolea']
-			cndts:	[]
-			risks:	[230]
+		planmurder['ann']
+			cndts:	[104, 105, 106, 107]
+			risks:	[125]
 
 
 19
-want_to_change_role['ann', 'rolea', 'rolea']_0834
+want_to_change_role['ann', 'supporting', 'starring']_62c2
 	preconditions:
-		takerole['ann', 'rolea']
-			cndts:	[]
-			risks:	[230]
-		moreimportant['rolea', 'rolea']
-			cndts:	[]
-			risks:	[230]
+		planmurder['ann']
+			cndts:	[104, 105, 106, 107]
+			risks:	[125]
 
 
 20
-want_to_change_role['alex', 'roleb', 'roleb']_b184
+want_to_change_role['ann', 'starring', 'supporting']_2ce5
 	preconditions:
-		takerole['alex', 'roleb']
-			cndts:	[]
-			risks:	[230]
-		moreimportant['roleb', 'roleb']
-			cndts:	[]
-			risks:	[230]
+		planmurder['ann']
+			cndts:	[104, 105, 106, 107]
+			risks:	[125]
 
 
 21
-want_to_change_role['alex', 'roleb', 'rolec']_29f9
+want_to_change_role['ann', 'starring', 'starring']_368e
 	preconditions:
-		takerole['alex', 'roleb']
-			cndts:	[]
-			risks:	[230]
-		moreimportant['rolec', 'roleb']
-			cndts:	[]
-			risks:	[230]
+		planmurder['ann']
+			cndts:	[104, 105, 106, 107]
+			risks:	[125]
 
 
 22
-want_to_change_role['alex', 'roleb', 'rolea']_544d
+want_to_change_role['diana', 'supporting', 'supporting']_f51b
 	preconditions:
-		takerole['alex', 'roleb']
-			cndts:	[]
-			risks:	[230]
-		moreimportant['rolea', 'roleb']
-			cndts:	[]
-			risks:	[230]
+		planmurder['diana']
+			cndts:	[108, 109, 110, 111]
+			risks:	[125]
 
 
 23
-want_to_change_role['alex', 'rolec', 'roleb']_1e9a
+want_to_change_role['diana', 'supporting', 'starring']_3c71
 	preconditions:
-		takerole['alex', 'rolec']
-			cndts:	[]
-			risks:	[230]
-		moreimportant['roleb', 'rolec']
-			cndts:	[230]
-			risks:	[]
+		planmurder['diana']
+			cndts:	[108, 109, 110, 111]
+			risks:	[125]
 
 
 24
-want_to_change_role['alex', 'rolec', 'rolec']_75ea
+want_to_change_role['diana', 'starring', 'supporting']_fe15
 	preconditions:
-		takerole['alex', 'rolec']
-			cndts:	[]
-			risks:	[230]
-		moreimportant['rolec', 'rolec']
-			cndts:	[]
-			risks:	[230]
+		planmurder['diana']
+			cndts:	[108, 109, 110, 111]
+			risks:	[125]
 
 
 25
-want_to_change_role['alex', 'rolec', 'rolea']_86ac
+want_to_change_role['diana', 'starring', 'starring']_15c1
 	preconditions:
-		takerole['alex', 'rolec']
-			cndts:	[]
-			risks:	[230]
-		moreimportant['rolea', 'rolec']
-			cndts:	[]
-			risks:	[230]
+		planmurder['diana']
+			cndts:	[108, 109, 110, 111]
+			risks:	[125]
 
 
 26
-want_to_change_role['alex', 'rolea', 'roleb']_39af
+want_to_change_role['alex', 'supporting', 'supporting']_7e07
 	preconditions:
-		takerole['alex', 'rolea']
-			cndts:	[230]
-			risks:	[]
-		moreimportant['roleb', 'rolea']
-			cndts:	[]
-			risks:	[230]
+		planmurder['alex']
+			cndts:	[112, 113, 114, 115]
+			risks:	[125]
 
 
 27
-want_to_change_role['alex', 'rolea', 'rolec']_f1b9
+want_to_change_role['alex', 'supporting', 'starring']_9eba
 	preconditions:
-		takerole['alex', 'rolea']
-			cndts:	[230]
-			risks:	[]
-		moreimportant['rolec', 'rolea']
-			cndts:	[]
-			risks:	[230]
+		planmurder['alex']
+			cndts:	[112, 113, 114, 115]
+			risks:	[125]
 
 
 28
-want_to_change_role['alex', 'rolea', 'rolea']_6eb8
+want_to_change_role['alex', 'starring', 'supporting']_3c3f
 	preconditions:
-		takerole['alex', 'rolea']
-			cndts:	[230]
-			risks:	[]
-		moreimportant['rolea', 'rolea']
-			cndts:	[]
-			risks:	[230]
+		planmurder['alex']
+			cndts:	[112, 113, 114, 115]
+			risks:	[125]
 
 
 29
-change_knife['diana', 'realknife', 'realknife']_7ae6
+want_to_change_role['alex', 'starring', 'starring']_84db
 	preconditions:
-		stageproperty['realknife']
-			cndts:	[]
-			risks:	[230]
-		weapon['realknife']
-			cndts:	[230]
-			risks:	[]
-		planmurder['diana']
-			cndts:	[2, 3, 4, 5, 6, 7, 8, 9, 10, 41, 42, 43]
-			risks:	[230]
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
+		planmurder['alex']
+			cndts:	[112, 113, 114, 115]
+			risks:	[125]
 
 
 30
-change_knife['diana', 'realknife', 'fakeknife']_5261
+stage_setting['fakeknife']_5e02
 	preconditions:
-		stageproperty['realknife']
-			cndts:	[]
-			risks:	[230]
-		weapon['fakeknife']
-			cndts:	[]
-			risks:	[230]
-		planmurder['diana']
-			cndts:	[2, 3, 4, 5, 6, 7, 8, 9, 10, 41, 42, 43]
-			risks:	[230]
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
+		set['fakeknife']
+			cndts:	[0, 2, 4, 6, 8, 10, 12, 14, 16, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70, 72, 74, 76, 78, 80, 82, 84, 86, 88, 90, 92, 94, 96, 98, 100, 102, 104, 105, 108, 109, 112, 113]
+			risks:	[125, 30]
 
 
 31
-change_knife['diana', 'fakeknife', 'realknife']_1649
+stage_setting['realknife']_f866
 	preconditions:
-		stageproperty['fakeknife']
-			cndts:	[230]
-			risks:	[]
-		weapon['realknife']
-			cndts:	[230]
-			risks:	[]
-		planmurder['diana']
-			cndts:	[2, 3, 4, 5, 6, 7, 8, 9, 10, 41, 42, 43]
-			risks:	[230]
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
+		set['realknife']
+			cndts:	[1, 3, 5, 7, 9, 11, 13, 15, 17, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79, 81, 83, 85, 87, 89, 91, 93, 95, 97, 99, 101, 103, 106, 107, 110, 111, 114, 115]
+			risks:	[125, 31]
 
 
 32
-change_knife['diana', 'fakeknife', 'fakeknife']_f016
+play_open['ann', 'supporting', 'ann', 'supporting', 'fakeknife']_989b
 	preconditions:
-		stageproperty['fakeknife']
-			cndts:	[230]
-			risks:	[]
-		weapon['fakeknife']
-			cndts:	[]
-			risks:	[230]
-		planmurder['diana']
-			cndts:	[2, 3, 4, 5, 6, 7, 8, 9, 10, 41, 42, 43]
-			risks:	[230]
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
+		onplay['ann', 'ann']
+			cndts:	[0, 1]
+			risks:	[125]
 
 
 33
-change_knife['ann', 'realknife', 'realknife']_4ccc
+play_open['ann', 'supporting', 'ann', 'supporting', 'realknife']_f382
 	preconditions:
-		stageproperty['realknife']
-			cndts:	[]
-			risks:	[230]
-		weapon['realknife']
-			cndts:	[230]
-			risks:	[]
-		planmurder['ann']
-			cndts:	[11, 12, 13, 14, 15, 16, 17, 18, 19, 44, 45, 46]
-			risks:	[230]
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
+		onplay['ann', 'ann']
+			cndts:	[0, 1]
+			risks:	[125]
 
 
 34
-change_knife['ann', 'realknife', 'fakeknife']_c91c
+play_open['ann', 'supporting', 'ann', 'starring', 'fakeknife']_39f5
 	preconditions:
-		stageproperty['realknife']
-			cndts:	[]
-			risks:	[230]
-		weapon['fakeknife']
-			cndts:	[]
-			risks:	[230]
-		planmurder['ann']
-			cndts:	[11, 12, 13, 14, 15, 16, 17, 18, 19, 44, 45, 46]
-			risks:	[230]
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
+		onplay['ann', 'ann']
+			cndts:	[0, 1]
+			risks:	[125]
 
 
 35
-change_knife['ann', 'fakeknife', 'realknife']_19ac
+play_open['ann', 'supporting', 'ann', 'starring', 'realknife']_86fe
 	preconditions:
-		stageproperty['fakeknife']
-			cndts:	[230]
-			risks:	[]
-		weapon['realknife']
-			cndts:	[230]
-			risks:	[]
-		planmurder['ann']
-			cndts:	[11, 12, 13, 14, 15, 16, 17, 18, 19, 44, 45, 46]
-			risks:	[230]
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
+		onplay['ann', 'ann']
+			cndts:	[0, 1]
+			risks:	[125]
 
 
 36
-change_knife['ann', 'fakeknife', 'fakeknife']_b835
+play_open['ann', 'supporting', 'diana', 'supporting', 'fakeknife']_5ff7
 	preconditions:
-		stageproperty['fakeknife']
-			cndts:	[230]
-			risks:	[]
-		weapon['fakeknife']
-			cndts:	[]
-			risks:	[230]
-		planmurder['ann']
-			cndts:	[11, 12, 13, 14, 15, 16, 17, 18, 19, 44, 45, 46]
-			risks:	[230]
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
+		onplay['diana', 'ann']
+			cndts:	[6, 7]
+			risks:	[125]
 
 
 37
-change_knife['alex', 'realknife', 'realknife']_cbd2
+play_open['ann', 'supporting', 'diana', 'supporting', 'realknife']_bd62
 	preconditions:
-		stageproperty['realknife']
-			cndts:	[]
-			risks:	[230]
-		weapon['realknife']
-			cndts:	[230]
-			risks:	[]
-		planmurder['alex']
-			cndts:	[47, 48, 49, 20, 21, 22, 23, 24, 25, 26, 27, 28]
-			risks:	[230]
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
+		onplay['diana', 'ann']
+			cndts:	[6, 7]
+			risks:	[125]
 
 
 38
-change_knife['alex', 'realknife', 'fakeknife']_73eb
+play_open['ann', 'supporting', 'diana', 'starring', 'fakeknife']_ab92
 	preconditions:
-		stageproperty['realknife']
-			cndts:	[]
-			risks:	[230]
-		weapon['fakeknife']
-			cndts:	[]
-			risks:	[230]
-		planmurder['alex']
-			cndts:	[47, 48, 49, 20, 21, 22, 23, 24, 25, 26, 27, 28]
-			risks:	[230]
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
+		onplay['diana', 'ann']
+			cndts:	[6, 7]
+			risks:	[125]
 
 
 39
-change_knife['alex', 'fakeknife', 'realknife']_ddb3
+play_open['ann', 'supporting', 'diana', 'starring', 'realknife']_1198
 	preconditions:
-		stageproperty['fakeknife']
-			cndts:	[230]
-			risks:	[]
-		weapon['realknife']
-			cndts:	[230]
-			risks:	[]
-		planmurder['alex']
-			cndts:	[47, 48, 49, 20, 21, 22, 23, 24, 25, 26, 27, 28]
-			risks:	[230]
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
+		onplay['diana', 'ann']
+			cndts:	[6, 7]
+			risks:	[125]
 
 
 40
-change_knife['alex', 'fakeknife', 'fakeknife']_90c1
+play_open['ann', 'supporting', 'alex', 'supporting', 'fakeknife']_4ad8
 	preconditions:
-		stageproperty['fakeknife']
-			cndts:	[230]
-			risks:	[]
-		weapon['fakeknife']
-			cndts:	[]
-			risks:	[230]
-		planmurder['alex']
-			cndts:	[47, 48, 49, 20, 21, 22, 23, 24, 25, 26, 27, 28]
-			risks:	[230]
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
+		onplay['alex', 'ann']
+			cndts:	[12, 13]
+			risks:	[125]
 
 
 41
-argue_often['diana', 'diana']_7c80
+play_open['ann', 'supporting', 'alex', 'supporting', 'realknife']_5351
 	preconditions:
-		hate['diana', 'diana']
-			cndts:	[]
-			risks:	[230]
+		onplay['alex', 'ann']
+			cndts:	[12, 13]
+			risks:	[125]
 
 
 42
-argue_often['diana', 'ann']_6489
+play_open['ann', 'supporting', 'alex', 'starring', 'fakeknife']_dc57
 	preconditions:
-		hate['diana', 'ann']
-			cndts:	[]
-			risks:	[230]
+		onplay['alex', 'ann']
+			cndts:	[12, 13]
+			risks:	[125]
 
 
 43
-argue_often['diana', 'alex']_21db
+play_open['ann', 'supporting', 'alex', 'starring', 'realknife']_4012
 	preconditions:
-		hate['diana', 'alex']
-			cndts:	[]
-			risks:	[230]
+		onplay['alex', 'ann']
+			cndts:	[12, 13]
+			risks:	[125]
 
 
 44
-argue_often['ann', 'diana']_435b
+play_open['ann', 'starring', 'ann', 'supporting', 'fakeknife']_9ca8
 	preconditions:
-		hate['ann', 'diana']
-			cndts:	[]
-			risks:	[230]
+		onplay['ann', 'ann']
+			cndts:	[0, 1]
+			risks:	[125]
 
 
 45
-argue_often['ann', 'ann']_662d
+play_open['ann', 'starring', 'ann', 'supporting', 'realknife']_45d5
 	preconditions:
-		hate['ann', 'ann']
-			cndts:	[]
-			risks:	[230]
+		onplay['ann', 'ann']
+			cndts:	[0, 1]
+			risks:	[125]
 
 
 46
-argue_often['ann', 'alex']_59ed
+play_open['ann', 'starring', 'ann', 'starring', 'fakeknife']_c947
 	preconditions:
-		hate['ann', 'alex']
-			cndts:	[230]
-			risks:	[]
+		onplay['ann', 'ann']
+			cndts:	[0, 1]
+			risks:	[125]
 
 
 47
-argue_often['alex', 'diana']_9223
+play_open['ann', 'starring', 'ann', 'starring', 'realknife']_0813
 	preconditions:
-		hate['alex', 'diana']
-			cndts:	[]
-			risks:	[230]
+		onplay['ann', 'ann']
+			cndts:	[0, 1]
+			risks:	[125]
 
 
 48
-argue_often['alex', 'ann']_e477
+play_open['ann', 'starring', 'diana', 'supporting', 'fakeknife']_5be3
 	preconditions:
-		hate['alex', 'ann']
-			cndts:	[]
-			risks:	[230]
+		onplay['diana', 'ann']
+			cndts:	[6, 7]
+			risks:	[125]
 
 
 49
-argue_often['alex', 'alex']_4761
+play_open['ann', 'starring', 'diana', 'supporting', 'realknife']_f17d
 	preconditions:
-		hate['alex', 'alex']
-			cndts:	[]
-			risks:	[230]
+		onplay['diana', 'ann']
+			cndts:	[6, 7]
+			risks:	[125]
 
 
 50
-play_open['diana', 'roleb', 'diana', 'roleb', 'realknife']_090b
+play_open['ann', 'starring', 'diana', 'starring', 'fakeknife']_dbb7
 	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['diana', 'roleb']
-			cndts:	[]
-			risks:	[230]
-		takerole['diana', 'roleb']
-			cndts:	[]
-			risks:	[230]
+		onplay['diana', 'ann']
+			cndts:	[6, 7]
+			risks:	[125]
 
 
 51
-play_open['diana', 'roleb', 'diana', 'roleb', 'fakeknife']_1c72
+play_open['ann', 'starring', 'diana', 'starring', 'realknife']_1816
 	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['diana', 'roleb']
-			cndts:	[]
-			risks:	[230]
-		takerole['diana', 'roleb']
-			cndts:	[]
-			risks:	[230]
+		onplay['diana', 'ann']
+			cndts:	[6, 7]
+			risks:	[125]
 
 
 52
-play_open['diana', 'roleb', 'diana', 'rolec', 'realknife']_5528
+play_open['ann', 'starring', 'alex', 'supporting', 'fakeknife']_720c
 	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['diana', 'rolec']
-			cndts:	[230]
-			risks:	[]
-		takerole['diana', 'roleb']
-			cndts:	[]
-			risks:	[230]
+		onplay['alex', 'ann']
+			cndts:	[12, 13]
+			risks:	[125]
 
 
 53
-play_open['diana', 'roleb', 'diana', 'rolec', 'fakeknife']_1b15
+play_open['ann', 'starring', 'alex', 'supporting', 'realknife']_4369
 	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['diana', 'rolec']
-			cndts:	[230]
-			risks:	[]
-		takerole['diana', 'roleb']
-			cndts:	[]
-			risks:	[230]
+		onplay['alex', 'ann']
+			cndts:	[12, 13]
+			risks:	[125]
 
 
 54
-play_open['diana', 'roleb', 'diana', 'rolea', 'realknife']_38ac
+play_open['ann', 'starring', 'alex', 'starring', 'fakeknife']_c4f1
 	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['diana', 'rolea']
-			cndts:	[]
-			risks:	[230]
-		takerole['diana', 'roleb']
-			cndts:	[]
-			risks:	[230]
+		onplay['alex', 'ann']
+			cndts:	[12, 13]
+			risks:	[125]
 
 
 55
-play_open['diana', 'roleb', 'diana', 'rolea', 'fakeknife']_df5b
+play_open['ann', 'starring', 'alex', 'starring', 'realknife']_755d
 	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['diana', 'rolea']
-			cndts:	[]
-			risks:	[230]
-		takerole['diana', 'roleb']
-			cndts:	[]
-			risks:	[230]
+		onplay['alex', 'ann']
+			cndts:	[12, 13]
+			risks:	[125]
 
 
 56
-play_open['diana', 'roleb', 'ann', 'roleb', 'realknife']_3b95
+play_open['diana', 'supporting', 'ann', 'supporting', 'fakeknife']_f8b5
 	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['ann', 'roleb']
-			cndts:	[230]
-			risks:	[]
-		takerole['diana', 'roleb']
-			cndts:	[]
-			risks:	[230]
+		onplay['ann', 'diana']
+			cndts:	[2, 3]
+			risks:	[125]
 
 
 57
-play_open['diana', 'roleb', 'ann', 'roleb', 'fakeknife']_6cbd
+play_open['diana', 'supporting', 'ann', 'supporting', 'realknife']_9553
 	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['ann', 'roleb']
-			cndts:	[230]
-			risks:	[]
-		takerole['diana', 'roleb']
-			cndts:	[]
-			risks:	[230]
+		onplay['ann', 'diana']
+			cndts:	[2, 3]
+			risks:	[125]
 
 
 58
-play_open['diana', 'roleb', 'ann', 'rolec', 'realknife']_6a97
+play_open['diana', 'supporting', 'ann', 'starring', 'fakeknife']_b66d
 	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['ann', 'rolec']
-			cndts:	[]
-			risks:	[230]
-		takerole['diana', 'roleb']
-			cndts:	[]
-			risks:	[230]
+		onplay['ann', 'diana']
+			cndts:	[2, 3]
+			risks:	[125]
 
 
 59
-play_open['diana', 'roleb', 'ann', 'rolec', 'fakeknife']_3e2e
+play_open['diana', 'supporting', 'ann', 'starring', 'realknife']_6e05
 	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['ann', 'rolec']
-			cndts:	[]
-			risks:	[230]
-		takerole['diana', 'roleb']
-			cndts:	[]
-			risks:	[230]
+		onplay['ann', 'diana']
+			cndts:	[2, 3]
+			risks:	[125]
 
 
 60
-play_open['diana', 'roleb', 'ann', 'rolea', 'realknife']_f4b3
+play_open['diana', 'supporting', 'diana', 'supporting', 'fakeknife']_14b9
 	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['ann', 'rolea']
-			cndts:	[]
-			risks:	[230]
-		takerole['diana', 'roleb']
-			cndts:	[]
-			risks:	[230]
+		onplay['diana', 'diana']
+			cndts:	[8, 9]
+			risks:	[125]
 
 
 61
-play_open['diana', 'roleb', 'ann', 'rolea', 'fakeknife']_8926
+play_open['diana', 'supporting', 'diana', 'supporting', 'realknife']_922b
 	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['ann', 'rolea']
-			cndts:	[]
-			risks:	[230]
-		takerole['diana', 'roleb']
-			cndts:	[]
-			risks:	[230]
+		onplay['diana', 'diana']
+			cndts:	[8, 9]
+			risks:	[125]
 
 
 62
-play_open['diana', 'roleb', 'alex', 'roleb', 'realknife']_2d5a
+play_open['diana', 'supporting', 'diana', 'starring', 'fakeknife']_7b97
 	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['alex', 'roleb']
-			cndts:	[]
-			risks:	[230]
-		takerole['diana', 'roleb']
-			cndts:	[]
-			risks:	[230]
+		onplay['diana', 'diana']
+			cndts:	[8, 9]
+			risks:	[125]
 
 
 63
-play_open['diana', 'roleb', 'alex', 'roleb', 'fakeknife']_e3ff
+play_open['diana', 'supporting', 'diana', 'starring', 'realknife']_fe79
 	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['alex', 'roleb']
-			cndts:	[]
-			risks:	[230]
-		takerole['diana', 'roleb']
-			cndts:	[]
-			risks:	[230]
+		onplay['diana', 'diana']
+			cndts:	[8, 9]
+			risks:	[125]
 
 
 64
-play_open['diana', 'roleb', 'alex', 'rolec', 'realknife']_c3fc
+play_open['diana', 'supporting', 'alex', 'supporting', 'fakeknife']_a92e
 	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['alex', 'rolec']
-			cndts:	[]
-			risks:	[230]
-		takerole['diana', 'roleb']
-			cndts:	[]
-			risks:	[230]
+		onplay['alex', 'diana']
+			cndts:	[14, 15]
+			risks:	[125]
 
 
 65
-play_open['diana', 'roleb', 'alex', 'rolec', 'fakeknife']_8f9d
+play_open['diana', 'supporting', 'alex', 'supporting', 'realknife']_ffb4
 	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['alex', 'rolec']
-			cndts:	[]
-			risks:	[230]
-		takerole['diana', 'roleb']
-			cndts:	[]
-			risks:	[230]
+		onplay['alex', 'diana']
+			cndts:	[14, 15]
+			risks:	[125]
 
 
 66
-play_open['diana', 'roleb', 'alex', 'rolea', 'realknife']_0c99
+play_open['diana', 'supporting', 'alex', 'starring', 'fakeknife']_10f5
 	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['alex', 'rolea']
-			cndts:	[230]
-			risks:	[]
-		takerole['diana', 'roleb']
-			cndts:	[]
-			risks:	[230]
+		onplay['alex', 'diana']
+			cndts:	[14, 15]
+			risks:	[125]
 
 
 67
-play_open['diana', 'roleb', 'alex', 'rolea', 'fakeknife']_0570
+play_open['diana', 'supporting', 'alex', 'starring', 'realknife']_c5cf
 	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['alex', 'rolea']
-			cndts:	[230]
-			risks:	[]
-		takerole['diana', 'roleb']
-			cndts:	[]
-			risks:	[230]
+		onplay['alex', 'diana']
+			cndts:	[14, 15]
+			risks:	[125]
 
 
 68
-play_open['diana', 'rolec', 'diana', 'roleb', 'realknife']_6138
+play_open['diana', 'starring', 'ann', 'supporting', 'fakeknife']_e607
 	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['diana', 'roleb']
-			cndts:	[]
-			risks:	[230]
-		takerole['diana', 'rolec']
-			cndts:	[230]
-			risks:	[]
+		onplay['ann', 'diana']
+			cndts:	[2, 3]
+			risks:	[125]
 
 
 69
-play_open['diana', 'rolec', 'diana', 'roleb', 'fakeknife']_c659
+play_open['diana', 'starring', 'ann', 'supporting', 'realknife']_2219
 	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['diana', 'roleb']
-			cndts:	[]
-			risks:	[230]
-		takerole['diana', 'rolec']
-			cndts:	[230]
-			risks:	[]
+		onplay['ann', 'diana']
+			cndts:	[2, 3]
+			risks:	[125]
 
 
 70
-play_open['diana', 'rolec', 'diana', 'rolec', 'realknife']_580e
+play_open['diana', 'starring', 'ann', 'starring', 'fakeknife']_4ba0
 	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['diana', 'rolec']
-			cndts:	[230]
-			risks:	[]
-		takerole['diana', 'rolec']
-			cndts:	[230]
-			risks:	[]
+		onplay['ann', 'diana']
+			cndts:	[2, 3]
+			risks:	[125]
 
 
 71
-play_open['diana', 'rolec', 'diana', 'rolec', 'fakeknife']_5c09
+play_open['diana', 'starring', 'ann', 'starring', 'realknife']_a080
 	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['diana', 'rolec']
-			cndts:	[230]
-			risks:	[]
-		takerole['diana', 'rolec']
-			cndts:	[230]
-			risks:	[]
+		onplay['ann', 'diana']
+			cndts:	[2, 3]
+			risks:	[125]
 
 
 72
-play_open['diana', 'rolec', 'diana', 'rolea', 'realknife']_6249
+play_open['diana', 'starring', 'diana', 'supporting', 'fakeknife']_8850
 	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['diana', 'rolea']
-			cndts:	[]
-			risks:	[230]
-		takerole['diana', 'rolec']
-			cndts:	[230]
-			risks:	[]
+		onplay['diana', 'diana']
+			cndts:	[8, 9]
+			risks:	[125]
 
 
 73
-play_open['diana', 'rolec', 'diana', 'rolea', 'fakeknife']_7065
+play_open['diana', 'starring', 'diana', 'supporting', 'realknife']_2f4f
 	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['diana', 'rolea']
-			cndts:	[]
-			risks:	[230]
-		takerole['diana', 'rolec']
-			cndts:	[230]
-			risks:	[]
+		onplay['diana', 'diana']
+			cndts:	[8, 9]
+			risks:	[125]
 
 
 74
-play_open['diana', 'rolec', 'ann', 'roleb', 'realknife']_0103
+play_open['diana', 'starring', 'diana', 'starring', 'fakeknife']_933c
 	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['ann', 'roleb']
-			cndts:	[230]
-			risks:	[]
-		takerole['diana', 'rolec']
-			cndts:	[230]
-			risks:	[]
+		onplay['diana', 'diana']
+			cndts:	[8, 9]
+			risks:	[125]
 
 
 75
-play_open['diana', 'rolec', 'ann', 'roleb', 'fakeknife']_145e
+play_open['diana', 'starring', 'diana', 'starring', 'realknife']_2863
 	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['ann', 'roleb']
-			cndts:	[230]
-			risks:	[]
-		takerole['diana', 'rolec']
-			cndts:	[230]
-			risks:	[]
+		onplay['diana', 'diana']
+			cndts:	[8, 9]
+			risks:	[125]
 
 
 76
-play_open['diana', 'rolec', 'ann', 'rolec', 'realknife']_25e2
+play_open['diana', 'starring', 'alex', 'supporting', 'fakeknife']_ab4f
 	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['ann', 'rolec']
-			cndts:	[]
-			risks:	[230]
-		takerole['diana', 'rolec']
-			cndts:	[230]
-			risks:	[]
+		onplay['alex', 'diana']
+			cndts:	[14, 15]
+			risks:	[125]
 
 
 77
-play_open['diana', 'rolec', 'ann', 'rolec', 'fakeknife']_98f1
+play_open['diana', 'starring', 'alex', 'supporting', 'realknife']_4d24
 	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['ann', 'rolec']
-			cndts:	[]
-			risks:	[230]
-		takerole['diana', 'rolec']
-			cndts:	[230]
-			risks:	[]
+		onplay['alex', 'diana']
+			cndts:	[14, 15]
+			risks:	[125]
 
 
 78
-play_open['diana', 'rolec', 'ann', 'rolea', 'realknife']_99a5
+play_open['diana', 'starring', 'alex', 'starring', 'fakeknife']_0efc
 	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['ann', 'rolea']
-			cndts:	[]
-			risks:	[230]
-		takerole['diana', 'rolec']
-			cndts:	[230]
-			risks:	[]
+		onplay['alex', 'diana']
+			cndts:	[14, 15]
+			risks:	[125]
 
 
 79
-play_open['diana', 'rolec', 'ann', 'rolea', 'fakeknife']_14ab
+play_open['diana', 'starring', 'alex', 'starring', 'realknife']_01f9
 	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['ann', 'rolea']
-			cndts:	[]
-			risks:	[230]
-		takerole['diana', 'rolec']
-			cndts:	[230]
-			risks:	[]
+		onplay['alex', 'diana']
+			cndts:	[14, 15]
+			risks:	[125]
 
 
 80
-play_open['diana', 'rolec', 'alex', 'roleb', 'realknife']_ab8e
+play_open['alex', 'supporting', 'ann', 'supporting', 'fakeknife']_a5f9
 	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['alex', 'roleb']
-			cndts:	[]
-			risks:	[230]
-		takerole['diana', 'rolec']
-			cndts:	[230]
-			risks:	[]
+		onplay['ann', 'alex']
+			cndts:	[4, 5]
+			risks:	[125]
 
 
 81
-play_open['diana', 'rolec', 'alex', 'roleb', 'fakeknife']_9840
+play_open['alex', 'supporting', 'ann', 'supporting', 'realknife']_efb1
 	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['alex', 'roleb']
-			cndts:	[]
-			risks:	[230]
-		takerole['diana', 'rolec']
-			cndts:	[230]
-			risks:	[]
+		onplay['ann', 'alex']
+			cndts:	[4, 5]
+			risks:	[125]
 
 
 82
-play_open['diana', 'rolec', 'alex', 'rolec', 'realknife']_eec9
+play_open['alex', 'supporting', 'ann', 'starring', 'fakeknife']_92c5
 	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['alex', 'rolec']
-			cndts:	[]
-			risks:	[230]
-		takerole['diana', 'rolec']
-			cndts:	[230]
-			risks:	[]
+		onplay['ann', 'alex']
+			cndts:	[4, 5]
+			risks:	[125]
 
 
 83
-play_open['diana', 'rolec', 'alex', 'rolec', 'fakeknife']_5d3a
+play_open['alex', 'supporting', 'ann', 'starring', 'realknife']_e2d9
 	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['alex', 'rolec']
-			cndts:	[]
-			risks:	[230]
-		takerole['diana', 'rolec']
-			cndts:	[230]
-			risks:	[]
+		onplay['ann', 'alex']
+			cndts:	[4, 5]
+			risks:	[125]
 
 
 84
-play_open['diana', 'rolec', 'alex', 'rolea', 'realknife']_2217
+play_open['alex', 'supporting', 'diana', 'supporting', 'fakeknife']_652b
 	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['alex', 'rolea']
-			cndts:	[230]
-			risks:	[]
-		takerole['diana', 'rolec']
-			cndts:	[230]
-			risks:	[]
+		onplay['diana', 'alex']
+			cndts:	[10, 11]
+			risks:	[125]
 
 
 85
-play_open['diana', 'rolec', 'alex', 'rolea', 'fakeknife']_995c
+play_open['alex', 'supporting', 'diana', 'supporting', 'realknife']_dc6d
 	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['alex', 'rolea']
-			cndts:	[230]
-			risks:	[]
-		takerole['diana', 'rolec']
-			cndts:	[230]
-			risks:	[]
+		onplay['diana', 'alex']
+			cndts:	[10, 11]
+			risks:	[125]
 
 
 86
-play_open['diana', 'rolea', 'diana', 'roleb', 'realknife']_3141
+play_open['alex', 'supporting', 'diana', 'starring', 'fakeknife']_1a27
 	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['diana', 'roleb']
-			cndts:	[]
-			risks:	[230]
-		takerole['diana', 'rolea']
-			cndts:	[]
-			risks:	[230]
+		onplay['diana', 'alex']
+			cndts:	[10, 11]
+			risks:	[125]
 
 
 87
-play_open['diana', 'rolea', 'diana', 'roleb', 'fakeknife']_528b
+play_open['alex', 'supporting', 'diana', 'starring', 'realknife']_5bf3
 	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['diana', 'roleb']
-			cndts:	[]
-			risks:	[230]
-		takerole['diana', 'rolea']
-			cndts:	[]
-			risks:	[230]
+		onplay['diana', 'alex']
+			cndts:	[10, 11]
+			risks:	[125]
 
 
 88
-play_open['diana', 'rolea', 'diana', 'rolec', 'realknife']_228d
+play_open['alex', 'supporting', 'alex', 'supporting', 'fakeknife']_680f
 	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['diana', 'rolec']
-			cndts:	[230]
-			risks:	[]
-		takerole['diana', 'rolea']
-			cndts:	[]
-			risks:	[230]
+		onplay['alex', 'alex']
+			cndts:	[16, 17]
+			risks:	[125]
 
 
 89
-play_open['diana', 'rolea', 'diana', 'rolec', 'fakeknife']_539c
+play_open['alex', 'supporting', 'alex', 'supporting', 'realknife']_fcfc
 	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['diana', 'rolec']
-			cndts:	[230]
-			risks:	[]
-		takerole['diana', 'rolea']
-			cndts:	[]
-			risks:	[230]
+		onplay['alex', 'alex']
+			cndts:	[16, 17]
+			risks:	[125]
 
 
 90
-play_open['diana', 'rolea', 'diana', 'rolea', 'realknife']_38d6
+play_open['alex', 'supporting', 'alex', 'starring', 'fakeknife']_5dc6
 	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['diana', 'rolea']
-			cndts:	[]
-			risks:	[230]
-		takerole['diana', 'rolea']
-			cndts:	[]
-			risks:	[230]
+		onplay['alex', 'alex']
+			cndts:	[16, 17]
+			risks:	[125]
 
 
 91
-play_open['diana', 'rolea', 'diana', 'rolea', 'fakeknife']_0b10
+play_open['alex', 'supporting', 'alex', 'starring', 'realknife']_4f70
 	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['diana', 'rolea']
-			cndts:	[]
-			risks:	[230]
-		takerole['diana', 'rolea']
-			cndts:	[]
-			risks:	[230]
+		onplay['alex', 'alex']
+			cndts:	[16, 17]
+			risks:	[125]
 
 
 92
-play_open['diana', 'rolea', 'ann', 'roleb', 'realknife']_c3de
+play_open['alex', 'starring', 'ann', 'supporting', 'fakeknife']_80d9
 	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['ann', 'roleb']
-			cndts:	[230]
-			risks:	[]
-		takerole['diana', 'rolea']
-			cndts:	[]
-			risks:	[230]
+		onplay['ann', 'alex']
+			cndts:	[4, 5]
+			risks:	[125]
 
 
 93
-play_open['diana', 'rolea', 'ann', 'roleb', 'fakeknife']_018a
+play_open['alex', 'starring', 'ann', 'supporting', 'realknife']_2faf
 	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['ann', 'roleb']
-			cndts:	[230]
-			risks:	[]
-		takerole['diana', 'rolea']
-			cndts:	[]
-			risks:	[230]
+		onplay['ann', 'alex']
+			cndts:	[4, 5]
+			risks:	[125]
 
 
 94
-play_open['diana', 'rolea', 'ann', 'rolec', 'realknife']_c015
+play_open['alex', 'starring', 'ann', 'starring', 'fakeknife']_a567
 	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['ann', 'rolec']
-			cndts:	[]
-			risks:	[230]
-		takerole['diana', 'rolea']
-			cndts:	[]
-			risks:	[230]
+		onplay['ann', 'alex']
+			cndts:	[4, 5]
+			risks:	[125]
 
 
 95
-play_open['diana', 'rolea', 'ann', 'rolec', 'fakeknife']_ef57
+play_open['alex', 'starring', 'ann', 'starring', 'realknife']_0635
 	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['ann', 'rolec']
-			cndts:	[]
-			risks:	[230]
-		takerole['diana', 'rolea']
-			cndts:	[]
-			risks:	[230]
+		onplay['ann', 'alex']
+			cndts:	[4, 5]
+			risks:	[125]
 
 
 96
-play_open['diana', 'rolea', 'ann', 'rolea', 'realknife']_a328
+play_open['alex', 'starring', 'diana', 'supporting', 'fakeknife']_25db
 	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['ann', 'rolea']
-			cndts:	[]
-			risks:	[230]
-		takerole['diana', 'rolea']
-			cndts:	[]
-			risks:	[230]
+		onplay['diana', 'alex']
+			cndts:	[10, 11]
+			risks:	[125]
 
 
 97
-play_open['diana', 'rolea', 'ann', 'rolea', 'fakeknife']_cd7f
+play_open['alex', 'starring', 'diana', 'supporting', 'realknife']_0437
 	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['ann', 'rolea']
-			cndts:	[]
-			risks:	[230]
-		takerole['diana', 'rolea']
-			cndts:	[]
-			risks:	[230]
+		onplay['diana', 'alex']
+			cndts:	[10, 11]
+			risks:	[125]
 
 
 98
-play_open['diana', 'rolea', 'alex', 'roleb', 'realknife']_9c37
+play_open['alex', 'starring', 'diana', 'starring', 'fakeknife']_812c
 	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['alex', 'roleb']
-			cndts:	[]
-			risks:	[230]
-		takerole['diana', 'rolea']
-			cndts:	[]
-			risks:	[230]
+		onplay['diana', 'alex']
+			cndts:	[10, 11]
+			risks:	[125]
 
 
 99
-play_open['diana', 'rolea', 'alex', 'roleb', 'fakeknife']_65b3
+play_open['alex', 'starring', 'diana', 'starring', 'realknife']_8f5f
 	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['alex', 'roleb']
-			cndts:	[]
-			risks:	[230]
-		takerole['diana', 'rolea']
-			cndts:	[]
-			risks:	[230]
+		onplay['diana', 'alex']
+			cndts:	[10, 11]
+			risks:	[125]
 
 
 100
-play_open['diana', 'rolea', 'alex', 'rolec', 'realknife']_6586
+play_open['alex', 'starring', 'alex', 'supporting', 'fakeknife']_2bfa
 	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['alex', 'rolec']
-			cndts:	[]
-			risks:	[230]
-		takerole['diana', 'rolea']
-			cndts:	[]
-			risks:	[230]
+		onplay['alex', 'alex']
+			cndts:	[16, 17]
+			risks:	[125]
 
 
 101
-play_open['diana', 'rolea', 'alex', 'rolec', 'fakeknife']_3d10
+play_open['alex', 'starring', 'alex', 'supporting', 'realknife']_8ebb
 	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['alex', 'rolec']
-			cndts:	[]
-			risks:	[230]
-		takerole['diana', 'rolea']
-			cndts:	[]
-			risks:	[230]
+		onplay['alex', 'alex']
+			cndts:	[16, 17]
+			risks:	[125]
 
 
 102
-play_open['diana', 'rolea', 'alex', 'rolea', 'realknife']_44e6
+play_open['alex', 'starring', 'alex', 'starring', 'fakeknife']_5e0a
 	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['alex', 'rolea']
-			cndts:	[230]
-			risks:	[]
-		takerole['diana', 'rolea']
-			cndts:	[]
-			risks:	[230]
+		onplay['alex', 'alex']
+			cndts:	[16, 17]
+			risks:	[125]
 
 
 103
-play_open['diana', 'rolea', 'alex', 'rolea', 'fakeknife']_99f1
+play_open['alex', 'starring', 'alex', 'starring', 'realknife']_e5f0
 	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['alex', 'rolea']
-			cndts:	[230]
-			risks:	[]
-		takerole['diana', 'rolea']
-			cndts:	[]
-			risks:	[230]
+		onplay['alex', 'alex']
+			cndts:	[16, 17]
+			risks:	[125]
 
 
 104
-play_open['ann', 'roleb', 'diana', 'roleb', 'realknife']_366c
+change_knife['ann', 'fakeknife', 'fakeknife']_c96f
 	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['diana', 'roleb']
-			cndts:	[]
-			risks:	[230]
-		takerole['ann', 'roleb']
-			cndts:	[230]
-			risks:	[]
+		set['fakeknife']
+			cndts:	[0, 2, 4, 6, 8, 10, 12, 14, 16, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70, 72, 74, 76, 78, 80, 82, 84, 86, 88, 90, 92, 94, 96, 98, 100, 102, 104, 105, 108, 109, 112, 113]
+			risks:	[125, 30]
+		not-set['fakeknife']
+			cndts:	[125, 30]
+			risks:	[0, 2, 4, 6, 8, 10, 12, 14, 16, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70, 72, 74, 76, 78, 80, 82, 84, 86, 88, 90, 92, 94, 96, 98, 100, 102, 104, 105, 108, 109, 112, 113]
 
 
 105
-play_open['ann', 'roleb', 'diana', 'roleb', 'fakeknife']_6585
+change_knife['ann', 'fakeknife', 'realknife']_8c72
 	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['diana', 'roleb']
-			cndts:	[]
-			risks:	[230]
-		takerole['ann', 'roleb']
-			cndts:	[230]
-			risks:	[]
+		set['realknife']
+			cndts:	[1, 3, 5, 7, 9, 11, 13, 15, 17, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79, 81, 83, 85, 87, 89, 91, 93, 95, 97, 99, 101, 103, 106, 107, 110, 111, 114, 115]
+			risks:	[125, 31]
+		not-set['fakeknife']
+			cndts:	[125, 30]
+			risks:	[0, 2, 4, 6, 8, 10, 12, 14, 16, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70, 72, 74, 76, 78, 80, 82, 84, 86, 88, 90, 92, 94, 96, 98, 100, 102, 104, 105, 108, 109, 112, 113]
 
 
 106
-play_open['ann', 'roleb', 'diana', 'rolec', 'realknife']_54d7
+change_knife['ann', 'realknife', 'fakeknife']_e050
 	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['diana', 'rolec']
-			cndts:	[230]
-			risks:	[]
-		takerole['ann', 'roleb']
-			cndts:	[230]
-			risks:	[]
+		set['fakeknife']
+			cndts:	[0, 2, 4, 6, 8, 10, 12, 14, 16, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70, 72, 74, 76, 78, 80, 82, 84, 86, 88, 90, 92, 94, 96, 98, 100, 102, 104, 105, 108, 109, 112, 113]
+			risks:	[125, 30]
+		not-set['realknife']
+			cndts:	[125, 31]
+			risks:	[1, 3, 5, 7, 9, 11, 13, 15, 17, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79, 81, 83, 85, 87, 89, 91, 93, 95, 97, 99, 101, 103, 106, 107, 110, 111, 114, 115]
 
 
 107
-play_open['ann', 'roleb', 'diana', 'rolec', 'fakeknife']_33df
+change_knife['ann', 'realknife', 'realknife']_afb5
 	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['diana', 'rolec']
-			cndts:	[230]
-			risks:	[]
-		takerole['ann', 'roleb']
-			cndts:	[230]
-			risks:	[]
+		set['realknife']
+			cndts:	[1, 3, 5, 7, 9, 11, 13, 15, 17, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79, 81, 83, 85, 87, 89, 91, 93, 95, 97, 99, 101, 103, 106, 107, 110, 111, 114, 115]
+			risks:	[125, 31]
+		not-set['realknife']
+			cndts:	[125, 31]
+			risks:	[1, 3, 5, 7, 9, 11, 13, 15, 17, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79, 81, 83, 85, 87, 89, 91, 93, 95, 97, 99, 101, 103, 106, 107, 110, 111, 114, 115]
 
 
 108
-play_open['ann', 'roleb', 'diana', 'rolea', 'realknife']_54a4
+change_knife['diana', 'fakeknife', 'fakeknife']_d7e8
 	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['diana', 'rolea']
-			cndts:	[]
-			risks:	[230]
-		takerole['ann', 'roleb']
-			cndts:	[230]
-			risks:	[]
+		set['fakeknife']
+			cndts:	[0, 2, 4, 6, 8, 10, 12, 14, 16, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70, 72, 74, 76, 78, 80, 82, 84, 86, 88, 90, 92, 94, 96, 98, 100, 102, 104, 105, 108, 109, 112, 113]
+			risks:	[125, 30]
+		not-set['fakeknife']
+			cndts:	[125, 30]
+			risks:	[0, 2, 4, 6, 8, 10, 12, 14, 16, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70, 72, 74, 76, 78, 80, 82, 84, 86, 88, 90, 92, 94, 96, 98, 100, 102, 104, 105, 108, 109, 112, 113]
 
 
 109
-play_open['ann', 'roleb', 'diana', 'rolea', 'fakeknife']_360b
+change_knife['diana', 'fakeknife', 'realknife']_0093
 	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['diana', 'rolea']
-			cndts:	[]
-			risks:	[230]
-		takerole['ann', 'roleb']
-			cndts:	[230]
-			risks:	[]
+		set['realknife']
+			cndts:	[1, 3, 5, 7, 9, 11, 13, 15, 17, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79, 81, 83, 85, 87, 89, 91, 93, 95, 97, 99, 101, 103, 106, 107, 110, 111, 114, 115]
+			risks:	[125, 31]
+		not-set['fakeknife']
+			cndts:	[125, 30]
+			risks:	[0, 2, 4, 6, 8, 10, 12, 14, 16, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70, 72, 74, 76, 78, 80, 82, 84, 86, 88, 90, 92, 94, 96, 98, 100, 102, 104, 105, 108, 109, 112, 113]
 
 
 110
-play_open['ann', 'roleb', 'ann', 'roleb', 'realknife']_ce40
+change_knife['diana', 'realknife', 'fakeknife']_e76f
 	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['ann', 'roleb']
-			cndts:	[230]
-			risks:	[]
-		takerole['ann', 'roleb']
-			cndts:	[230]
-			risks:	[]
+		set['fakeknife']
+			cndts:	[0, 2, 4, 6, 8, 10, 12, 14, 16, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70, 72, 74, 76, 78, 80, 82, 84, 86, 88, 90, 92, 94, 96, 98, 100, 102, 104, 105, 108, 109, 112, 113]
+			risks:	[125, 30]
+		not-set['realknife']
+			cndts:	[125, 31]
+			risks:	[1, 3, 5, 7, 9, 11, 13, 15, 17, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79, 81, 83, 85, 87, 89, 91, 93, 95, 97, 99, 101, 103, 106, 107, 110, 111, 114, 115]
 
 
 111
-play_open['ann', 'roleb', 'ann', 'roleb', 'fakeknife']_7efe
+change_knife['diana', 'realknife', 'realknife']_02f2
 	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['ann', 'roleb']
-			cndts:	[230]
-			risks:	[]
-		takerole['ann', 'roleb']
-			cndts:	[230]
-			risks:	[]
+		set['realknife']
+			cndts:	[1, 3, 5, 7, 9, 11, 13, 15, 17, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79, 81, 83, 85, 87, 89, 91, 93, 95, 97, 99, 101, 103, 106, 107, 110, 111, 114, 115]
+			risks:	[125, 31]
+		not-set['realknife']
+			cndts:	[125, 31]
+			risks:	[1, 3, 5, 7, 9, 11, 13, 15, 17, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79, 81, 83, 85, 87, 89, 91, 93, 95, 97, 99, 101, 103, 106, 107, 110, 111, 114, 115]
 
 
 112
-play_open['ann', 'roleb', 'ann', 'rolec', 'realknife']_37f7
+change_knife['alex', 'fakeknife', 'fakeknife']_ad46
 	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['ann', 'rolec']
-			cndts:	[]
-			risks:	[230]
-		takerole['ann', 'roleb']
-			cndts:	[230]
-			risks:	[]
+		set['fakeknife']
+			cndts:	[0, 2, 4, 6, 8, 10, 12, 14, 16, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70, 72, 74, 76, 78, 80, 82, 84, 86, 88, 90, 92, 94, 96, 98, 100, 102, 104, 105, 108, 109, 112, 113]
+			risks:	[125, 30]
+		not-set['fakeknife']
+			cndts:	[125, 30]
+			risks:	[0, 2, 4, 6, 8, 10, 12, 14, 16, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70, 72, 74, 76, 78, 80, 82, 84, 86, 88, 90, 92, 94, 96, 98, 100, 102, 104, 105, 108, 109, 112, 113]
 
 
 113
-play_open['ann', 'roleb', 'ann', 'rolec', 'fakeknife']_459f
+change_knife['alex', 'fakeknife', 'realknife']_467b
 	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['ann', 'rolec']
-			cndts:	[]
-			risks:	[230]
-		takerole['ann', 'roleb']
-			cndts:	[230]
-			risks:	[]
+		set['realknife']
+			cndts:	[1, 3, 5, 7, 9, 11, 13, 15, 17, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79, 81, 83, 85, 87, 89, 91, 93, 95, 97, 99, 101, 103, 106, 107, 110, 111, 114, 115]
+			risks:	[125, 31]
+		not-set['fakeknife']
+			cndts:	[125, 30]
+			risks:	[0, 2, 4, 6, 8, 10, 12, 14, 16, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70, 72, 74, 76, 78, 80, 82, 84, 86, 88, 90, 92, 94, 96, 98, 100, 102, 104, 105, 108, 109, 112, 113]
 
 
 114
-play_open['ann', 'roleb', 'ann', 'rolea', 'realknife']_2ac7
+change_knife['alex', 'realknife', 'fakeknife']_362b
 	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['ann', 'rolea']
-			cndts:	[]
-			risks:	[230]
-		takerole['ann', 'roleb']
-			cndts:	[230]
-			risks:	[]
+		set['fakeknife']
+			cndts:	[0, 2, 4, 6, 8, 10, 12, 14, 16, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70, 72, 74, 76, 78, 80, 82, 84, 86, 88, 90, 92, 94, 96, 98, 100, 102, 104, 105, 108, 109, 112, 113]
+			risks:	[125, 30]
+		not-set['realknife']
+			cndts:	[125, 31]
+			risks:	[1, 3, 5, 7, 9, 11, 13, 15, 17, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79, 81, 83, 85, 87, 89, 91, 93, 95, 97, 99, 101, 103, 106, 107, 110, 111, 114, 115]
 
 
 115
-play_open['ann', 'roleb', 'ann', 'rolea', 'fakeknife']_8c4f
+change_knife['alex', 'realknife', 'realknife']_a52e
 	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['ann', 'rolea']
-			cndts:	[]
-			risks:	[230]
-		takerole['ann', 'roleb']
-			cndts:	[230]
-			risks:	[]
+		set['realknife']
+			cndts:	[1, 3, 5, 7, 9, 11, 13, 15, 17, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79, 81, 83, 85, 87, 89, 91, 93, 95, 97, 99, 101, 103, 106, 107, 110, 111, 114, 115]
+			risks:	[125, 31]
+		not-set['realknife']
+			cndts:	[125, 31]
+			risks:	[1, 3, 5, 7, 9, 11, 13, 15, 17, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79, 81, 83, 85, 87, 89, 91, 93, 95, 97, 99, 101, 103, 106, 107, 110, 111, 114, 115]
 
 
 116
-play_open['ann', 'roleb', 'alex', 'roleb', 'realknife']_44ff
+argue_often['ann', 'ann']_01c4
 	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['alex', 'roleb']
-			cndts:	[]
-			risks:	[230]
-		takerole['ann', 'roleb']
-			cndts:	[230]
-			risks:	[]
+		planmurder['ann']
+			cndts:	[104, 105, 106, 107]
+			risks:	[125]
 
 
 117
-play_open['ann', 'roleb', 'alex', 'roleb', 'fakeknife']_d633
+argue_often['ann', 'diana']_e0ec
 	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['alex', 'roleb']
-			cndts:	[]
-			risks:	[230]
-		takerole['ann', 'roleb']
-			cndts:	[230]
-			risks:	[]
+		planmurder['ann']
+			cndts:	[104, 105, 106, 107]
+			risks:	[125]
 
 
 118
-play_open['ann', 'roleb', 'alex', 'rolec', 'realknife']_9067
+argue_often['ann', 'alex']_148a
 	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['alex', 'rolec']
-			cndts:	[]
-			risks:	[230]
-		takerole['ann', 'roleb']
-			cndts:	[230]
-			risks:	[]
+		planmurder['ann']
+			cndts:	[104, 105, 106, 107]
+			risks:	[125]
 
 
 119
-play_open['ann', 'roleb', 'alex', 'rolec', 'fakeknife']_be10
+argue_often['diana', 'ann']_c892
 	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['alex', 'rolec']
-			cndts:	[]
-			risks:	[230]
-		takerole['ann', 'roleb']
-			cndts:	[230]
-			risks:	[]
+		planmurder['diana']
+			cndts:	[108, 109, 110, 111]
+			risks:	[125]
 
 
 120
-play_open['ann', 'roleb', 'alex', 'rolea', 'realknife']_af0b
+argue_often['diana', 'diana']_d408
 	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['alex', 'rolea']
-			cndts:	[230]
-			risks:	[]
-		takerole['ann', 'roleb']
-			cndts:	[230]
-			risks:	[]
+		planmurder['diana']
+			cndts:	[108, 109, 110, 111]
+			risks:	[125]
 
 
 121
-play_open['ann', 'roleb', 'alex', 'rolea', 'fakeknife']_31e0
+argue_often['diana', 'alex']_d08d
 	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['alex', 'rolea']
-			cndts:	[230]
-			risks:	[]
-		takerole['ann', 'roleb']
-			cndts:	[230]
-			risks:	[]
+		planmurder['diana']
+			cndts:	[108, 109, 110, 111]
+			risks:	[125]
 
 
 122
-play_open['ann', 'rolec', 'diana', 'roleb', 'realknife']_fcb0
+argue_often['alex', 'ann']_d4f3
 	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['diana', 'roleb']
-			cndts:	[]
-			risks:	[230]
-		takerole['ann', 'rolec']
-			cndts:	[]
-			risks:	[230]
+		planmurder['alex']
+			cndts:	[112, 113, 114, 115]
+			risks:	[125]
 
 
 123
-play_open['ann', 'rolec', 'diana', 'roleb', 'fakeknife']_5d95
+argue_often['alex', 'diana']_0666
 	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['diana', 'roleb']
-			cndts:	[]
-			risks:	[230]
-		takerole['ann', 'rolec']
-			cndts:	[]
-			risks:	[230]
+		planmurder['alex']
+			cndts:	[112, 113, 114, 115]
+			risks:	[125]
 
 
 124
-play_open['ann', 'rolec', 'diana', 'rolec', 'realknife']_dd8a
+argue_often['alex', 'alex']_d033
 	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['diana', 'rolec']
-			cndts:	[230]
-			risks:	[]
-		takerole['ann', 'rolec']
-			cndts:	[]
-			risks:	[230]
+		planmurder['alex']
+			cndts:	[112, 113, 114, 115]
+			risks:	[125]
 
 
 125
-play_open['ann', 'rolec', 'diana', 'rolec', 'fakeknife']_fc73
+dummy_init[]_dcf2
 	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['diana', 'rolec']
-			cndts:	[230]
-			risks:	[]
-		takerole['ann', 'rolec']
-			cndts:	[]
-			risks:	[230]
+		not-onplay['ann', 'alex']
+		not-hate['alex', 'alex']
+		not-killed['alex', 'ann']
+		not-onplay['alex', 'diana']
+		not-planmurder['ann']
+		not-takerole['alex', 'starring']
+		not-stageproperty['fakeknife']
+		not-killed['diana', 'ann']
+		not-killed['alex', 'alex']
+		not-takerole['diana', 'supporting']
+		not-takerole['alex', 'supporting']
+		not-hate['ann', 'diana']
+		not-onplay['alex', 'alex']
+		not-moreimportant['supporting', 'supporting']
+		not-onplay['alex', 'ann']
+		not-planmurder['alex']
+		not-hate['ann', 'alex']
+		not-onplay['diana', 'ann']
+		not-takerole['ann', 'starring']
+		not-takerole['diana', 'starring']
+		not-hate['ann', 'ann']
+		not-killed['ann', 'ann']
+		not-killed['alex', 'diana']
+		not-onplay['ann', 'ann']
+		not-moreimportant['starring', 'supporting']
+		not-killed['ann', 'diana']
+		not-stageproperty['realknife']
+		not-set['realknife']
+		not-onplay['diana', 'diana']
+		not-onplay['diana', 'alex']
+		not-weapon['fakeknife']
+		not-killed['diana', 'diana']
+		not-hate['diana', 'alex']
+		not-weapon['realknife']
+		killed['ann', 'alex']
+		not-hate['diana', 'ann']
+		not-hate['alex', 'diana']
+		not-hate['diana', 'diana']
+		not-moreimportant['starring', 'starring']
+		not-hate['alex', 'ann']
+		not-takerole['ann', 'supporting']
+		not-set['fakeknife']
+		not-onplay['ann', 'diana']
+		not-planmurder['diana']
+		not-killed['diana', 'alex']
+		not-moreimportant['supporting', 'starring']
 
 
 126
-play_open['ann', 'rolec', 'diana', 'rolea', 'realknife']_c288
-	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['diana', 'rolea']
-			cndts:	[]
-			risks:	[230]
-		takerole['ann', 'rolec']
-			cndts:	[]
-			risks:	[230]
-
-
-127
-play_open['ann', 'rolec', 'diana', 'rolea', 'fakeknife']_96f2
-	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['diana', 'rolea']
-			cndts:	[]
-			risks:	[230]
-		takerole['ann', 'rolec']
-			cndts:	[]
-			risks:	[230]
-
-
-128
-play_open['ann', 'rolec', 'ann', 'roleb', 'realknife']_0924
-	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['ann', 'roleb']
-			cndts:	[230]
-			risks:	[]
-		takerole['ann', 'rolec']
-			cndts:	[]
-			risks:	[230]
-
-
-129
-play_open['ann', 'rolec', 'ann', 'roleb', 'fakeknife']_356d
-	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['ann', 'roleb']
-			cndts:	[230]
-			risks:	[]
-		takerole['ann', 'rolec']
-			cndts:	[]
-			risks:	[230]
-
-
-130
-play_open['ann', 'rolec', 'ann', 'rolec', 'realknife']_efb0
-	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['ann', 'rolec']
-			cndts:	[]
-			risks:	[230]
-		takerole['ann', 'rolec']
-			cndts:	[]
-			risks:	[230]
-
-
-131
-play_open['ann', 'rolec', 'ann', 'rolec', 'fakeknife']_eef2
-	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['ann', 'rolec']
-			cndts:	[]
-			risks:	[230]
-		takerole['ann', 'rolec']
-			cndts:	[]
-			risks:	[230]
-
-
-132
-play_open['ann', 'rolec', 'ann', 'rolea', 'realknife']_de95
-	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['ann', 'rolea']
-			cndts:	[]
-			risks:	[230]
-		takerole['ann', 'rolec']
-			cndts:	[]
-			risks:	[230]
-
-
-133
-play_open['ann', 'rolec', 'ann', 'rolea', 'fakeknife']_2172
-	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['ann', 'rolea']
-			cndts:	[]
-			risks:	[230]
-		takerole['ann', 'rolec']
-			cndts:	[]
-			risks:	[230]
-
-
-134
-play_open['ann', 'rolec', 'alex', 'roleb', 'realknife']_1ac8
-	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['alex', 'roleb']
-			cndts:	[]
-			risks:	[230]
-		takerole['ann', 'rolec']
-			cndts:	[]
-			risks:	[230]
-
-
-135
-play_open['ann', 'rolec', 'alex', 'roleb', 'fakeknife']_bede
-	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['alex', 'roleb']
-			cndts:	[]
-			risks:	[230]
-		takerole['ann', 'rolec']
-			cndts:	[]
-			risks:	[230]
-
-
-136
-play_open['ann', 'rolec', 'alex', 'rolec', 'realknife']_0694
-	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['alex', 'rolec']
-			cndts:	[]
-			risks:	[230]
-		takerole['ann', 'rolec']
-			cndts:	[]
-			risks:	[230]
-
-
-137
-play_open['ann', 'rolec', 'alex', 'rolec', 'fakeknife']_d487
-	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['alex', 'rolec']
-			cndts:	[]
-			risks:	[230]
-		takerole['ann', 'rolec']
-			cndts:	[]
-			risks:	[230]
-
-
-138
-play_open['ann', 'rolec', 'alex', 'rolea', 'realknife']_f8f9
-	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['alex', 'rolea']
-			cndts:	[230]
-			risks:	[]
-		takerole['ann', 'rolec']
-			cndts:	[]
-			risks:	[230]
-
-
-139
-play_open['ann', 'rolec', 'alex', 'rolea', 'fakeknife']_576d
-	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['alex', 'rolea']
-			cndts:	[230]
-			risks:	[]
-		takerole['ann', 'rolec']
-			cndts:	[]
-			risks:	[230]
-
-
-140
-play_open['ann', 'rolea', 'diana', 'roleb', 'realknife']_8675
-	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['diana', 'roleb']
-			cndts:	[]
-			risks:	[230]
-		takerole['ann', 'rolea']
-			cndts:	[]
-			risks:	[230]
-
-
-141
-play_open['ann', 'rolea', 'diana', 'roleb', 'fakeknife']_cc3d
-	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['diana', 'roleb']
-			cndts:	[]
-			risks:	[230]
-		takerole['ann', 'rolea']
-			cndts:	[]
-			risks:	[230]
-
-
-142
-play_open['ann', 'rolea', 'diana', 'rolec', 'realknife']_bcb7
-	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['diana', 'rolec']
-			cndts:	[230]
-			risks:	[]
-		takerole['ann', 'rolea']
-			cndts:	[]
-			risks:	[230]
-
-
-143
-play_open['ann', 'rolea', 'diana', 'rolec', 'fakeknife']_df29
-	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['diana', 'rolec']
-			cndts:	[230]
-			risks:	[]
-		takerole['ann', 'rolea']
-			cndts:	[]
-			risks:	[230]
-
-
-144
-play_open['ann', 'rolea', 'diana', 'rolea', 'realknife']_4e4a
-	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['diana', 'rolea']
-			cndts:	[]
-			risks:	[230]
-		takerole['ann', 'rolea']
-			cndts:	[]
-			risks:	[230]
-
-
-145
-play_open['ann', 'rolea', 'diana', 'rolea', 'fakeknife']_73c4
-	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['diana', 'rolea']
-			cndts:	[]
-			risks:	[230]
-		takerole['ann', 'rolea']
-			cndts:	[]
-			risks:	[230]
-
-
-146
-play_open['ann', 'rolea', 'ann', 'roleb', 'realknife']_69b1
-	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['ann', 'roleb']
-			cndts:	[230]
-			risks:	[]
-		takerole['ann', 'rolea']
-			cndts:	[]
-			risks:	[230]
-
-
-147
-play_open['ann', 'rolea', 'ann', 'roleb', 'fakeknife']_a205
-	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['ann', 'roleb']
-			cndts:	[230]
-			risks:	[]
-		takerole['ann', 'rolea']
-			cndts:	[]
-			risks:	[230]
-
-
-148
-play_open['ann', 'rolea', 'ann', 'rolec', 'realknife']_69d4
-	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['ann', 'rolec']
-			cndts:	[]
-			risks:	[230]
-		takerole['ann', 'rolea']
-			cndts:	[]
-			risks:	[230]
-
-
-149
-play_open['ann', 'rolea', 'ann', 'rolec', 'fakeknife']_4365
-	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['ann', 'rolec']
-			cndts:	[]
-			risks:	[230]
-		takerole['ann', 'rolea']
-			cndts:	[]
-			risks:	[230]
-
-
-150
-play_open['ann', 'rolea', 'ann', 'rolea', 'realknife']_cfe6
-	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['ann', 'rolea']
-			cndts:	[]
-			risks:	[230]
-		takerole['ann', 'rolea']
-			cndts:	[]
-			risks:	[230]
-
-
-151
-play_open['ann', 'rolea', 'ann', 'rolea', 'fakeknife']_e083
-	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['ann', 'rolea']
-			cndts:	[]
-			risks:	[230]
-		takerole['ann', 'rolea']
-			cndts:	[]
-			risks:	[230]
-
-
-152
-play_open['ann', 'rolea', 'alex', 'roleb', 'realknife']_b91f
-	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['alex', 'roleb']
-			cndts:	[]
-			risks:	[230]
-		takerole['ann', 'rolea']
-			cndts:	[]
-			risks:	[230]
-
-
-153
-play_open['ann', 'rolea', 'alex', 'roleb', 'fakeknife']_d37e
-	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['alex', 'roleb']
-			cndts:	[]
-			risks:	[230]
-		takerole['ann', 'rolea']
-			cndts:	[]
-			risks:	[230]
-
-
-154
-play_open['ann', 'rolea', 'alex', 'rolec', 'realknife']_2465
-	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['alex', 'rolec']
-			cndts:	[]
-			risks:	[230]
-		takerole['ann', 'rolea']
-			cndts:	[]
-			risks:	[230]
-
-
-155
-play_open['ann', 'rolea', 'alex', 'rolec', 'fakeknife']_60ae
-	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['alex', 'rolec']
-			cndts:	[]
-			risks:	[230]
-		takerole['ann', 'rolea']
-			cndts:	[]
-			risks:	[230]
-
-
-156
-play_open['ann', 'rolea', 'alex', 'rolea', 'realknife']_ad95
-	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['alex', 'rolea']
-			cndts:	[230]
-			risks:	[]
-		takerole['ann', 'rolea']
-			cndts:	[]
-			risks:	[230]
-
-
-157
-play_open['ann', 'rolea', 'alex', 'rolea', 'fakeknife']_7ac5
-	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['alex', 'rolea']
-			cndts:	[230]
-			risks:	[]
-		takerole['ann', 'rolea']
-			cndts:	[]
-			risks:	[230]
-
-
-158
-play_open['alex', 'roleb', 'diana', 'roleb', 'realknife']_7a1c
-	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['diana', 'roleb']
-			cndts:	[]
-			risks:	[230]
-		takerole['alex', 'roleb']
-			cndts:	[]
-			risks:	[230]
-
-
-159
-play_open['alex', 'roleb', 'diana', 'roleb', 'fakeknife']_c113
-	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['diana', 'roleb']
-			cndts:	[]
-			risks:	[230]
-		takerole['alex', 'roleb']
-			cndts:	[]
-			risks:	[230]
-
-
-160
-play_open['alex', 'roleb', 'diana', 'rolec', 'realknife']_c341
-	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['diana', 'rolec']
-			cndts:	[230]
-			risks:	[]
-		takerole['alex', 'roleb']
-			cndts:	[]
-			risks:	[230]
-
-
-161
-play_open['alex', 'roleb', 'diana', 'rolec', 'fakeknife']_95c8
-	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['diana', 'rolec']
-			cndts:	[230]
-			risks:	[]
-		takerole['alex', 'roleb']
-			cndts:	[]
-			risks:	[230]
-
-
-162
-play_open['alex', 'roleb', 'diana', 'rolea', 'realknife']_1c13
-	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['diana', 'rolea']
-			cndts:	[]
-			risks:	[230]
-		takerole['alex', 'roleb']
-			cndts:	[]
-			risks:	[230]
-
-
-163
-play_open['alex', 'roleb', 'diana', 'rolea', 'fakeknife']_4a6c
-	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['diana', 'rolea']
-			cndts:	[]
-			risks:	[230]
-		takerole['alex', 'roleb']
-			cndts:	[]
-			risks:	[230]
-
-
-164
-play_open['alex', 'roleb', 'ann', 'roleb', 'realknife']_a5d6
-	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['ann', 'roleb']
-			cndts:	[230]
-			risks:	[]
-		takerole['alex', 'roleb']
-			cndts:	[]
-			risks:	[230]
-
-
-165
-play_open['alex', 'roleb', 'ann', 'roleb', 'fakeknife']_71fd
-	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['ann', 'roleb']
-			cndts:	[230]
-			risks:	[]
-		takerole['alex', 'roleb']
-			cndts:	[]
-			risks:	[230]
-
-
-166
-play_open['alex', 'roleb', 'ann', 'rolec', 'realknife']_e715
-	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['ann', 'rolec']
-			cndts:	[]
-			risks:	[230]
-		takerole['alex', 'roleb']
-			cndts:	[]
-			risks:	[230]
-
-
-167
-play_open['alex', 'roleb', 'ann', 'rolec', 'fakeknife']_af8e
-	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['ann', 'rolec']
-			cndts:	[]
-			risks:	[230]
-		takerole['alex', 'roleb']
-			cndts:	[]
-			risks:	[230]
-
-
-168
-play_open['alex', 'roleb', 'ann', 'rolea', 'realknife']_59ff
-	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['ann', 'rolea']
-			cndts:	[]
-			risks:	[230]
-		takerole['alex', 'roleb']
-			cndts:	[]
-			risks:	[230]
-
-
-169
-play_open['alex', 'roleb', 'ann', 'rolea', 'fakeknife']_da8d
-	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['ann', 'rolea']
-			cndts:	[]
-			risks:	[230]
-		takerole['alex', 'roleb']
-			cndts:	[]
-			risks:	[230]
-
-
-170
-play_open['alex', 'roleb', 'alex', 'roleb', 'realknife']_24fb
-	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['alex', 'roleb']
-			cndts:	[]
-			risks:	[230]
-		takerole['alex', 'roleb']
-			cndts:	[]
-			risks:	[230]
-
-
-171
-play_open['alex', 'roleb', 'alex', 'roleb', 'fakeknife']_c44a
-	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['alex', 'roleb']
-			cndts:	[]
-			risks:	[230]
-		takerole['alex', 'roleb']
-			cndts:	[]
-			risks:	[230]
-
-
-172
-play_open['alex', 'roleb', 'alex', 'rolec', 'realknife']_6685
-	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['alex', 'rolec']
-			cndts:	[]
-			risks:	[230]
-		takerole['alex', 'roleb']
-			cndts:	[]
-			risks:	[230]
-
-
-173
-play_open['alex', 'roleb', 'alex', 'rolec', 'fakeknife']_8941
-	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['alex', 'rolec']
-			cndts:	[]
-			risks:	[230]
-		takerole['alex', 'roleb']
-			cndts:	[]
-			risks:	[230]
-
-
-174
-play_open['alex', 'roleb', 'alex', 'rolea', 'realknife']_0d31
-	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['alex', 'rolea']
-			cndts:	[230]
-			risks:	[]
-		takerole['alex', 'roleb']
-			cndts:	[]
-			risks:	[230]
-
-
-175
-play_open['alex', 'roleb', 'alex', 'rolea', 'fakeknife']_4c1c
-	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['alex', 'rolea']
-			cndts:	[230]
-			risks:	[]
-		takerole['alex', 'roleb']
-			cndts:	[]
-			risks:	[230]
-
-
-176
-play_open['alex', 'rolec', 'diana', 'roleb', 'realknife']_2859
-	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['diana', 'roleb']
-			cndts:	[]
-			risks:	[230]
-		takerole['alex', 'rolec']
-			cndts:	[]
-			risks:	[230]
-
-
-177
-play_open['alex', 'rolec', 'diana', 'roleb', 'fakeknife']_1506
-	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['diana', 'roleb']
-			cndts:	[]
-			risks:	[230]
-		takerole['alex', 'rolec']
-			cndts:	[]
-			risks:	[230]
-
-
-178
-play_open['alex', 'rolec', 'diana', 'rolec', 'realknife']_78a0
-	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['diana', 'rolec']
-			cndts:	[230]
-			risks:	[]
-		takerole['alex', 'rolec']
-			cndts:	[]
-			risks:	[230]
-
-
-179
-play_open['alex', 'rolec', 'diana', 'rolec', 'fakeknife']_6096
-	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['diana', 'rolec']
-			cndts:	[230]
-			risks:	[]
-		takerole['alex', 'rolec']
-			cndts:	[]
-			risks:	[230]
-
-
-180
-play_open['alex', 'rolec', 'diana', 'rolea', 'realknife']_5a06
-	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['diana', 'rolea']
-			cndts:	[]
-			risks:	[230]
-		takerole['alex', 'rolec']
-			cndts:	[]
-			risks:	[230]
-
-
-181
-play_open['alex', 'rolec', 'diana', 'rolea', 'fakeknife']_1cab
-	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['diana', 'rolea']
-			cndts:	[]
-			risks:	[230]
-		takerole['alex', 'rolec']
-			cndts:	[]
-			risks:	[230]
-
-
-182
-play_open['alex', 'rolec', 'ann', 'roleb', 'realknife']_b87a
-	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['ann', 'roleb']
-			cndts:	[230]
-			risks:	[]
-		takerole['alex', 'rolec']
-			cndts:	[]
-			risks:	[230]
-
-
-183
-play_open['alex', 'rolec', 'ann', 'roleb', 'fakeknife']_59bd
-	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['ann', 'roleb']
-			cndts:	[230]
-			risks:	[]
-		takerole['alex', 'rolec']
-			cndts:	[]
-			risks:	[230]
-
-
-184
-play_open['alex', 'rolec', 'ann', 'rolec', 'realknife']_f474
-	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['ann', 'rolec']
-			cndts:	[]
-			risks:	[230]
-		takerole['alex', 'rolec']
-			cndts:	[]
-			risks:	[230]
-
-
-185
-play_open['alex', 'rolec', 'ann', 'rolec', 'fakeknife']_3773
-	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['ann', 'rolec']
-			cndts:	[]
-			risks:	[230]
-		takerole['alex', 'rolec']
-			cndts:	[]
-			risks:	[230]
-
-
-186
-play_open['alex', 'rolec', 'ann', 'rolea', 'realknife']_870a
-	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['ann', 'rolea']
-			cndts:	[]
-			risks:	[230]
-		takerole['alex', 'rolec']
-			cndts:	[]
-			risks:	[230]
-
-
-187
-play_open['alex', 'rolec', 'ann', 'rolea', 'fakeknife']_e854
-	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['ann', 'rolea']
-			cndts:	[]
-			risks:	[230]
-		takerole['alex', 'rolec']
-			cndts:	[]
-			risks:	[230]
-
-
-188
-play_open['alex', 'rolec', 'alex', 'roleb', 'realknife']_e6c2
-	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['alex', 'roleb']
-			cndts:	[]
-			risks:	[230]
-		takerole['alex', 'rolec']
-			cndts:	[]
-			risks:	[230]
-
-
-189
-play_open['alex', 'rolec', 'alex', 'roleb', 'fakeknife']_5e75
-	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['alex', 'roleb']
-			cndts:	[]
-			risks:	[230]
-		takerole['alex', 'rolec']
-			cndts:	[]
-			risks:	[230]
-
-
-190
-play_open['alex', 'rolec', 'alex', 'rolec', 'realknife']_a2a4
-	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['alex', 'rolec']
-			cndts:	[]
-			risks:	[230]
-		takerole['alex', 'rolec']
-			cndts:	[]
-			risks:	[230]
-
-
-191
-play_open['alex', 'rolec', 'alex', 'rolec', 'fakeknife']_2314
-	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['alex', 'rolec']
-			cndts:	[]
-			risks:	[230]
-		takerole['alex', 'rolec']
-			cndts:	[]
-			risks:	[230]
-
-
-192
-play_open['alex', 'rolec', 'alex', 'rolea', 'realknife']_8f3f
-	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['alex', 'rolea']
-			cndts:	[230]
-			risks:	[]
-		takerole['alex', 'rolec']
-			cndts:	[]
-			risks:	[230]
-
-
-193
-play_open['alex', 'rolec', 'alex', 'rolea', 'fakeknife']_3848
-	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['alex', 'rolea']
-			cndts:	[230]
-			risks:	[]
-		takerole['alex', 'rolec']
-			cndts:	[]
-			risks:	[230]
-
-
-194
-play_open['alex', 'rolea', 'diana', 'roleb', 'realknife']_d6dd
-	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['diana', 'roleb']
-			cndts:	[]
-			risks:	[230]
-		takerole['alex', 'rolea']
-			cndts:	[230]
-			risks:	[]
-
-
-195
-play_open['alex', 'rolea', 'diana', 'roleb', 'fakeknife']_6d5a
-	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['diana', 'roleb']
-			cndts:	[]
-			risks:	[230]
-		takerole['alex', 'rolea']
-			cndts:	[230]
-			risks:	[]
-
-
-196
-play_open['alex', 'rolea', 'diana', 'rolec', 'realknife']_7e96
-	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['diana', 'rolec']
-			cndts:	[230]
-			risks:	[]
-		takerole['alex', 'rolea']
-			cndts:	[230]
-			risks:	[]
-
-
-197
-play_open['alex', 'rolea', 'diana', 'rolec', 'fakeknife']_3f4c
-	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['diana', 'rolec']
-			cndts:	[230]
-			risks:	[]
-		takerole['alex', 'rolea']
-			cndts:	[230]
-			risks:	[]
-
-
-198
-play_open['alex', 'rolea', 'diana', 'rolea', 'realknife']_7a51
-	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['diana', 'rolea']
-			cndts:	[]
-			risks:	[230]
-		takerole['alex', 'rolea']
-			cndts:	[230]
-			risks:	[]
-
-
-199
-play_open['alex', 'rolea', 'diana', 'rolea', 'fakeknife']_9899
-	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['diana', 'rolea']
-			cndts:	[]
-			risks:	[230]
-		takerole['alex', 'rolea']
-			cndts:	[230]
-			risks:	[]
-
-
-200
-play_open['alex', 'rolea', 'ann', 'roleb', 'realknife']_44d8
-	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['ann', 'roleb']
-			cndts:	[230]
-			risks:	[]
-		takerole['alex', 'rolea']
-			cndts:	[230]
-			risks:	[]
-
-
-201
-play_open['alex', 'rolea', 'ann', 'roleb', 'fakeknife']_e762
-	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['ann', 'roleb']
-			cndts:	[230]
-			risks:	[]
-		takerole['alex', 'rolea']
-			cndts:	[230]
-			risks:	[]
-
-
-202
-play_open['alex', 'rolea', 'ann', 'rolec', 'realknife']_50a0
-	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['ann', 'rolec']
-			cndts:	[]
-			risks:	[230]
-		takerole['alex', 'rolea']
-			cndts:	[230]
-			risks:	[]
-
-
-203
-play_open['alex', 'rolea', 'ann', 'rolec', 'fakeknife']_2083
-	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['ann', 'rolec']
-			cndts:	[]
-			risks:	[230]
-		takerole['alex', 'rolea']
-			cndts:	[230]
-			risks:	[]
-
-
-204
-play_open['alex', 'rolea', 'ann', 'rolea', 'realknife']_1003
-	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['ann', 'rolea']
-			cndts:	[]
-			risks:	[230]
-		takerole['alex', 'rolea']
-			cndts:	[230]
-			risks:	[]
-
-
-205
-play_open['alex', 'rolea', 'ann', 'rolea', 'fakeknife']_a30c
-	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['ann', 'rolea']
-			cndts:	[]
-			risks:	[230]
-		takerole['alex', 'rolea']
-			cndts:	[230]
-			risks:	[]
-
-
-206
-play_open['alex', 'rolea', 'alex', 'roleb', 'realknife']_788c
-	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['alex', 'roleb']
-			cndts:	[]
-			risks:	[230]
-		takerole['alex', 'rolea']
-			cndts:	[230]
-			risks:	[]
-
-
-207
-play_open['alex', 'rolea', 'alex', 'roleb', 'fakeknife']_52d5
-	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['alex', 'roleb']
-			cndts:	[]
-			risks:	[230]
-		takerole['alex', 'rolea']
-			cndts:	[230]
-			risks:	[]
-
-
-208
-play_open['alex', 'rolea', 'alex', 'rolec', 'realknife']_1c95
-	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['alex', 'rolec']
-			cndts:	[]
-			risks:	[230]
-		takerole['alex', 'rolea']
-			cndts:	[230]
-			risks:	[]
-
-
-209
-play_open['alex', 'rolea', 'alex', 'rolec', 'fakeknife']_8aa9
-	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['alex', 'rolec']
-			cndts:	[]
-			risks:	[230]
-		takerole['alex', 'rolea']
-			cndts:	[230]
-			risks:	[]
-
-
-210
-play_open['alex', 'rolea', 'alex', 'rolea', 'realknife']_23fe
-	preconditions:
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-		takerole['alex', 'rolea']
-			cndts:	[230]
-			risks:	[]
-		takerole['alex', 'rolea']
-			cndts:	[230]
-			risks:	[]
-
-
-211
-play_open['alex', 'rolea', 'alex', 'rolea', 'fakeknife']_e890
-	preconditions:
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-		takerole['alex', 'rolea']
-			cndts:	[230]
-			risks:	[]
-		takerole['alex', 'rolea']
-			cndts:	[230]
-			risks:	[]
-
-
-212
-murder_on_play['diana', 'diana', 'realknife']_08f8
-	preconditions:
-		onplay['diana', 'diana']
-			cndts:	[89, 68, 69, 70, 71, 72, 73, 91, 50, 51, 52, 53, 54, 55, 86, 87, 90, 88]
-			risks:	[230]
+dummy_goal[]_7a6f
+	preconditions:
+		takerole['alex', 'starring']
+			cndts:	[28, 29, 42, 43, 54, 55, 66, 67, 78, 79, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103]
+			risks:	[125]
 		weapon['realknife']
-			cndts:	[230]
-			risks:	[]
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-
-
-213
-murder_on_play['diana', 'diana', 'fakeknife']_d837
-	preconditions:
-		onplay['diana', 'diana']
-			cndts:	[89, 68, 69, 70, 71, 72, 73, 91, 50, 51, 52, 53, 54, 55, 86, 87, 90, 88]
-			risks:	[230]
-		weapon['fakeknife']
-			cndts:	[]
-			risks:	[230]
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-
-
-214
-murder_on_play['diana', 'ann', 'realknife']_464d
-	preconditions:
-		onplay['diana', 'ann']
-			cndts:	[104, 105, 106, 107, 108, 109, 140, 141, 142, 143, 144, 145, 122, 123, 124, 125, 126, 127]
-			risks:	[230]
-		weapon['realknife']
-			cndts:	[230]
-			risks:	[]
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-
-
-215
-murder_on_play['diana', 'ann', 'fakeknife']_12df
-	preconditions:
-		onplay['diana', 'ann']
-			cndts:	[104, 105, 106, 107, 108, 109, 140, 141, 142, 143, 144, 145, 122, 123, 124, 125, 126, 127]
-			risks:	[230]
-		weapon['fakeknife']
-			cndts:	[]
-			risks:	[230]
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-
-
-216
-murder_on_play['diana', 'alex', 'realknife']_0bf3
-	preconditions:
-		onplay['diana', 'alex']
-			cndts:	[160, 161, 162, 163, 194, 195, 196, 197, 198, 199, 176, 177, 178, 179, 180, 181, 158, 159]
-			risks:	[230]
-		weapon['realknife']
-			cndts:	[230]
-			risks:	[]
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-
-
-217
-murder_on_play['diana', 'alex', 'fakeknife']_84db
-	preconditions:
-		onplay['diana', 'alex']
-			cndts:	[160, 161, 162, 163, 194, 195, 196, 197, 198, 199, 176, 177, 178, 179, 180, 181, 158, 159]
-			risks:	[230]
-		weapon['fakeknife']
-			cndts:	[]
-			risks:	[230]
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-
-
-218
-murder_on_play['ann', 'diana', 'realknife']_c241
-	preconditions:
-		onplay['ann', 'diana']
-			cndts:	[96, 97, 74, 75, 76, 77, 78, 79, 92, 93, 56, 57, 58, 59, 60, 61, 94, 95]
-			risks:	[230]
-		weapon['realknife']
-			cndts:	[230]
-			risks:	[]
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-
-
-219
-murder_on_play['ann', 'diana', 'fakeknife']_061b
-	preconditions:
-		onplay['ann', 'diana']
-			cndts:	[96, 97, 74, 75, 76, 77, 78, 79, 92, 93, 56, 57, 58, 59, 60, 61, 94, 95]
-			risks:	[230]
-		weapon['fakeknife']
-			cndts:	[]
-			risks:	[230]
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-
-
-220
-murder_on_play['ann', 'ann', 'realknife']_e836
-	preconditions:
-		onplay['ann', 'ann']
-			cndts:	[128, 129, 130, 131, 132, 133, 110, 111, 112, 113, 114, 115, 146, 147, 148, 149, 150, 151]
-			risks:	[230]
-		weapon['realknife']
-			cndts:	[230]
-			risks:	[]
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-
-
-221
-murder_on_play['ann', 'ann', 'fakeknife']_570a
-	preconditions:
-		onplay['ann', 'ann']
-			cndts:	[128, 129, 130, 131, 132, 133, 110, 111, 112, 113, 114, 115, 146, 147, 148, 149, 150, 151]
-			risks:	[230]
-		weapon['fakeknife']
-			cndts:	[]
-			risks:	[230]
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-
-
-222
-murder_on_play['ann', 'alex', 'realknife']_b59c
-	preconditions:
-		onplay['ann', 'alex']
-			cndts:	[164, 165, 166, 167, 168, 169, 200, 201, 202, 203, 204, 205, 182, 183, 184, 185, 186, 187]
-			risks:	[230]
-		weapon['realknife']
-			cndts:	[230]
-			risks:	[]
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-
-
-223
-murder_on_play['ann', 'alex', 'fakeknife']_64f9
-	preconditions:
-		onplay['ann', 'alex']
-			cndts:	[164, 165, 166, 167, 168, 169, 200, 201, 202, 203, 204, 205, 182, 183, 184, 185, 186, 187]
-			risks:	[230]
-		weapon['fakeknife']
-			cndts:	[]
-			risks:	[230]
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-
-
-224
-murder_on_play['alex', 'diana', 'realknife']_d33b
-	preconditions:
-		onplay['alex', 'diana']
-			cndts:	[64, 65, 66, 67, 98, 99, 100, 101, 102, 103, 80, 81, 82, 83, 84, 85, 62, 63]
-			risks:	[230]
-		weapon['realknife']
-			cndts:	[230]
-			risks:	[]
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-
-
-225
-murder_on_play['alex', 'diana', 'fakeknife']_0437
-	preconditions:
-		onplay['alex', 'diana']
-			cndts:	[64, 65, 66, 67, 98, 99, 100, 101, 102, 103, 80, 81, 82, 83, 84, 85, 62, 63]
-			risks:	[230]
-		weapon['fakeknife']
-			cndts:	[]
-			risks:	[230]
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-
-
-226
-murder_on_play['alex', 'ann', 'realknife']_35be
-	preconditions:
-		onplay['alex', 'ann']
-			cndts:	[153, 134, 135, 136, 137, 138, 139, 116, 117, 118, 119, 120, 121, 154, 155, 156, 152, 157]
-			risks:	[230]
-		weapon['realknife']
-			cndts:	[230]
-			risks:	[]
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-
-
-227
-murder_on_play['alex', 'ann', 'fakeknife']_ff4b
-	preconditions:
-		onplay['alex', 'ann']
-			cndts:	[153, 134, 135, 136, 137, 138, 139, 116, 117, 118, 119, 120, 121, 154, 155, 156, 152, 157]
-			risks:	[230]
-		weapon['fakeknife']
-			cndts:	[]
-			risks:	[230]
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-
-
-228
-murder_on_play['alex', 'alex', 'realknife']_73b7
-	preconditions:
-		onplay['alex', 'alex']
-			cndts:	[192, 193, 170, 171, 172, 173, 174, 175, 206, 207, 208, 209, 210, 211, 188, 189, 190, 191]
-			risks:	[230]
-		weapon['realknife']
-			cndts:	[230]
-			risks:	[]
-		set['realknife']
-			cndts:	[0, 33, 35, 37, 39, 29, 31]
-			risks:	[33, 34, 37, 38, 230, 29, 30]
-
-
-229
-murder_on_play['alex', 'alex', 'fakeknife']_f5b3
-	preconditions:
-		onplay['alex', 'alex']
-			cndts:	[192, 193, 170, 171, 172, 173, 174, 175, 206, 207, 208, 209, 210, 211, 188, 189, 190, 191]
-			risks:	[230]
-		weapon['fakeknife']
-			cndts:	[]
-			risks:	[230]
-		set['fakeknife']
-			cndts:	[32, 1, 34, 36, 38, 40, 30]
-			risks:	[32, 35, 36, 230, 39, 40, 31]
-
-
-230
-dummy_init[]_2d1c
-	preconditions:
-		not-killed['alex', 'diana']
-		not-hate['ann', 'diana']
-		not-hate['alex', 'ann']
-		not-moreimportant['rolec', 'rolea']
-		not-set['realknife']
-		not-moreimportant['roleb', 'roleb']
-		not-killed['ann', 'ann']
-		not-hate['diana', 'diana']
-		not-killed['diana', 'ann']
-		not-hate['alex', 'alex']
-		not-killed['ann', 'alex']
-		not-killed['ann', 'diana']
-		hate['ann', 'alex']
+			cndts:	[1, 3, 5, 7, 9, 105, 11, 107, 13, 109, 15, 111, 17, 113, 115]
+			risks:	[125]
+		takerole['diana', 'supporting']
+			cndts:	[22, 23, 36, 37, 48, 49, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 72, 73, 84, 85, 96, 97]
+			risks:	[125]
+		moreimportant['starring', 'supporting']
+			cndts:	[27, 19, 23]
+			risks:	[125]
 		stageproperty['fakeknife']
-		not-planmurder['ann']
-		not-moreimportant['rolec', 'roleb']
-		moreimportant['roleb', 'rolec']
-		not-onplay['diana', 'diana']
-		weapon['realknife']
-		not-onplay['ann', 'alex']
-		not-moreimportant['rolea', 'rolea']
-		not-moreimportant['rolea', 'roleb']
-		not-planmurder['alex']
-		not-set['fakeknife']
-		not-takerole['diana', 'rolea']
-		not-onplay['diana', 'ann']
-		not-hate['ann', 'ann']
-		takerole['ann', 'roleb']
-		not-hate['diana', 'alex']
-		not-killed['alex', 'ann']
-		not-killed['diana', 'alex']
-		not-killed['diana', 'diana']
-		not-takerole['ann', 'rolec']
-		not-takerole['alex', 'rolec']
-		not-takerole['alex', 'roleb']
-		not-takerole['diana', 'roleb']
-		not-hate['alex', 'diana']
-		not-killed['alex', 'alex']
-		not-onplay['alex', 'ann']
-		not-weapon['fakeknife']
-		not-moreimportant['rolec', 'rolec']
-		takerole['diana', 'rolec']
-		not-onplay['ann', 'ann']
-		not-stageproperty['realknife']
-		not-planmurder['diana']
-		not-onplay['alex', 'diana']
-		takerole['alex', 'rolea']
-		not-moreimportant['rolea', 'rolec']
-		not-takerole['ann', 'rolea']
-		not-hate['diana', 'ann']
-		not-moreimportant['roleb', 'rolea']
-		not-onplay['ann', 'diana']
-		not-onplay['diana', 'alex']
-		not-onplay['alex', 'alex']
-
-
-231
-dummy_goal[]_dacf
-	preconditions:
-		killed['ann', 'alex']
-			cndts:	[222, 223]
-			risks:	[230]
+			cndts:	[104, 105, 108, 109, 112, 113, 30]
+			risks:	[125]
+		takerole['ann', 'starring']
+			cndts:	[20, 21, 34, 35, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 58, 59, 70, 71, 82, 83, 94, 95]
+			risks:	[125]
 

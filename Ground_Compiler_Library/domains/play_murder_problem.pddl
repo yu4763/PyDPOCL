@@ -2,16 +2,16 @@
     (:domain play_murder_domain)
 
     (:objects Ann Alex Diana - person
-              roleA roleB roleC - role
+              starring supporting - role
               FakeKnife RealKnife - item)
 
     (:init
         (stageProperty FakeKnife)
         (weapon RealKnife)
-        (takeRole Alex roleA)
-        (takeRole Ann roleB)
-        (takeRole Diana roleC)
-        (moreImportant roleB roleC)
+        (takeRole Alex starring)
+        (takeRole Ann starring)
+        (takeRole Diana supporting)
+        (moreImportant starring supporting)
         (hate Ann Alex)
     )
 

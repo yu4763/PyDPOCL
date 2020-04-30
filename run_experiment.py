@@ -4,11 +4,11 @@ from PyDPOCL import *
 if __name__ == '__main__':
 
 	# domain_file = 'Ground_Compiler_Library//domains/travel_domain_primitive_only.pddl'
-	domain_file = 'Ground_Compiler_Library//domains/travel_domain.pddl'
+	domain_file = 'Ground_Compiler_Library//domains/play_murder_domain.pddl'
 
 	# Problem files
 	# 1] 1 agent, 1 car, 1 airplane, 2 locations
-	problem_file_1 = 'Ground_Compiler_Library//domains/travel-to-la.pddl'
+	problem_file_1 = 'Ground_Compiler_Library//domains/play_murder_problem.pddl'
 	# 2] 2 agents, 1 car, 1 airplane, 2 locations, 1 goal
 	problem_file_2 = 'Ground_Compiler_Library//domains/travel-2.pddl'
 	# 3] 2 agents, 1 car, 1 airplane, 2 locations, 2 goals
@@ -24,11 +24,12 @@ if __name__ == '__main__':
 	# 8] 4 agents, 1 car, 1 airplane, 4 locations, 2 goals
 	problem_file_8 = 'Ground_Compiler_Library//domains/travel-8.pddl'
 
-	problems = [problem_file_1, problem_file_2, problem_file_3, problem_file_4,
-	           problem_file_5, problem_file_6, problem_file_7, problem_file_8]
-	# problems = [problem_file_8]
+	# problems = [problem_file_1, problem_file_2, problem_file_3, problem_file_4,
+	#            problem_file_5, problem_file_6, problem_file_7, problem_file_8]
 
+	problems = [problem_file_1]
 	d_name = domain_file.split('/')[-1].split('.')[0]
+
 
 	# for each problem, solve in 1 of 4 ways... but need way to run in different ways
 
@@ -36,7 +37,10 @@ if __name__ == '__main__':
 		p_name = prob.split('/')[-1].split('.')[0]
 		uploadable_ground_step_library_name = 'Ground_Compiler_Library//' + d_name + '.' + p_name
 
-		RELOAD = 0
+
+		# set RELOAD to 1 on first run afterwards set it to 0
+
+		RELOAD = 1
 		if RELOAD:
 			print('reloading')
 			ground_steps = just_compile(domain_file, prob, uploadable_ground_step_library_name)
@@ -56,5 +60,17 @@ if __name__ == '__main__':
 		print(p_name)
 
 		planner = GPlanner(ground_steps)
-		planner.solve(k=40, cutoff=1200)
-		# planner.solve(k=40, cutoff=10)
+
+		k = 2
+		out = planner.solve(k=k, cutoff=1200)
+
+		var = str(out)
+		length = min(k, len(out))
+
+		for j in range(length):
+			for step in out[j].OrderingGraph.topoSort():
+				print('\t\t{}\n'.format(str(step)))
+				print()
+			print('-------------------------------------------------------------------------')
+
+		print("number of plans: " + str(length))

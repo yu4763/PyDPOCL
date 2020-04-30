@@ -4,11 +4,11 @@ from PyDPOCL import *
 if __name__ == '__main__':
 
 	# domain_file = 'Ground_Compiler_Library//domains/travel_domain_primitive_only.pddl'
-	domain_file = 'Ground_Compiler_Library//domains/tower_murder_domain.pddl'
+	domain_file = 'Ground_Compiler_Library//domains/tower_detective_domain.pddl'
 
 	# Problem files
 	# 1] 1 agent, 1 car, 1 airplane, 2 locations
-	problem_file_1 = 'Ground_Compiler_Library//domains/tower_murder_problem.pddl'
+	problem_file_1 = 'Ground_Compiler_Library//domains/tower_detective_problem.pddl'
 	# 2] 2 agents, 1 car, 1 airplane, 2 locations, 1 goal
 	problem_file_2 = 'Ground_Compiler_Library//domains/travel-2.pddl'
 	# 3] 2 agents, 1 car, 1 airplane, 2 locations, 2 goals
@@ -61,7 +61,7 @@ if __name__ == '__main__':
 
 		planner = GPlanner(ground_steps)
 
-		k = 2
+		k = 1
 		out = planner.solve(k=k, cutoff=1200)
 
 		var = str(out)

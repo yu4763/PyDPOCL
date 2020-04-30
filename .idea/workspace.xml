@@ -2,10 +2,116 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e164480-2de6-415b-9fb3-731e65390256" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/domains/play_murder_domain.pddl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/domains/play_murder_problem.pddl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ground_steps.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ground_steps_stripped.txt" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/domains/tower_detective_domain.pddl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/domains/tower_detective_problem.pddl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem10" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem100" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem101" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem102" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem103" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem11" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem12" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem13" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem14" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem15" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem16" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem17" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem18" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem19" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem20" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem21" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem22" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem23" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem24" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem25" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem26" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem27" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem28" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem29" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem30" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem31" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem32" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem33" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem34" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem35" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem36" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem37" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem38" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem39" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem40" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem41" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem42" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem43" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem44" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem45" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem46" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem47" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem48" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem49" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem50" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem51" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem52" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem53" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem54" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem55" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem56" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem57" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem58" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem59" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem60" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem61" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem62" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem63" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem64" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem65" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem66" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem67" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem68" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem69" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem70" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem71" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem72" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem73" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem74" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem75" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem76" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem77" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem78" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem79" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem80" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem81" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem82" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem83" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem84" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem85" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem86" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem87" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem88" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem89" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem90" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem91" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem92" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem93" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem94" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem95" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem96" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem97" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem98" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ground_Compiler_Library/tower_detective_domain.tower_detective_problem99" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ground_steps.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ground_steps.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ground_steps_stripped.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ground_steps_stripped.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_experiment.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_experiment.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,22 +339,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1588242935000" />
-    <state width="746" height="29" key="GridCell.Tab.0.bottom" timestamp="1588245307462">
+    <state width="1515" height="273" key="GridCell.Tab.0.bottom" timestamp="1588247904221">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="29" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588245307462" />
-    <state width="746" height="29" key="GridCell.Tab.0.center" timestamp="1588245307462">
+    <state width="1515" height="273" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588247904221" />
+    <state width="1515" height="273" key="GridCell.Tab.0.center" timestamp="1588247904221">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="29" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588245307462" />
-    <state width="746" height="29" key="GridCell.Tab.0.left" timestamp="1588245307461">
+    <state width="1515" height="273" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588247904221" />
+    <state width="1515" height="273" key="GridCell.Tab.0.left" timestamp="1588247904221">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="29" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588245307461" />
-    <state width="746" height="29" key="GridCell.Tab.0.right" timestamp="1588245307462">
+    <state width="1515" height="273" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588247904221" />
+    <state width="1515" height="273" key="GridCell.Tab.0.right" timestamp="1588247904221">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="29" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588245307462" />
+    <state width="1515" height="273" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588247904221" />
     <state x="940" y="123" key="RollbackChangesDialog" timestamp="1588245264465">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

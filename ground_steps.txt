@@ -1,885 +1,891 @@
-have_an_affair-0-9671['alex', 'alex']
+murder-0-bbba['diana', 'diana']
 	preconditions:
-		married['alex']
-		love['alex', 'alex']
-		single['alex']
-		love['alex', 'alex']
+		killed['diana', 'diana']
 	effects:
-		affair['alex', 'alex']
+		plantokill['diana', 'diana']
 
-have_an_affair-1-9671['alex', 'diana']
+murder-1-bbba['diana', 'ann']
 	preconditions:
-		married['alex']
-		love['alex', 'diana']
-		single['diana']
-		love['diana', 'alex']
+		killed['diana', 'ann']
 	effects:
-		affair['alex', 'diana']
+		plantokill['diana', 'ann']
 
-have_an_affair-2-9671['alex', 'ann']
+murder-2-bbba['diana', 'alex']
 	preconditions:
-		married['alex']
-		love['alex', 'ann']
-		single['ann']
-		love['ann', 'alex']
-	effects:
-		affair['alex', 'ann']
-
-have_an_affair-3-9671['diana', 'alex']
-	preconditions:
-		married['diana']
-		love['diana', 'alex']
-		single['alex']
-		love['alex', 'diana']
-	effects:
-		affair['diana', 'alex']
-
-have_an_affair-4-9671['diana', 'diana']
-	preconditions:
-		married['diana']
-		love['diana', 'diana']
-		single['diana']
-		love['diana', 'diana']
-	effects:
-		affair['diana', 'diana']
-
-have_an_affair-5-9671['diana', 'ann']
-	preconditions:
-		married['diana']
-		love['diana', 'ann']
-		single['ann']
-		love['ann', 'diana']
-	effects:
-		affair['diana', 'ann']
-
-have_an_affair-6-9671['ann', 'alex']
-	preconditions:
-		married['ann']
-		love['ann', 'alex']
-		single['alex']
-		love['alex', 'ann']
-	effects:
-		affair['ann', 'alex']
-
-have_an_affair-7-9671['ann', 'diana']
-	preconditions:
-		married['ann']
-		love['ann', 'diana']
-		single['diana']
-		love['diana', 'ann']
-	effects:
-		affair['ann', 'diana']
-
-have_an_affair-8-9671['ann', 'ann']
-	preconditions:
-		married['ann']
-		love['ann', 'ann']
-		single['ann']
-		love['ann', 'ann']
-	effects:
-		affair['ann', 'ann']
-
-park_under_clock_tower-9-9c62['alex', 'clock', 'clock']
-	preconditions:
-		not-afternoon['clock']
-		tower['clock']
-		setupalibi['alex']
-		have['alex', 'clock']
-	effects:
-		existundertower['clock']
-
-park_under_clock_tower-10-9c62['alex', 'clock', 'car']
-	preconditions:
-		not-afternoon['car']
-		tower['car']
-		setupalibi['alex']
-		have['alex', 'clock']
-	effects:
-		existundertower['clock']
-
-park_under_clock_tower-11-9c62['alex', 'car', 'clock']
-	preconditions:
-		not-afternoon['clock']
-		tower['clock']
-		setupalibi['alex']
-		have['alex', 'car']
-	effects:
-		existundertower['car']
-
-park_under_clock_tower-12-9c62['alex', 'car', 'car']
-	preconditions:
-		not-afternoon['car']
-		tower['car']
-		setupalibi['alex']
-		have['alex', 'car']
-	effects:
-		existundertower['car']
-
-park_under_clock_tower-13-9c62['diana', 'clock', 'clock']
-	preconditions:
-		not-afternoon['clock']
-		tower['clock']
-		setupalibi['diana']
-		have['diana', 'clock']
-	effects:
-		existundertower['clock']
-
-park_under_clock_tower-14-9c62['diana', 'clock', 'car']
-	preconditions:
-		not-afternoon['car']
-		tower['car']
-		setupalibi['diana']
-		have['diana', 'clock']
-	effects:
-		existundertower['clock']
-
-park_under_clock_tower-15-9c62['diana', 'car', 'clock']
-	preconditions:
-		not-afternoon['clock']
-		tower['clock']
-		setupalibi['diana']
-		have['diana', 'car']
-	effects:
-		existundertower['car']
-
-park_under_clock_tower-16-9c62['diana', 'car', 'car']
-	preconditions:
-		not-afternoon['car']
-		tower['car']
-		setupalibi['diana']
-		have['diana', 'car']
-	effects:
-		existundertower['car']
-
-park_under_clock_tower-17-9c62['ann', 'clock', 'clock']
-	preconditions:
-		not-afternoon['clock']
-		tower['clock']
-		setupalibi['ann']
-		have['ann', 'clock']
-	effects:
-		existundertower['clock']
-
-park_under_clock_tower-18-9c62['ann', 'clock', 'car']
-	preconditions:
-		not-afternoon['car']
-		tower['car']
-		setupalibi['ann']
-		have['ann', 'clock']
-	effects:
-		existundertower['clock']
-
-park_under_clock_tower-19-9c62['ann', 'car', 'clock']
-	preconditions:
-		not-afternoon['clock']
-		tower['clock']
-		setupalibi['ann']
-		have['ann', 'car']
-	effects:
-		existundertower['car']
-
-park_under_clock_tower-20-9c62['ann', 'car', 'car']
-	preconditions:
-		not-afternoon['car']
-		tower['car']
-		setupalibi['ann']
-		have['ann', 'car']
-	effects:
-		existundertower['car']
-
-murder-21-9137['alex', 'alex']
-	preconditions:
-		plantokill['alex', 'alex']
-	effects:
-		killed['alex', 'alex']
-
-murder-22-9137['alex', 'diana']
-	preconditions:
-		plantokill['alex', 'diana']
-	effects:
-		killed['alex', 'diana']
-
-murder-23-9137['alex', 'ann']
-	preconditions:
-		plantokill['alex', 'ann']
-	effects:
-		killed['alex', 'ann']
-
-murder-24-9137['diana', 'alex']
-	preconditions:
-		plantokill['diana', 'alex']
-	effects:
 		killed['diana', 'alex']
+	effects:
+		plantokill['diana', 'alex']
 
-murder-25-9137['diana', 'diana']
+murder-3-bbba['ann', 'diana']
 	preconditions:
+		killed['ann', 'diana']
+	effects:
+		plantokill['ann', 'diana']
+
+murder-4-bbba['ann', 'ann']
+	preconditions:
+		killed['ann', 'ann']
+	effects:
+		plantokill['ann', 'ann']
+
+murder-5-bbba['ann', 'alex']
+	preconditions:
+		killed['ann', 'alex']
+	effects:
+		plantokill['ann', 'alex']
+
+murder-6-bbba['alex', 'diana']
+	preconditions:
+		killed['alex', 'diana']
+	effects:
+		plantokill['alex', 'diana']
+
+murder-7-bbba['alex', 'ann']
+	preconditions:
+		killed['alex', 'ann']
+	effects:
+		plantokill['alex', 'ann']
+
+murder-8-bbba['alex', 'alex']
+	preconditions:
+		killed['alex', 'alex']
+	effects:
+		plantokill['alex', 'alex']
+
+car_alarm-9-b900['clock', 'diana', 'clock']
+	preconditions:
+		alarm['diana', 'clock']
+	effects:
+		existundertower['clock']
+		tower['clock']
+		afternoon['clock']
+
+car_alarm-10-b900['clock', 'diana', 'car']
+	preconditions:
+		alarm['diana', 'car']
+	effects:
+		existundertower['car']
+		tower['clock']
+		afternoon['clock']
+
+car_alarm-11-b900['clock', 'ann', 'clock']
+	preconditions:
+		alarm['ann', 'clock']
+	effects:
+		existundertower['clock']
+		tower['clock']
+		afternoon['clock']
+
+car_alarm-12-b900['clock', 'ann', 'car']
+	preconditions:
+		alarm['ann', 'car']
+	effects:
+		existundertower['car']
+		tower['clock']
+		afternoon['clock']
+
+car_alarm-13-b900['clock', 'alex', 'clock']
+	preconditions:
+		alarm['alex', 'clock']
+	effects:
+		existundertower['clock']
+		tower['clock']
+		afternoon['clock']
+
+car_alarm-14-b900['clock', 'alex', 'car']
+	preconditions:
+		alarm['alex', 'car']
+	effects:
+		existundertower['car']
+		tower['clock']
+		afternoon['clock']
+
+car_alarm-15-b900['car', 'diana', 'clock']
+	preconditions:
+		alarm['diana', 'clock']
+	effects:
+		existundertower['clock']
+		tower['car']
+		afternoon['car']
+
+car_alarm-16-b900['car', 'diana', 'car']
+	preconditions:
+		alarm['diana', 'car']
+	effects:
+		existundertower['car']
+		tower['car']
+		afternoon['car']
+
+car_alarm-17-b900['car', 'ann', 'clock']
+	preconditions:
+		alarm['ann', 'clock']
+	effects:
+		existundertower['clock']
+		tower['car']
+		afternoon['car']
+
+car_alarm-18-b900['car', 'ann', 'car']
+	preconditions:
+		alarm['ann', 'car']
+	effects:
+		existundertower['car']
+		tower['car']
+		afternoon['car']
+
+car_alarm-19-b900['car', 'alex', 'clock']
+	preconditions:
+		alarm['alex', 'clock']
+	effects:
+		existundertower['clock']
+		tower['car']
+		afternoon['car']
+
+car_alarm-20-b900['car', 'alex', 'car']
+	preconditions:
+		alarm['alex', 'car']
+	effects:
+		existundertower['car']
+		tower['car']
+		afternoon['car']
+
+want_to_reveal_affair_to-21-bea3['diana', 'diana', 'diana']
+	preconditions:
+		setupalibi['diana']
 		plantokill['diana', 'diana']
 	effects:
-		killed['diana', 'diana']
+		affair['diana', 'diana']
+		marrywith['diana', 'diana']
 
-murder-26-9137['diana', 'ann']
+want_to_reveal_affair_to-22-bea3['diana', 'diana', 'ann']
 	preconditions:
+		setupalibi['diana']
+		plantokill['diana', 'diana']
+	effects:
+		affair['diana', 'diana']
+		marrywith['diana', 'ann']
+
+want_to_reveal_affair_to-23-bea3['diana', 'diana', 'alex']
+	preconditions:
+		setupalibi['diana']
+		plantokill['diana', 'diana']
+	effects:
+		affair['diana', 'diana']
+		marrywith['diana', 'alex']
+
+want_to_reveal_affair_to-24-bea3['diana', 'ann', 'diana']
+	preconditions:
+		setupalibi['diana']
 		plantokill['diana', 'ann']
 	effects:
-		killed['diana', 'ann']
+		affair['diana', 'ann']
+		marrywith['diana', 'diana']
 
-murder-27-9137['ann', 'alex']
+want_to_reveal_affair_to-25-bea3['diana', 'ann', 'ann']
 	preconditions:
-		plantokill['ann', 'alex']
+		setupalibi['diana']
+		plantokill['diana', 'ann']
 	effects:
-		killed['ann', 'alex']
+		affair['diana', 'ann']
+		marrywith['diana', 'ann']
 
-murder-28-9137['ann', 'diana']
+want_to_reveal_affair_to-26-bea3['diana', 'ann', 'alex']
 	preconditions:
+		setupalibi['diana']
+		plantokill['diana', 'ann']
+	effects:
+		affair['diana', 'ann']
+		marrywith['diana', 'alex']
+
+want_to_reveal_affair_to-27-bea3['diana', 'alex', 'diana']
+	preconditions:
+		setupalibi['diana']
+		plantokill['diana', 'alex']
+	effects:
+		affair['diana', 'alex']
+		marrywith['diana', 'diana']
+
+want_to_reveal_affair_to-28-bea3['diana', 'alex', 'ann']
+	preconditions:
+		setupalibi['diana']
+		plantokill['diana', 'alex']
+	effects:
+		affair['diana', 'alex']
+		marrywith['diana', 'ann']
+
+want_to_reveal_affair_to-29-bea3['diana', 'alex', 'alex']
+	preconditions:
+		setupalibi['diana']
+		plantokill['diana', 'alex']
+	effects:
+		affair['diana', 'alex']
+		marrywith['diana', 'alex']
+
+want_to_reveal_affair_to-30-bea3['ann', 'diana', 'diana']
+	preconditions:
+		setupalibi['ann']
 		plantokill['ann', 'diana']
 	effects:
-		killed['ann', 'diana']
+		affair['ann', 'diana']
+		marrywith['ann', 'diana']
 
-murder-29-9137['ann', 'ann']
+want_to_reveal_affair_to-31-bea3['ann', 'diana', 'ann']
 	preconditions:
+		setupalibi['ann']
+		plantokill['ann', 'diana']
+	effects:
+		affair['ann', 'diana']
+		marrywith['ann', 'ann']
+
+want_to_reveal_affair_to-32-bea3['ann', 'diana', 'alex']
+	preconditions:
+		setupalibi['ann']
+		plantokill['ann', 'diana']
+	effects:
+		affair['ann', 'diana']
+		marrywith['ann', 'alex']
+
+want_to_reveal_affair_to-33-bea3['ann', 'ann', 'diana']
+	preconditions:
+		setupalibi['ann']
 		plantokill['ann', 'ann']
 	effects:
-		killed['ann', 'ann']
+		affair['ann', 'ann']
+		marrywith['ann', 'diana']
 
-fall_in_love-30-9e27['alex', 'alex', 'school']
+want_to_reveal_affair_to-34-bea3['ann', 'ann', 'ann']
 	preconditions:
-		workat['alex', 'school']
-		workat['alex', 'school']
+		setupalibi['ann']
+		plantokill['ann', 'ann']
 	effects:
-		love['alex', 'alex']
-		love['alex', 'alex']
+		affair['ann', 'ann']
+		marrywith['ann', 'ann']
 
-fall_in_love-31-9e27['alex', 'diana', 'school']
+want_to_reveal_affair_to-35-bea3['ann', 'ann', 'alex']
 	preconditions:
-		workat['alex', 'school']
-		workat['diana', 'school']
+		setupalibi['ann']
+		plantokill['ann', 'ann']
 	effects:
-		love['alex', 'diana']
-		love['diana', 'alex']
+		affair['ann', 'ann']
+		marrywith['ann', 'alex']
 
-fall_in_love-32-9e27['alex', 'ann', 'school']
+want_to_reveal_affair_to-36-bea3['ann', 'alex', 'diana']
 	preconditions:
-		workat['alex', 'school']
-		workat['ann', 'school']
+		setupalibi['ann']
+		plantokill['ann', 'alex']
 	effects:
-		love['alex', 'ann']
-		love['ann', 'alex']
+		affair['ann', 'alex']
+		marrywith['ann', 'diana']
 
-fall_in_love-33-9e27['diana', 'alex', 'school']
+want_to_reveal_affair_to-37-bea3['ann', 'alex', 'ann']
 	preconditions:
-		workat['diana', 'school']
-		workat['alex', 'school']
+		setupalibi['ann']
+		plantokill['ann', 'alex']
 	effects:
-		love['diana', 'alex']
-		love['alex', 'diana']
+		affair['ann', 'alex']
+		marrywith['ann', 'ann']
 
-fall_in_love-34-9e27['diana', 'diana', 'school']
+want_to_reveal_affair_to-38-bea3['ann', 'alex', 'alex']
 	preconditions:
-		workat['diana', 'school']
-		workat['diana', 'school']
+		setupalibi['ann']
+		plantokill['ann', 'alex']
 	effects:
+		affair['ann', 'alex']
+		marrywith['ann', 'alex']
+
+want_to_reveal_affair_to-39-bea3['alex', 'diana', 'diana']
+	preconditions:
+		setupalibi['alex']
+		plantokill['alex', 'diana']
+	effects:
+		affair['alex', 'diana']
+		marrywith['alex', 'diana']
+
+want_to_reveal_affair_to-40-bea3['alex', 'diana', 'ann']
+	preconditions:
+		setupalibi['alex']
+		plantokill['alex', 'diana']
+	effects:
+		affair['alex', 'diana']
+		marrywith['alex', 'ann']
+
+want_to_reveal_affair_to-41-bea3['alex', 'diana', 'alex']
+	preconditions:
+		setupalibi['alex']
+		plantokill['alex', 'diana']
+	effects:
+		affair['alex', 'diana']
+		marrywith['alex', 'alex']
+
+want_to_reveal_affair_to-42-bea3['alex', 'ann', 'diana']
+	preconditions:
+		setupalibi['alex']
+		plantokill['alex', 'ann']
+	effects:
+		affair['alex', 'ann']
+		marrywith['alex', 'diana']
+
+want_to_reveal_affair_to-43-bea3['alex', 'ann', 'ann']
+	preconditions:
+		setupalibi['alex']
+		plantokill['alex', 'ann']
+	effects:
+		affair['alex', 'ann']
+		marrywith['alex', 'ann']
+
+want_to_reveal_affair_to-44-bea3['alex', 'ann', 'alex']
+	preconditions:
+		setupalibi['alex']
+		plantokill['alex', 'ann']
+	effects:
+		affair['alex', 'ann']
+		marrywith['alex', 'alex']
+
+want_to_reveal_affair_to-45-bea3['alex', 'alex', 'diana']
+	preconditions:
+		setupalibi['alex']
+		plantokill['alex', 'alex']
+	effects:
+		affair['alex', 'alex']
+		marrywith['alex', 'diana']
+
+want_to_reveal_affair_to-46-bea3['alex', 'alex', 'ann']
+	preconditions:
+		setupalibi['alex']
+		plantokill['alex', 'alex']
+	effects:
+		affair['alex', 'alex']
+		marrywith['alex', 'ann']
+
+want_to_reveal_affair_to-47-bea3['alex', 'alex', 'alex']
+	preconditions:
+		setupalibi['alex']
+		plantokill['alex', 'alex']
+	effects:
+		affair['alex', 'alex']
+		marrywith['alex', 'alex']
+
+fall_in_love-48-a0e9['diana', 'diana', 'school']
+	preconditions:
 		love['diana', 'diana']
 		love['diana', 'diana']
-
-fall_in_love-35-9e27['diana', 'ann', 'school']
-	preconditions:
-		workat['diana', 'school']
-		workat['ann', 'school']
 	effects:
+		workat['diana', 'school']
+		workat['diana', 'school']
+
+fall_in_love-49-a0e9['diana', 'ann', 'school']
+	preconditions:
 		love['diana', 'ann']
 		love['ann', 'diana']
-
-fall_in_love-36-9e27['ann', 'alex', 'school']
-	preconditions:
-		workat['ann', 'school']
-		workat['alex', 'school']
 	effects:
+		workat['diana', 'school']
+		workat['ann', 'school']
+
+fall_in_love-50-a0e9['diana', 'alex', 'school']
+	preconditions:
+		love['diana', 'alex']
+		love['alex', 'diana']
+	effects:
+		workat['diana', 'school']
+		workat['alex', 'school']
+
+fall_in_love-51-a0e9['ann', 'diana', 'school']
+	preconditions:
+		love['ann', 'diana']
+		love['diana', 'ann']
+	effects:
+		workat['ann', 'school']
+		workat['diana', 'school']
+
+fall_in_love-52-a0e9['ann', 'ann', 'school']
+	preconditions:
+		love['ann', 'ann']
+		love['ann', 'ann']
+	effects:
+		workat['ann', 'school']
+		workat['ann', 'school']
+
+fall_in_love-53-a0e9['ann', 'alex', 'school']
+	preconditions:
 		love['ann', 'alex']
 		love['alex', 'ann']
-
-fall_in_love-37-9e27['ann', 'diana', 'school']
-	preconditions:
+	effects:
 		workat['ann', 'school']
+		workat['alex', 'school']
+
+fall_in_love-54-a0e9['alex', 'diana', 'school']
+	preconditions:
+		love['alex', 'diana']
+		love['diana', 'alex']
+	effects:
+		workat['alex', 'school']
 		workat['diana', 'school']
-	effects:
-		love['ann', 'diana']
-		love['diana', 'ann']
 
-fall_in_love-38-9e27['ann', 'ann', 'school']
+fall_in_love-55-a0e9['alex', 'ann', 'school']
 	preconditions:
+		love['alex', 'ann']
+		love['ann', 'alex']
+	effects:
+		workat['alex', 'school']
 		workat['ann', 'school']
-		workat['ann', 'school']
-	effects:
-		love['ann', 'ann']
-		love['ann', 'ann']
 
-put_body_on_the_clock-39-9f82['alex', 'alex', 'clock']
+fall_in_love-56-a0e9['alex', 'alex', 'school']
 	preconditions:
-		tower['clock']
-		killed['alex', 'alex']
+		love['alex', 'alex']
+		love['alex', 'alex']
 	effects:
-		bodyontheclock['alex', 'clock']
+		workat['alex', 'school']
+		workat['alex', 'school']
 
-put_body_on_the_clock-40-9f82['alex', 'alex', 'car']
+park_under_clock_tower-57-81d1['diana', 'clock', 'clock']
 	preconditions:
-		tower['car']
-		killed['alex', 'alex']
-	effects:
-		bodyontheclock['alex', 'car']
-
-put_body_on_the_clock-41-9f82['alex', 'diana', 'clock']
-	preconditions:
-		tower['clock']
-		killed['alex', 'diana']
-	effects:
-		bodyontheclock['diana', 'clock']
-
-put_body_on_the_clock-42-9f82['alex', 'diana', 'car']
-	preconditions:
-		tower['car']
-		killed['alex', 'diana']
-	effects:
-		bodyontheclock['diana', 'car']
-
-put_body_on_the_clock-43-9f82['alex', 'ann', 'clock']
-	preconditions:
-		tower['clock']
-		killed['alex', 'ann']
-	effects:
-		bodyontheclock['ann', 'clock']
-
-put_body_on_the_clock-44-9f82['alex', 'ann', 'car']
-	preconditions:
-		tower['car']
-		killed['alex', 'ann']
-	effects:
-		bodyontheclock['ann', 'car']
-
-put_body_on_the_clock-45-9f82['diana', 'alex', 'clock']
-	preconditions:
-		tower['clock']
-		killed['diana', 'alex']
-	effects:
-		bodyontheclock['alex', 'clock']
-
-put_body_on_the_clock-46-9f82['diana', 'alex', 'car']
-	preconditions:
-		tower['car']
-		killed['diana', 'alex']
-	effects:
-		bodyontheclock['alex', 'car']
-
-put_body_on_the_clock-47-9f82['diana', 'diana', 'clock']
-	preconditions:
-		tower['clock']
-		killed['diana', 'diana']
-	effects:
-		bodyontheclock['diana', 'clock']
-
-put_body_on_the_clock-48-9f82['diana', 'diana', 'car']
-	preconditions:
-		tower['car']
-		killed['diana', 'diana']
-	effects:
-		bodyontheclock['diana', 'car']
-
-put_body_on_the_clock-49-9f82['diana', 'ann', 'clock']
-	preconditions:
-		tower['clock']
-		killed['diana', 'ann']
-	effects:
-		bodyontheclock['ann', 'clock']
-
-put_body_on_the_clock-50-9f82['diana', 'ann', 'car']
-	preconditions:
-		tower['car']
-		killed['diana', 'ann']
-	effects:
-		bodyontheclock['ann', 'car']
-
-put_body_on_the_clock-51-9f82['ann', 'alex', 'clock']
-	preconditions:
-		tower['clock']
-		killed['ann', 'alex']
-	effects:
-		bodyontheclock['alex', 'clock']
-
-put_body_on_the_clock-52-9f82['ann', 'alex', 'car']
-	preconditions:
-		tower['car']
-		killed['ann', 'alex']
-	effects:
-		bodyontheclock['alex', 'car']
-
-put_body_on_the_clock-53-9f82['ann', 'diana', 'clock']
-	preconditions:
-		tower['clock']
-		killed['ann', 'diana']
-	effects:
-		bodyontheclock['diana', 'clock']
-
-put_body_on_the_clock-54-9f82['ann', 'diana', 'car']
-	preconditions:
-		tower['car']
-		killed['ann', 'diana']
-	effects:
-		bodyontheclock['diana', 'car']
-
-put_body_on_the_clock-55-9f82['ann', 'ann', 'clock']
-	preconditions:
-		tower['clock']
-		killed['ann', 'ann']
-	effects:
-		bodyontheclock['ann', 'clock']
-
-put_body_on_the_clock-56-9f82['ann', 'ann', 'car']
-	preconditions:
-		tower['car']
-		killed['ann', 'ann']
-	effects:
-		bodyontheclock['ann', 'car']
-
-car_alarm-57-a448['clock', 'alex', 'clock']
-	preconditions:
-		tower['clock']
 		existundertower['clock']
-		afternoon['clock']
 	effects:
-		alarm['alex', 'clock']
-
-car_alarm-58-a448['clock', 'alex', 'car']
-	preconditions:
+		not-afternoon['clock']
+		have['diana', 'clock']
+		setupalibi['diana']
 		tower['clock']
-		existundertower['car']
-		afternoon['clock']
-	effects:
-		alarm['alex', 'car']
 
-car_alarm-59-a448['clock', 'diana', 'clock']
+park_under_clock_tower-58-81d1['diana', 'clock', 'car']
 	preconditions:
+		existundertower['clock']
+	effects:
+		not-afternoon['car']
+		have['diana', 'clock']
+		setupalibi['diana']
+		tower['car']
+
+park_under_clock_tower-59-81d1['diana', 'car', 'clock']
+	preconditions:
+		existundertower['car']
+	effects:
+		not-afternoon['clock']
+		have['diana', 'car']
+		setupalibi['diana']
 		tower['clock']
-		existundertower['clock']
-		afternoon['clock']
-	effects:
-		alarm['diana', 'clock']
 
-car_alarm-60-a448['clock', 'diana', 'car']
+park_under_clock_tower-60-81d1['diana', 'car', 'car']
 	preconditions:
+		existundertower['car']
+	effects:
+		not-afternoon['car']
+		have['diana', 'car']
+		setupalibi['diana']
+		tower['car']
+
+park_under_clock_tower-61-81d1['ann', 'clock', 'clock']
+	preconditions:
+		existundertower['clock']
+	effects:
+		not-afternoon['clock']
+		have['ann', 'clock']
+		setupalibi['ann']
 		tower['clock']
-		existundertower['car']
-		afternoon['clock']
-	effects:
-		alarm['diana', 'car']
 
-car_alarm-61-a448['clock', 'ann', 'clock']
+park_under_clock_tower-62-81d1['ann', 'clock', 'car']
 	preconditions:
+		existundertower['clock']
+	effects:
+		not-afternoon['car']
+		have['ann', 'clock']
+		setupalibi['ann']
+		tower['car']
+
+park_under_clock_tower-63-81d1['ann', 'car', 'clock']
+	preconditions:
+		existundertower['car']
+	effects:
+		not-afternoon['clock']
+		have['ann', 'car']
+		setupalibi['ann']
 		tower['clock']
-		existundertower['clock']
-		afternoon['clock']
-	effects:
-		alarm['ann', 'clock']
 
-car_alarm-62-a448['clock', 'ann', 'car']
+park_under_clock_tower-64-81d1['ann', 'car', 'car']
 	preconditions:
+		existundertower['car']
+	effects:
+		not-afternoon['car']
+		have['ann', 'car']
+		setupalibi['ann']
+		tower['car']
+
+park_under_clock_tower-65-81d1['alex', 'clock', 'clock']
+	preconditions:
+		existundertower['clock']
+	effects:
+		not-afternoon['clock']
+		have['alex', 'clock']
+		setupalibi['alex']
 		tower['clock']
+
+park_under_clock_tower-66-81d1['alex', 'clock', 'car']
+	preconditions:
+		existundertower['clock']
+	effects:
+		not-afternoon['car']
+		have['alex', 'clock']
+		setupalibi['alex']
+		tower['car']
+
+park_under_clock_tower-67-81d1['alex', 'car', 'clock']
+	preconditions:
 		existundertower['car']
+	effects:
+		not-afternoon['clock']
+		have['alex', 'car']
+		setupalibi['alex']
+		tower['clock']
+
+park_under_clock_tower-68-81d1['alex', 'car', 'car']
+	preconditions:
+		existundertower['car']
+	effects:
+		not-afternoon['car']
+		have['alex', 'car']
+		setupalibi['alex']
+		tower['car']
+
+afternoon_body_fall-69-99f9['clock', 'diana']
+	preconditions:
 		afternoon['clock']
-	effects:
-		alarm['ann', 'car']
-
-car_alarm-63-a448['car', 'alex', 'clock']
-	preconditions:
-		tower['car']
-		existundertower['clock']
-		afternoon['car']
-	effects:
-		alarm['alex', 'clock']
-
-car_alarm-64-a448['car', 'alex', 'car']
-	preconditions:
-		tower['car']
-		existundertower['car']
-		afternoon['car']
-	effects:
-		alarm['alex', 'car']
-
-car_alarm-65-a448['car', 'diana', 'clock']
-	preconditions:
-		tower['car']
-		existundertower['clock']
-		afternoon['car']
-	effects:
-		alarm['diana', 'clock']
-
-car_alarm-66-a448['car', 'diana', 'car']
-	preconditions:
-		tower['car']
-		existundertower['car']
-		afternoon['car']
-	effects:
-		alarm['diana', 'car']
-
-car_alarm-67-a448['car', 'ann', 'clock']
-	preconditions:
-		tower['car']
-		existundertower['clock']
-		afternoon['car']
-	effects:
-		alarm['ann', 'clock']
-
-car_alarm-68-a448['car', 'ann', 'car']
-	preconditions:
-		tower['car']
-		existundertower['car']
-		afternoon['car']
-	effects:
-		alarm['ann', 'car']
-
-afternoon_body_fall-69-9b3c['clock', 'alex']
-	preconditions:
-		bodyontheclock['alex', 'clock']
-	effects:
-		not-bodyontheclock['alex', 'clock']
-		afternoon['clock']
-
-afternoon_body_fall-70-9b3c['clock', 'diana']
-	preconditions:
-		bodyontheclock['diana', 'clock']
-	effects:
 		not-bodyontheclock['diana', 'clock']
-		afternoon['clock']
-
-afternoon_body_fall-71-9b3c['clock', 'ann']
-	preconditions:
-		bodyontheclock['ann', 'clock']
 	effects:
+		bodyontheclock['diana', 'clock']
+
+afternoon_body_fall-70-99f9['clock', 'ann']
+	preconditions:
+		afternoon['clock']
 		not-bodyontheclock['ann', 'clock']
-		afternoon['clock']
-
-afternoon_body_fall-72-9b3c['car', 'alex']
-	preconditions:
-		bodyontheclock['alex', 'car']
 	effects:
-		not-bodyontheclock['alex', 'car']
-		afternoon['car']
+		bodyontheclock['ann', 'clock']
 
-afternoon_body_fall-73-9b3c['car', 'diana']
+afternoon_body_fall-71-99f9['clock', 'alex']
+	preconditions:
+		afternoon['clock']
+		not-bodyontheclock['alex', 'clock']
+	effects:
+		bodyontheclock['alex', 'clock']
+
+afternoon_body_fall-72-99f9['car', 'diana']
+	preconditions:
+		afternoon['car']
+		not-bodyontheclock['diana', 'car']
+	effects:
+		bodyontheclock['diana', 'car']
+
+afternoon_body_fall-73-99f9['car', 'ann']
+	preconditions:
+		afternoon['car']
+		not-bodyontheclock['ann', 'car']
+	effects:
+		bodyontheclock['ann', 'car']
+
+afternoon_body_fall-74-99f9['car', 'alex']
+	preconditions:
+		afternoon['car']
+		not-bodyontheclock['alex', 'car']
+	effects:
+		bodyontheclock['alex', 'car']
+
+have_an_affair-75-89e6['diana', 'diana']
+	preconditions:
+		affair['diana', 'diana']
+	effects:
+		single['diana']
+		love['diana', 'diana']
+		love['diana', 'diana']
+		married['diana']
+
+have_an_affair-76-89e6['diana', 'ann']
+	preconditions:
+		affair['diana', 'ann']
+	effects:
+		single['ann']
+		love['ann', 'diana']
+		love['diana', 'ann']
+		married['diana']
+
+have_an_affair-77-89e6['diana', 'alex']
+	preconditions:
+		affair['diana', 'alex']
+	effects:
+		single['alex']
+		love['alex', 'diana']
+		love['diana', 'alex']
+		married['diana']
+
+have_an_affair-78-89e6['ann', 'diana']
+	preconditions:
+		affair['ann', 'diana']
+	effects:
+		single['diana']
+		love['diana', 'ann']
+		love['ann', 'diana']
+		married['ann']
+
+have_an_affair-79-89e6['ann', 'ann']
+	preconditions:
+		affair['ann', 'ann']
+	effects:
+		single['ann']
+		love['ann', 'ann']
+		love['ann', 'ann']
+		married['ann']
+
+have_an_affair-80-89e6['ann', 'alex']
+	preconditions:
+		affair['ann', 'alex']
+	effects:
+		single['alex']
+		love['alex', 'ann']
+		love['ann', 'alex']
+		married['ann']
+
+have_an_affair-81-89e6['alex', 'diana']
+	preconditions:
+		affair['alex', 'diana']
+	effects:
+		single['diana']
+		love['diana', 'alex']
+		love['alex', 'diana']
+		married['alex']
+
+have_an_affair-82-89e6['alex', 'ann']
+	preconditions:
+		affair['alex', 'ann']
+	effects:
+		single['ann']
+		love['ann', 'alex']
+		love['alex', 'ann']
+		married['alex']
+
+have_an_affair-83-89e6['alex', 'alex']
+	preconditions:
+		affair['alex', 'alex']
+	effects:
+		single['alex']
+		love['alex', 'alex']
+		love['alex', 'alex']
+		married['alex']
+
+put_body_on_the_clock-84-bdf7['diana', 'diana', 'clock']
+	preconditions:
+		bodyontheclock['diana', 'clock']
+	effects:
+		tower['clock']
+		killed['diana', 'diana']
+
+put_body_on_the_clock-85-bdf7['diana', 'diana', 'car']
 	preconditions:
 		bodyontheclock['diana', 'car']
 	effects:
-		not-bodyontheclock['diana', 'car']
-		afternoon['car']
+		tower['car']
+		killed['diana', 'diana']
 
-afternoon_body_fall-74-9b3c['car', 'ann']
+put_body_on_the_clock-86-bdf7['diana', 'ann', 'clock']
+	preconditions:
+		bodyontheclock['ann', 'clock']
+	effects:
+		tower['clock']
+		killed['diana', 'ann']
+
+put_body_on_the_clock-87-bdf7['diana', 'ann', 'car']
 	preconditions:
 		bodyontheclock['ann', 'car']
 	effects:
-		not-bodyontheclock['ann', 'car']
-		afternoon['car']
+		tower['car']
+		killed['diana', 'ann']
 
-want_to_reveal_affair_to-75-8a66['alex', 'alex', 'alex']
+put_body_on_the_clock-88-bdf7['diana', 'alex', 'clock']
 	preconditions:
-		marrywith['alex', 'alex']
-		affair['alex', 'alex']
+		bodyontheclock['alex', 'clock']
 	effects:
-		plantokill['alex', 'alex']
-		setupalibi['alex']
+		tower['clock']
+		killed['diana', 'alex']
 
-want_to_reveal_affair_to-76-8a66['alex', 'alex', 'diana']
+put_body_on_the_clock-89-bdf7['diana', 'alex', 'car']
 	preconditions:
-		marrywith['alex', 'diana']
-		affair['alex', 'alex']
+		bodyontheclock['alex', 'car']
 	effects:
-		plantokill['alex', 'alex']
-		setupalibi['alex']
+		tower['car']
+		killed['diana', 'alex']
 
-want_to_reveal_affair_to-77-8a66['alex', 'alex', 'ann']
+put_body_on_the_clock-90-bdf7['ann', 'diana', 'clock']
 	preconditions:
-		marrywith['alex', 'ann']
-		affair['alex', 'alex']
+		bodyontheclock['diana', 'clock']
 	effects:
-		plantokill['alex', 'alex']
-		setupalibi['alex']
+		tower['clock']
+		killed['ann', 'diana']
 
-want_to_reveal_affair_to-78-8a66['alex', 'diana', 'alex']
+put_body_on_the_clock-91-bdf7['ann', 'diana', 'car']
 	preconditions:
-		marrywith['alex', 'alex']
-		affair['alex', 'diana']
+		bodyontheclock['diana', 'car']
 	effects:
-		plantokill['alex', 'diana']
-		setupalibi['alex']
+		tower['car']
+		killed['ann', 'diana']
 
-want_to_reveal_affair_to-79-8a66['alex', 'diana', 'diana']
+put_body_on_the_clock-92-bdf7['ann', 'ann', 'clock']
 	preconditions:
-		marrywith['alex', 'diana']
-		affair['alex', 'diana']
+		bodyontheclock['ann', 'clock']
 	effects:
-		plantokill['alex', 'diana']
-		setupalibi['alex']
+		tower['clock']
+		killed['ann', 'ann']
 
-want_to_reveal_affair_to-80-8a66['alex', 'diana', 'ann']
+put_body_on_the_clock-93-bdf7['ann', 'ann', 'car']
 	preconditions:
-		marrywith['alex', 'ann']
-		affair['alex', 'diana']
+		bodyontheclock['ann', 'car']
 	effects:
-		plantokill['alex', 'diana']
-		setupalibi['alex']
+		tower['car']
+		killed['ann', 'ann']
 
-want_to_reveal_affair_to-81-8a66['alex', 'ann', 'alex']
+put_body_on_the_clock-94-bdf7['ann', 'alex', 'clock']
 	preconditions:
-		marrywith['alex', 'alex']
-		affair['alex', 'ann']
+		bodyontheclock['alex', 'clock']
 	effects:
-		plantokill['alex', 'ann']
-		setupalibi['alex']
+		tower['clock']
+		killed['ann', 'alex']
 
-want_to_reveal_affair_to-82-8a66['alex', 'ann', 'diana']
+put_body_on_the_clock-95-bdf7['ann', 'alex', 'car']
 	preconditions:
-		marrywith['alex', 'diana']
-		affair['alex', 'ann']
+		bodyontheclock['alex', 'car']
 	effects:
-		plantokill['alex', 'ann']
-		setupalibi['alex']
+		tower['car']
+		killed['ann', 'alex']
 
-want_to_reveal_affair_to-83-8a66['alex', 'ann', 'ann']
+put_body_on_the_clock-96-bdf7['alex', 'diana', 'clock']
 	preconditions:
-		marrywith['alex', 'ann']
-		affair['alex', 'ann']
+		bodyontheclock['diana', 'clock']
 	effects:
-		plantokill['alex', 'ann']
-		setupalibi['alex']
+		tower['clock']
+		killed['alex', 'diana']
 
-want_to_reveal_affair_to-84-8a66['diana', 'alex', 'alex']
+put_body_on_the_clock-97-bdf7['alex', 'diana', 'car']
 	preconditions:
-		marrywith['diana', 'alex']
-		affair['diana', 'alex']
+		bodyontheclock['diana', 'car']
 	effects:
-		plantokill['diana', 'alex']
-		setupalibi['diana']
+		tower['car']
+		killed['alex', 'diana']
 
-want_to_reveal_affair_to-85-8a66['diana', 'alex', 'diana']
+put_body_on_the_clock-98-bdf7['alex', 'ann', 'clock']
 	preconditions:
-		marrywith['diana', 'diana']
-		affair['diana', 'alex']
+		bodyontheclock['ann', 'clock']
 	effects:
-		plantokill['diana', 'alex']
-		setupalibi['diana']
+		tower['clock']
+		killed['alex', 'ann']
 
-want_to_reveal_affair_to-86-8a66['diana', 'alex', 'ann']
+put_body_on_the_clock-99-bdf7['alex', 'ann', 'car']
 	preconditions:
-		marrywith['diana', 'ann']
-		affair['diana', 'alex']
+		bodyontheclock['ann', 'car']
 	effects:
-		plantokill['diana', 'alex']
-		setupalibi['diana']
+		tower['car']
+		killed['alex', 'ann']
 
-want_to_reveal_affair_to-87-8a66['diana', 'diana', 'alex']
+put_body_on_the_clock-100-bdf7['alex', 'alex', 'clock']
 	preconditions:
-		marrywith['diana', 'alex']
-		affair['diana', 'diana']
+		bodyontheclock['alex', 'clock']
 	effects:
-		plantokill['diana', 'diana']
-		setupalibi['diana']
+		tower['clock']
+		killed['alex', 'alex']
 
-want_to_reveal_affair_to-88-8a66['diana', 'diana', 'diana']
+put_body_on_the_clock-101-bdf7['alex', 'alex', 'car']
 	preconditions:
-		marrywith['diana', 'diana']
-		affair['diana', 'diana']
+		bodyontheclock['alex', 'car']
 	effects:
-		plantokill['diana', 'diana']
-		setupalibi['diana']
+		tower['car']
+		killed['alex', 'alex']
 
-want_to_reveal_affair_to-89-8a66['diana', 'diana', 'ann']
-	preconditions:
-		marrywith['diana', 'ann']
-		affair['diana', 'diana']
-	effects:
-		plantokill['diana', 'diana']
-		setupalibi['diana']
-
-want_to_reveal_affair_to-90-8a66['diana', 'ann', 'alex']
-	preconditions:
-		marrywith['diana', 'alex']
-		affair['diana', 'ann']
-	effects:
-		plantokill['diana', 'ann']
-		setupalibi['diana']
-
-want_to_reveal_affair_to-91-8a66['diana', 'ann', 'diana']
-	preconditions:
-		marrywith['diana', 'diana']
-		affair['diana', 'ann']
-	effects:
-		plantokill['diana', 'ann']
-		setupalibi['diana']
-
-want_to_reveal_affair_to-92-8a66['diana', 'ann', 'ann']
-	preconditions:
-		marrywith['diana', 'ann']
-		affair['diana', 'ann']
-	effects:
-		plantokill['diana', 'ann']
-		setupalibi['diana']
-
-want_to_reveal_affair_to-93-8a66['ann', 'alex', 'alex']
-	preconditions:
-		marrywith['ann', 'alex']
-		affair['ann', 'alex']
-	effects:
-		plantokill['ann', 'alex']
-		setupalibi['ann']
-
-want_to_reveal_affair_to-94-8a66['ann', 'alex', 'diana']
-	preconditions:
-		marrywith['ann', 'diana']
-		affair['ann', 'alex']
-	effects:
-		plantokill['ann', 'alex']
-		setupalibi['ann']
-
-want_to_reveal_affair_to-95-8a66['ann', 'alex', 'ann']
-	preconditions:
-		marrywith['ann', 'ann']
-		affair['ann', 'alex']
-	effects:
-		plantokill['ann', 'alex']
-		setupalibi['ann']
-
-want_to_reveal_affair_to-96-8a66['ann', 'diana', 'alex']
-	preconditions:
-		marrywith['ann', 'alex']
-		affair['ann', 'diana']
-	effects:
-		plantokill['ann', 'diana']
-		setupalibi['ann']
-
-want_to_reveal_affair_to-97-8a66['ann', 'diana', 'diana']
-	preconditions:
-		marrywith['ann', 'diana']
-		affair['ann', 'diana']
-	effects:
-		plantokill['ann', 'diana']
-		setupalibi['ann']
-
-want_to_reveal_affair_to-98-8a66['ann', 'diana', 'ann']
-	preconditions:
-		marrywith['ann', 'ann']
-		affair['ann', 'diana']
-	effects:
-		plantokill['ann', 'diana']
-		setupalibi['ann']
-
-want_to_reveal_affair_to-99-8a66['ann', 'ann', 'alex']
-	preconditions:
-		marrywith['ann', 'alex']
-		affair['ann', 'ann']
-	effects:
-		plantokill['ann', 'ann']
-		setupalibi['ann']
-
-want_to_reveal_affair_to-100-8a66['ann', 'ann', 'diana']
-	preconditions:
-		marrywith['ann', 'diana']
-		affair['ann', 'ann']
-	effects:
-		plantokill['ann', 'ann']
-		setupalibi['ann']
-
-want_to_reveal_affair_to-101-8a66['ann', 'ann', 'ann']
-	preconditions:
-		marrywith['ann', 'ann']
-		affair['ann', 'ann']
-	effects:
-		plantokill['ann', 'ann']
-		setupalibi['ann']
-
-dummy_init-102-950a[]
+dummy_init-102-a609[]
 	preconditions:
 	effects:
-		not-alarm['diana', 'clock']
-		not-marrywith['diana', 'alex']
-		not-have['diana', 'car']
-		not-afternoon['car']
-		not-affair['alex', 'ann']
-		not-affair['ann', 'alex']
-		not-killed['alex', 'diana']
-		have['alex', 'car']
-		not-plantokill['diana', 'diana']
-		not-have['ann', 'clock']
-		not-affair['alex', 'diana']
-		not-affair['diana', 'ann']
 		not-love['ann', 'ann']
-		not-love['ann', 'alex']
-		not-killed['alex', 'ann']
-		not-marrywith['diana', 'diana']
-		not-plantokill['alex', 'ann']
-		not-bodyontheclock['alex', 'car']
-		not-killed['alex', 'alex']
-		not-plantokill['alex', 'alex']
-		not-affair['alex', 'alex']
-		not-existundertower['car']
-		not-plantokill['alex', 'diana']
-		not-bodyontheclock['diana', 'clock']
-		not-love['diana', 'ann']
-		not-killed['ann', 'diana']
-		not-marrywith['alex', 'alex']
-		not-killed['diana', 'ann']
-		not-plantokill['diana', 'alex']
-		not-have['diana', 'clock']
-		not-existundertower['clock']
-		marrywith['alex', 'ann']
-		not-alarm['diana', 'car']
-		not-tower['car']
-		not-bodyontheclock['ann', 'car']
-		not-alarm['ann', 'car']
-		not-have['ann', 'car']
-		not-killed['ann', 'alex']
-		not-afternoon['clock']
-		not-love['diana', 'alex']
-		not-love['alex', 'alex']
-		not-affair['diana', 'alex']
-		not-plantokill['ann', 'alex']
-		not-bodyontheclock['ann', 'clock']
-		not-killed['ann', 'ann']
-		not-killed['diana', 'diana']
-		not-setupalibi['ann']
-		not-affair['diana', 'diana']
-		not-married['ann']
-		not-single['ann']
-		not-alarm['alex', 'clock']
-		not-marrywith['ann', 'alex']
-		not-marrywith['alex', 'diana']
-		tower['clock']
-		not-marrywith['ann', 'ann']
-		single['diana']
-		not-married['diana']
-		not-plantokill['ann', 'diana']
-		married['alex']
-		not-love['alex', 'diana']
-		not-love['ann', 'diana']
-		not-plantokill['diana', 'ann']
-		not-affair['ann', 'ann']
-		not-marrywith['diana', 'ann']
-		not-workat['ann', 'school']
-		not-plantokill['ann', 'ann']
-		not-affair['ann', 'diana']
-		workat['diana', 'school']
-		not-alarm['alex', 'car']
-		not-bodyontheclock['alex', 'clock']
-		not-love['diana', 'diana']
-		not-setupalibi['diana']
-		not-love['alex', 'ann']
-		not-marrywith['ann', 'diana']
-		not-alarm['ann', 'clock']
-		not-setupalibi['alex']
-		workat['alex', 'school']
-		not-bodyontheclock['diana', 'car']
-		not-killed['diana', 'alex']
 		not-have['alex', 'clock']
+		not-plantokill['alex', 'ann']
+		not-plantokill['alex', 'diana']
+		not-married['ann']
+		not-marrywith['alex', 'ann']
+		not-love['ann', 'diana']
+		not-affair['ann', 'diana']
+		not-affair['ann', 'ann']
+		not-killed['diana', 'ann']
+		not-affair['alex', 'alex']
+		not-bodyontheclock['alex', 'car']
+		not-setupalibi['alex']
+		not-killed['alex', 'ann']
+		not-workat['ann', 'school']
+		not-plantokill['diana', 'alex']
+		not-married['alex']
+		not-workat['diana', 'school']
+		not-single['ann']
+		not-killed['alex', 'alex']
+		not-have['diana', 'clock']
+		not-plantokill['diana', 'ann']
+		not-alarm['ann', 'clock']
+		not-affair['diana', 'alex']
+		not-bodyontheclock['alex', 'clock']
+		not-affair['diana', 'ann']
+		not-bodyontheclock['ann', 'car']
+		not-afternoon['car']
+		not-marrywith['ann', 'ann']
+		not-tower['car']
+		not-affair['ann', 'alex']
+		not-plantokill['ann', 'ann']
+		not-love['alex', 'diana']
+		not-marrywith['ann', 'diana']
+		not-killed['ann', 'diana']
+		not-alarm['ann', 'car']
+		not-plantokill['diana', 'diana']
+		not-alarm['alex', 'clock']
+		not-workat['alex', 'school']
+		not-love['ann', 'alex']
+		not-single['diana']
+		not-bodyontheclock['ann', 'clock']
+		not-killed['diana', 'diana']
+		not-existundertower['car']
+		not-love['alex', 'alex']
+		not-marrywith['diana', 'ann']
+		not-killed['ann', 'alex']
+		not-killed['ann', 'ann']
+		not-love['diana', 'ann']
+		not-existundertower['clock']
+		not-marrywith['alex', 'diana']
+		not-marrywith['diana', 'diana']
+		not-alarm['alex', 'car']
+		not-killed['diana', 'alex']
+		not-love['diana', 'alex']
+		not-afternoon['clock']
+		not-marrywith['alex', 'alex']
+		not-affair['alex', 'diana']
+		not-bodyontheclock['diana', 'clock']
+		not-bodyontheclock['diana', 'car']
 		not-single['alex']
-
-dummy_goal-103-be7f[]
-	preconditions:
+		not-plantokill['ann', 'alex']
 		alarm['diana', 'car']
+		not-married['diana']
+		not-marrywith['ann', 'alex']
+		not-plantokill['alex', 'alex']
+		not-setupalibi['diana']
+		not-love['diana', 'diana']
+		not-affair['diana', 'diana']
+		not-love['alex', 'ann']
+		not-killed['alex', 'diana']
+		not-have['ann', 'clock']
+		not-setupalibi['ann']
+		not-affair['alex', 'ann']
+		not-have['ann', 'car']
+		not-plantokill['ann', 'diana']
+		not-marrywith['diana', 'alex']
+		not-tower['clock']
+		not-alarm['diana', 'clock']
+		not-have['alex', 'car']
+		not-have['diana', 'car']
+
+dummy_goal-103-a109[]
+	preconditions:
+		single['diana']
+		marrywith['alex', 'ann']
+		married['alex']
+		workat['diana', 'school']
+		workat['alex', 'school']
+		have['alex', 'car']
+		tower['clock']
 	effects:
 

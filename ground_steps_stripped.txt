@@ -1,1333 +1,1054 @@
 
 0
-have_an_affair['alex', 'alex']_7918
+murder['diana', 'diana']_3cb9
 	preconditions:
-		married['alex']
-			cndts:	[102]
-			risks:	[]
-		love['alex', 'alex']
-			cndts:	[30]
-			risks:	[102]
-		single['alex']
-			cndts:	[]
-			risks:	[102]
-		love['alex', 'alex']
-			cndts:	[30]
+		killed['diana', 'diana']
+			cndts:	[84, 85]
 			risks:	[102]
 
 
 1
-have_an_affair['alex', 'diana']_6c2f
+murder['diana', 'ann']_bae8
 	preconditions:
-		married['alex']
-			cndts:	[102]
-			risks:	[]
-		love['alex', 'diana']
-			cndts:	[33, 31]
-			risks:	[102]
-		single['diana']
-			cndts:	[102]
-			risks:	[]
-		love['diana', 'alex']
-			cndts:	[33, 31]
+		killed['diana', 'ann']
+			cndts:	[86, 87]
 			risks:	[102]
 
 
 2
-have_an_affair['alex', 'ann']_1601
+murder['diana', 'alex']_f3a2
 	preconditions:
-		married['alex']
-			cndts:	[102]
-			risks:	[]
-		love['alex', 'ann']
-			cndts:	[32, 36]
-			risks:	[102]
-		single['ann']
-			cndts:	[]
-			risks:	[102]
-		love['ann', 'alex']
-			cndts:	[32, 36]
+		killed['diana', 'alex']
+			cndts:	[88, 89]
 			risks:	[102]
 
 
 3
-have_an_affair['diana', 'alex']_50ea
+murder['ann', 'diana']_1193
 	preconditions:
-		married['diana']
-			cndts:	[]
-			risks:	[102]
-		love['diana', 'alex']
-			cndts:	[33, 31]
-			risks:	[102]
-		single['alex']
-			cndts:	[]
-			risks:	[102]
-		love['alex', 'diana']
-			cndts:	[33, 31]
+		killed['ann', 'diana']
+			cndts:	[90, 91]
 			risks:	[102]
 
 
 4
-have_an_affair['diana', 'diana']_1e59
+murder['ann', 'ann']_9d5d
 	preconditions:
-		married['diana']
-			cndts:	[]
-			risks:	[102]
-		love['diana', 'diana']
-			cndts:	[34]
-			risks:	[102]
-		single['diana']
-			cndts:	[102]
-			risks:	[]
-		love['diana', 'diana']
-			cndts:	[34]
+		killed['ann', 'ann']
+			cndts:	[92, 93]
 			risks:	[102]
 
 
 5
-have_an_affair['diana', 'ann']_3700
+murder['ann', 'alex']_80b2
 	preconditions:
-		married['diana']
-			cndts:	[]
-			risks:	[102]
-		love['diana', 'ann']
-			cndts:	[35, 37]
-			risks:	[102]
-		single['ann']
-			cndts:	[]
-			risks:	[102]
-		love['ann', 'diana']
-			cndts:	[35, 37]
+		killed['ann', 'alex']
+			cndts:	[94, 95]
 			risks:	[102]
 
 
 6
-have_an_affair['ann', 'alex']_b26d
+murder['alex', 'diana']_521d
 	preconditions:
-		married['ann']
-			cndts:	[]
-			risks:	[102]
-		love['ann', 'alex']
-			cndts:	[32, 36]
-			risks:	[102]
-		single['alex']
-			cndts:	[]
-			risks:	[102]
-		love['alex', 'ann']
-			cndts:	[32, 36]
+		killed['alex', 'diana']
+			cndts:	[96, 97]
 			risks:	[102]
 
 
 7
-have_an_affair['ann', 'diana']_a0d8
+murder['alex', 'ann']_b095
 	preconditions:
-		married['ann']
-			cndts:	[]
-			risks:	[102]
-		love['ann', 'diana']
-			cndts:	[35, 37]
-			risks:	[102]
-		single['diana']
-			cndts:	[102]
-			risks:	[]
-		love['diana', 'ann']
-			cndts:	[35, 37]
+		killed['alex', 'ann']
+			cndts:	[98, 99]
 			risks:	[102]
 
 
 8
-have_an_affair['ann', 'ann']_211d
+murder['alex', 'alex']_7c92
 	preconditions:
-		married['ann']
-			cndts:	[]
-			risks:	[102]
-		love['ann', 'ann']
-			cndts:	[38]
-			risks:	[102]
-		single['ann']
-			cndts:	[]
-			risks:	[102]
-		love['ann', 'ann']
-			cndts:	[38]
+		killed['alex', 'alex']
+			cndts:	[100, 101]
 			risks:	[102]
 
 
 9
-park_under_clock_tower['alex', 'clock', 'clock']_7e4f
+car_alarm['clock', 'diana', 'clock']_7a04
 	preconditions:
-		not-afternoon['clock']
-			cndts:	[102]
-			risks:	[69, 70, 71]
-		tower['clock']
-			cndts:	[102]
-			risks:	[]
-		setupalibi['alex']
-			cndts:	[75, 76, 77, 78, 79, 80, 81, 82, 83]
-			risks:	[102]
-		have['alex', 'clock']
+		alarm['diana', 'clock']
 			cndts:	[]
 			risks:	[102]
 
 
 10
-park_under_clock_tower['alex', 'clock', 'car']_e3d4
+car_alarm['clock', 'diana', 'car']_335b
 	preconditions:
-		not-afternoon['car']
+		alarm['diana', 'car']
 			cndts:	[102]
-			risks:	[72, 73, 74]
-		tower['car']
-			cndts:	[]
-			risks:	[102]
-		setupalibi['alex']
-			cndts:	[75, 76, 77, 78, 79, 80, 81, 82, 83]
-			risks:	[102]
-		have['alex', 'clock']
-			cndts:	[]
-			risks:	[102]
+			risks:	[]
 
 
 11
-park_under_clock_tower['alex', 'car', 'clock']_99e1
+car_alarm['clock', 'ann', 'clock']_0dd1
 	preconditions:
-		not-afternoon['clock']
-			cndts:	[102]
-			risks:	[69, 70, 71]
-		tower['clock']
-			cndts:	[102]
-			risks:	[]
-		setupalibi['alex']
-			cndts:	[75, 76, 77, 78, 79, 80, 81, 82, 83]
+		alarm['ann', 'clock']
+			cndts:	[]
 			risks:	[102]
-		have['alex', 'car']
-			cndts:	[102]
-			risks:	[]
 
 
 12
-park_under_clock_tower['alex', 'car', 'car']_e379
+car_alarm['clock', 'ann', 'car']_6701
 	preconditions:
-		not-afternoon['car']
-			cndts:	[102]
-			risks:	[72, 73, 74]
-		tower['car']
+		alarm['ann', 'car']
 			cndts:	[]
 			risks:	[102]
-		setupalibi['alex']
-			cndts:	[75, 76, 77, 78, 79, 80, 81, 82, 83]
-			risks:	[102]
-		have['alex', 'car']
-			cndts:	[102]
-			risks:	[]
 
 
 13
-park_under_clock_tower['diana', 'clock', 'clock']_0a22
+car_alarm['clock', 'alex', 'clock']_2bbd
 	preconditions:
-		not-afternoon['clock']
-			cndts:	[102]
-			risks:	[69, 70, 71]
-		tower['clock']
-			cndts:	[102]
-			risks:	[]
-		setupalibi['diana']
-			cndts:	[84, 85, 86, 87, 88, 89, 90, 91, 92]
-			risks:	[102]
-		have['diana', 'clock']
+		alarm['alex', 'clock']
 			cndts:	[]
 			risks:	[102]
 
 
 14
-park_under_clock_tower['diana', 'clock', 'car']_aa42
+car_alarm['clock', 'alex', 'car']_9406
 	preconditions:
-		not-afternoon['car']
-			cndts:	[102]
-			risks:	[72, 73, 74]
-		tower['car']
-			cndts:	[]
-			risks:	[102]
-		setupalibi['diana']
-			cndts:	[84, 85, 86, 87, 88, 89, 90, 91, 92]
-			risks:	[102]
-		have['diana', 'clock']
+		alarm['alex', 'car']
 			cndts:	[]
 			risks:	[102]
 
 
 15
-park_under_clock_tower['diana', 'car', 'clock']_03bf
+car_alarm['car', 'diana', 'clock']_fcb0
 	preconditions:
-		not-afternoon['clock']
-			cndts:	[102]
-			risks:	[69, 70, 71]
-		tower['clock']
-			cndts:	[102]
-			risks:	[]
-		setupalibi['diana']
-			cndts:	[84, 85, 86, 87, 88, 89, 90, 91, 92]
-			risks:	[102]
-		have['diana', 'car']
+		alarm['diana', 'clock']
 			cndts:	[]
 			risks:	[102]
 
 
 16
-park_under_clock_tower['diana', 'car', 'car']_c2af
+car_alarm['car', 'diana', 'car']_4fb2
 	preconditions:
-		not-afternoon['car']
+		alarm['diana', 'car']
 			cndts:	[102]
-			risks:	[72, 73, 74]
-		tower['car']
-			cndts:	[]
-			risks:	[102]
-		setupalibi['diana']
-			cndts:	[84, 85, 86, 87, 88, 89, 90, 91, 92]
-			risks:	[102]
-		have['diana', 'car']
-			cndts:	[]
-			risks:	[102]
+			risks:	[]
 
 
 17
-park_under_clock_tower['ann', 'clock', 'clock']_52d8
+car_alarm['car', 'ann', 'clock']_9185
 	preconditions:
-		not-afternoon['clock']
-			cndts:	[102]
-			risks:	[69, 70, 71]
-		tower['clock']
-			cndts:	[102]
-			risks:	[]
-		setupalibi['ann']
-			cndts:	[96, 97, 98, 99, 100, 101, 93, 94, 95]
-			risks:	[102]
-		have['ann', 'clock']
+		alarm['ann', 'clock']
 			cndts:	[]
 			risks:	[102]
 
 
 18
-park_under_clock_tower['ann', 'clock', 'car']_c821
+car_alarm['car', 'ann', 'car']_eb4e
 	preconditions:
-		not-afternoon['car']
-			cndts:	[102]
-			risks:	[72, 73, 74]
-		tower['car']
-			cndts:	[]
-			risks:	[102]
-		setupalibi['ann']
-			cndts:	[96, 97, 98, 99, 100, 101, 93, 94, 95]
-			risks:	[102]
-		have['ann', 'clock']
+		alarm['ann', 'car']
 			cndts:	[]
 			risks:	[102]
 
 
 19
-park_under_clock_tower['ann', 'car', 'clock']_0124
+car_alarm['car', 'alex', 'clock']_63b1
 	preconditions:
-		not-afternoon['clock']
-			cndts:	[102]
-			risks:	[69, 70, 71]
-		tower['clock']
-			cndts:	[102]
-			risks:	[]
-		setupalibi['ann']
-			cndts:	[96, 97, 98, 99, 100, 101, 93, 94, 95]
-			risks:	[102]
-		have['ann', 'car']
+		alarm['alex', 'clock']
 			cndts:	[]
 			risks:	[102]
 
 
 20
-park_under_clock_tower['ann', 'car', 'car']_691f
+car_alarm['car', 'alex', 'car']_eec3
 	preconditions:
-		not-afternoon['car']
-			cndts:	[102]
-			risks:	[72, 73, 74]
-		tower['car']
-			cndts:	[]
-			risks:	[102]
-		setupalibi['ann']
-			cndts:	[96, 97, 98, 99, 100, 101, 93, 94, 95]
-			risks:	[102]
-		have['ann', 'car']
+		alarm['alex', 'car']
 			cndts:	[]
 			risks:	[102]
 
 
 21
-murder['alex', 'alex']_f913
+want_to_reveal_affair_to['diana', 'diana', 'diana']_1c8a
 	preconditions:
-		plantokill['alex', 'alex']
-			cndts:	[75, 76, 77]
+		setupalibi['diana']
+			cndts:	[57, 58, 59, 60]
+			risks:	[102]
+		plantokill['diana', 'diana']
+			cndts:	[0]
 			risks:	[102]
 
 
 22
-murder['alex', 'diana']_8c43
+want_to_reveal_affair_to['diana', 'diana', 'ann']_5390
 	preconditions:
-		plantokill['alex', 'diana']
-			cndts:	[80, 78, 79]
+		setupalibi['diana']
+			cndts:	[57, 58, 59, 60]
+			risks:	[102]
+		plantokill['diana', 'diana']
+			cndts:	[0]
 			risks:	[102]
 
 
 23
-murder['alex', 'ann']_85db
+want_to_reveal_affair_to['diana', 'diana', 'alex']_c7cb
 	preconditions:
-		plantokill['alex', 'ann']
-			cndts:	[81, 82, 83]
+		setupalibi['diana']
+			cndts:	[57, 58, 59, 60]
+			risks:	[102]
+		plantokill['diana', 'diana']
+			cndts:	[0]
 			risks:	[102]
 
 
 24
-murder['diana', 'alex']_2a53
+want_to_reveal_affair_to['diana', 'ann', 'diana']_f8f4
 	preconditions:
-		plantokill['diana', 'alex']
-			cndts:	[84, 85, 86]
+		setupalibi['diana']
+			cndts:	[57, 58, 59, 60]
+			risks:	[102]
+		plantokill['diana', 'ann']
+			cndts:	[1]
 			risks:	[102]
 
 
 25
-murder['diana', 'diana']_34bd
+want_to_reveal_affair_to['diana', 'ann', 'ann']_44e1
 	preconditions:
-		plantokill['diana', 'diana']
-			cndts:	[88, 89, 87]
+		setupalibi['diana']
+			cndts:	[57, 58, 59, 60]
+			risks:	[102]
+		plantokill['diana', 'ann']
+			cndts:	[1]
 			risks:	[102]
 
 
 26
-murder['diana', 'ann']_282f
+want_to_reveal_affair_to['diana', 'ann', 'alex']_ced4
 	preconditions:
+		setupalibi['diana']
+			cndts:	[57, 58, 59, 60]
+			risks:	[102]
 		plantokill['diana', 'ann']
-			cndts:	[90, 91, 92]
+			cndts:	[1]
 			risks:	[102]
 
 
 27
-murder['ann', 'alex']_4ffb
+want_to_reveal_affair_to['diana', 'alex', 'diana']_ed4e
 	preconditions:
-		plantokill['ann', 'alex']
-			cndts:	[93, 94, 95]
+		setupalibi['diana']
+			cndts:	[57, 58, 59, 60]
+			risks:	[102]
+		plantokill['diana', 'alex']
+			cndts:	[2]
 			risks:	[102]
 
 
 28
-murder['ann', 'diana']_6f00
+want_to_reveal_affair_to['diana', 'alex', 'ann']_9087
 	preconditions:
-		plantokill['ann', 'diana']
-			cndts:	[96, 97, 98]
+		setupalibi['diana']
+			cndts:	[57, 58, 59, 60]
+			risks:	[102]
+		plantokill['diana', 'alex']
+			cndts:	[2]
 			risks:	[102]
 
 
 29
-murder['ann', 'ann']_d2d5
+want_to_reveal_affair_to['diana', 'alex', 'alex']_2b30
 	preconditions:
-		plantokill['ann', 'ann']
-			cndts:	[99, 100, 101]
+		setupalibi['diana']
+			cndts:	[57, 58, 59, 60]
+			risks:	[102]
+		plantokill['diana', 'alex']
+			cndts:	[2]
 			risks:	[102]
 
 
 30
-fall_in_love['alex', 'alex', 'school']_c6e3
+want_to_reveal_affair_to['ann', 'diana', 'diana']_5991
 	preconditions:
-		workat['alex', 'school']
-			cndts:	[102]
-			risks:	[]
-		workat['alex', 'school']
-			cndts:	[102]
-			risks:	[]
+		setupalibi['ann']
+			cndts:	[64, 61, 62, 63]
+			risks:	[102]
+		plantokill['ann', 'diana']
+			cndts:	[3]
+			risks:	[102]
 
 
 31
-fall_in_love['alex', 'diana', 'school']_ef59
+want_to_reveal_affair_to['ann', 'diana', 'ann']_6c21
 	preconditions:
-		workat['alex', 'school']
-			cndts:	[102]
-			risks:	[]
-		workat['diana', 'school']
-			cndts:	[102]
-			risks:	[]
+		setupalibi['ann']
+			cndts:	[64, 61, 62, 63]
+			risks:	[102]
+		plantokill['ann', 'diana']
+			cndts:	[3]
+			risks:	[102]
 
 
 32
-fall_in_love['alex', 'ann', 'school']_3035
+want_to_reveal_affair_to['ann', 'diana', 'alex']_204a
 	preconditions:
-		workat['alex', 'school']
-			cndts:	[102]
-			risks:	[]
-		workat['ann', 'school']
-			cndts:	[]
+		setupalibi['ann']
+			cndts:	[64, 61, 62, 63]
+			risks:	[102]
+		plantokill['ann', 'diana']
+			cndts:	[3]
 			risks:	[102]
 
 
 33
-fall_in_love['diana', 'alex', 'school']_16c8
+want_to_reveal_affair_to['ann', 'ann', 'diana']_a691
 	preconditions:
-		workat['diana', 'school']
-			cndts:	[102]
-			risks:	[]
-		workat['alex', 'school']
-			cndts:	[102]
-			risks:	[]
+		setupalibi['ann']
+			cndts:	[64, 61, 62, 63]
+			risks:	[102]
+		plantokill['ann', 'ann']
+			cndts:	[4]
+			risks:	[102]
 
 
 34
-fall_in_love['diana', 'diana', 'school']_8b1b
+want_to_reveal_affair_to['ann', 'ann', 'ann']_61b0
 	preconditions:
-		workat['diana', 'school']
-			cndts:	[102]
-			risks:	[]
-		workat['diana', 'school']
-			cndts:	[102]
-			risks:	[]
+		setupalibi['ann']
+			cndts:	[64, 61, 62, 63]
+			risks:	[102]
+		plantokill['ann', 'ann']
+			cndts:	[4]
+			risks:	[102]
 
 
 35
-fall_in_love['diana', 'ann', 'school']_863e
+want_to_reveal_affair_to['ann', 'ann', 'alex']_76d7
 	preconditions:
-		workat['diana', 'school']
-			cndts:	[102]
-			risks:	[]
-		workat['ann', 'school']
-			cndts:	[]
+		setupalibi['ann']
+			cndts:	[64, 61, 62, 63]
+			risks:	[102]
+		plantokill['ann', 'ann']
+			cndts:	[4]
 			risks:	[102]
 
 
 36
-fall_in_love['ann', 'alex', 'school']_02d1
+want_to_reveal_affair_to['ann', 'alex', 'diana']_83cc
 	preconditions:
-		workat['ann', 'school']
-			cndts:	[]
+		setupalibi['ann']
+			cndts:	[64, 61, 62, 63]
 			risks:	[102]
-		workat['alex', 'school']
-			cndts:	[102]
-			risks:	[]
+		plantokill['ann', 'alex']
+			cndts:	[5]
+			risks:	[102]
 
 
 37
-fall_in_love['ann', 'diana', 'school']_92b8
+want_to_reveal_affair_to['ann', 'alex', 'ann']_4c7c
 	preconditions:
-		workat['ann', 'school']
-			cndts:	[]
+		setupalibi['ann']
+			cndts:	[64, 61, 62, 63]
 			risks:	[102]
-		workat['diana', 'school']
-			cndts:	[102]
-			risks:	[]
+		plantokill['ann', 'alex']
+			cndts:	[5]
+			risks:	[102]
 
 
 38
-fall_in_love['ann', 'ann', 'school']_3f03
+want_to_reveal_affair_to['ann', 'alex', 'alex']_fcb8
 	preconditions:
-		workat['ann', 'school']
-			cndts:	[]
+		setupalibi['ann']
+			cndts:	[64, 61, 62, 63]
 			risks:	[102]
-		workat['ann', 'school']
-			cndts:	[]
+		plantokill['ann', 'alex']
+			cndts:	[5]
 			risks:	[102]
 
 
 39
-put_body_on_the_clock['alex', 'alex', 'clock']_f1f0
+want_to_reveal_affair_to['alex', 'diana', 'diana']_f205
 	preconditions:
-		tower['clock']
-			cndts:	[102]
-			risks:	[]
-		killed['alex', 'alex']
-			cndts:	[21]
+		setupalibi['alex']
+			cndts:	[65, 66, 67, 68]
+			risks:	[102]
+		plantokill['alex', 'diana']
+			cndts:	[6]
 			risks:	[102]
 
 
 40
-put_body_on_the_clock['alex', 'alex', 'car']_4e2a
+want_to_reveal_affair_to['alex', 'diana', 'ann']_3a61
 	preconditions:
-		tower['car']
-			cndts:	[]
+		setupalibi['alex']
+			cndts:	[65, 66, 67, 68]
 			risks:	[102]
-		killed['alex', 'alex']
-			cndts:	[21]
+		plantokill['alex', 'diana']
+			cndts:	[6]
 			risks:	[102]
 
 
 41
-put_body_on_the_clock['alex', 'diana', 'clock']_f00d
+want_to_reveal_affair_to['alex', 'diana', 'alex']_114c
 	preconditions:
-		tower['clock']
-			cndts:	[102]
-			risks:	[]
-		killed['alex', 'diana']
-			cndts:	[22]
+		setupalibi['alex']
+			cndts:	[65, 66, 67, 68]
+			risks:	[102]
+		plantokill['alex', 'diana']
+			cndts:	[6]
 			risks:	[102]
 
 
 42
-put_body_on_the_clock['alex', 'diana', 'car']_ebe3
+want_to_reveal_affair_to['alex', 'ann', 'diana']_ec4f
 	preconditions:
-		tower['car']
-			cndts:	[]
+		setupalibi['alex']
+			cndts:	[65, 66, 67, 68]
 			risks:	[102]
-		killed['alex', 'diana']
-			cndts:	[22]
+		plantokill['alex', 'ann']
+			cndts:	[7]
 			risks:	[102]
 
 
 43
-put_body_on_the_clock['alex', 'ann', 'clock']_34dc
+want_to_reveal_affair_to['alex', 'ann', 'ann']_5828
 	preconditions:
-		tower['clock']
-			cndts:	[102]
-			risks:	[]
-		killed['alex', 'ann']
-			cndts:	[23]
+		setupalibi['alex']
+			cndts:	[65, 66, 67, 68]
+			risks:	[102]
+		plantokill['alex', 'ann']
+			cndts:	[7]
 			risks:	[102]
 
 
 44
-put_body_on_the_clock['alex', 'ann', 'car']_0b5f
+want_to_reveal_affair_to['alex', 'ann', 'alex']_197f
 	preconditions:
-		tower['car']
-			cndts:	[]
+		setupalibi['alex']
+			cndts:	[65, 66, 67, 68]
 			risks:	[102]
-		killed['alex', 'ann']
-			cndts:	[23]
+		plantokill['alex', 'ann']
+			cndts:	[7]
 			risks:	[102]
 
 
 45
-put_body_on_the_clock['diana', 'alex', 'clock']_112d
+want_to_reveal_affair_to['alex', 'alex', 'diana']_9e2f
 	preconditions:
-		tower['clock']
-			cndts:	[102]
-			risks:	[]
-		killed['diana', 'alex']
-			cndts:	[24]
+		setupalibi['alex']
+			cndts:	[65, 66, 67, 68]
+			risks:	[102]
+		plantokill['alex', 'alex']
+			cndts:	[8]
 			risks:	[102]
 
 
 46
-put_body_on_the_clock['diana', 'alex', 'car']_02e9
+want_to_reveal_affair_to['alex', 'alex', 'ann']_43cc
 	preconditions:
-		tower['car']
-			cndts:	[]
+		setupalibi['alex']
+			cndts:	[65, 66, 67, 68]
 			risks:	[102]
-		killed['diana', 'alex']
-			cndts:	[24]
+		plantokill['alex', 'alex']
+			cndts:	[8]
 			risks:	[102]
 
 
 47
-put_body_on_the_clock['diana', 'diana', 'clock']_5c3c
+want_to_reveal_affair_to['alex', 'alex', 'alex']_655b
 	preconditions:
-		tower['clock']
-			cndts:	[102]
-			risks:	[]
-		killed['diana', 'diana']
-			cndts:	[25]
+		setupalibi['alex']
+			cndts:	[65, 66, 67, 68]
+			risks:	[102]
+		plantokill['alex', 'alex']
+			cndts:	[8]
 			risks:	[102]
 
 
 48
-put_body_on_the_clock['diana', 'diana', 'car']_8ecc
+fall_in_love['diana', 'diana', 'school']_4a7a
 	preconditions:
-		tower['car']
-			cndts:	[]
+		love['diana', 'diana']
+			cndts:	[75]
 			risks:	[102]
-		killed['diana', 'diana']
-			cndts:	[25]
+		love['diana', 'diana']
+			cndts:	[75]
 			risks:	[102]
 
 
 49
-put_body_on_the_clock['diana', 'ann', 'clock']_bcb2
+fall_in_love['diana', 'ann', 'school']_a773
 	preconditions:
-		tower['clock']
-			cndts:	[102]
-			risks:	[]
-		killed['diana', 'ann']
-			cndts:	[26]
+		love['diana', 'ann']
+			cndts:	[76, 78]
+			risks:	[102]
+		love['ann', 'diana']
+			cndts:	[76, 78]
 			risks:	[102]
 
 
 50
-put_body_on_the_clock['diana', 'ann', 'car']_1ec2
+fall_in_love['diana', 'alex', 'school']_8659
 	preconditions:
-		tower['car']
-			cndts:	[]
+		love['diana', 'alex']
+			cndts:	[81, 77]
 			risks:	[102]
-		killed['diana', 'ann']
-			cndts:	[26]
+		love['alex', 'diana']
+			cndts:	[81, 77]
 			risks:	[102]
 
 
 51
-put_body_on_the_clock['ann', 'alex', 'clock']_91d0
+fall_in_love['ann', 'diana', 'school']_69f1
 	preconditions:
-		tower['clock']
-			cndts:	[102]
-			risks:	[]
-		killed['ann', 'alex']
-			cndts:	[27]
+		love['ann', 'diana']
+			cndts:	[76, 78]
+			risks:	[102]
+		love['diana', 'ann']
+			cndts:	[76, 78]
 			risks:	[102]
 
 
 52
-put_body_on_the_clock['ann', 'alex', 'car']_e6b4
+fall_in_love['ann', 'ann', 'school']_bb72
 	preconditions:
-		tower['car']
-			cndts:	[]
+		love['ann', 'ann']
+			cndts:	[79]
 			risks:	[102]
-		killed['ann', 'alex']
-			cndts:	[27]
+		love['ann', 'ann']
+			cndts:	[79]
 			risks:	[102]
 
 
 53
-put_body_on_the_clock['ann', 'diana', 'clock']_6d1e
+fall_in_love['ann', 'alex', 'school']_8d69
 	preconditions:
-		tower['clock']
-			cndts:	[102]
-			risks:	[]
-		killed['ann', 'diana']
-			cndts:	[28]
+		love['ann', 'alex']
+			cndts:	[80, 82]
+			risks:	[102]
+		love['alex', 'ann']
+			cndts:	[80, 82]
 			risks:	[102]
 
 
 54
-put_body_on_the_clock['ann', 'diana', 'car']_1861
+fall_in_love['alex', 'diana', 'school']_2f88
 	preconditions:
-		tower['car']
-			cndts:	[]
+		love['alex', 'diana']
+			cndts:	[81, 77]
 			risks:	[102]
-		killed['ann', 'diana']
-			cndts:	[28]
+		love['diana', 'alex']
+			cndts:	[81, 77]
 			risks:	[102]
 
 
 55
-put_body_on_the_clock['ann', 'ann', 'clock']_d76d
+fall_in_love['alex', 'ann', 'school']_6dcb
 	preconditions:
-		tower['clock']
-			cndts:	[102]
-			risks:	[]
-		killed['ann', 'ann']
-			cndts:	[29]
+		love['alex', 'ann']
+			cndts:	[80, 82]
+			risks:	[102]
+		love['ann', 'alex']
+			cndts:	[80, 82]
 			risks:	[102]
 
 
 56
-put_body_on_the_clock['ann', 'ann', 'car']_8cf2
+fall_in_love['alex', 'alex', 'school']_4360
 	preconditions:
-		tower['car']
-			cndts:	[]
+		love['alex', 'alex']
+			cndts:	[83]
 			risks:	[102]
-		killed['ann', 'ann']
-			cndts:	[29]
+		love['alex', 'alex']
+			cndts:	[83]
 			risks:	[102]
 
 
 57
-car_alarm['clock', 'alex', 'clock']_8194
+park_under_clock_tower['diana', 'clock', 'clock']_adfc
 	preconditions:
-		tower['clock']
-			cndts:	[102]
-			risks:	[]
 		existundertower['clock']
-			cndts:	[9, 10, 13, 14, 17, 18]
-			risks:	[102]
-		afternoon['clock']
-			cndts:	[69, 70, 71]
+			cndts:	[9, 11, 13, 15, 17, 19]
 			risks:	[102]
 
 
 58
-car_alarm['clock', 'alex', 'car']_c6c3
+park_under_clock_tower['diana', 'clock', 'car']_cda6
 	preconditions:
-		tower['clock']
-			cndts:	[102]
-			risks:	[]
-		existundertower['car']
-			cndts:	[11, 12, 15, 16, 19, 20]
-			risks:	[102]
-		afternoon['clock']
-			cndts:	[69, 70, 71]
+		existundertower['clock']
+			cndts:	[9, 11, 13, 15, 17, 19]
 			risks:	[102]
 
 
 59
-car_alarm['clock', 'diana', 'clock']_b0af
+park_under_clock_tower['diana', 'car', 'clock']_d64f
 	preconditions:
-		tower['clock']
-			cndts:	[102]
-			risks:	[]
-		existundertower['clock']
-			cndts:	[9, 10, 13, 14, 17, 18]
-			risks:	[102]
-		afternoon['clock']
-			cndts:	[69, 70, 71]
+		existundertower['car']
+			cndts:	[10, 12, 14, 16, 18, 20]
 			risks:	[102]
 
 
 60
-car_alarm['clock', 'diana', 'car']_66af
+park_under_clock_tower['diana', 'car', 'car']_540f
 	preconditions:
-		tower['clock']
-			cndts:	[102]
-			risks:	[]
 		existundertower['car']
-			cndts:	[11, 12, 15, 16, 19, 20]
-			risks:	[102]
-		afternoon['clock']
-			cndts:	[69, 70, 71]
+			cndts:	[10, 12, 14, 16, 18, 20]
 			risks:	[102]
 
 
 61
-car_alarm['clock', 'ann', 'clock']_d8db
+park_under_clock_tower['ann', 'clock', 'clock']_32ea
 	preconditions:
-		tower['clock']
-			cndts:	[102]
-			risks:	[]
 		existundertower['clock']
-			cndts:	[9, 10, 13, 14, 17, 18]
-			risks:	[102]
-		afternoon['clock']
-			cndts:	[69, 70, 71]
+			cndts:	[9, 11, 13, 15, 17, 19]
 			risks:	[102]
 
 
 62
-car_alarm['clock', 'ann', 'car']_710e
+park_under_clock_tower['ann', 'clock', 'car']_c39a
 	preconditions:
-		tower['clock']
-			cndts:	[102]
-			risks:	[]
-		existundertower['car']
-			cndts:	[11, 12, 15, 16, 19, 20]
-			risks:	[102]
-		afternoon['clock']
-			cndts:	[69, 70, 71]
+		existundertower['clock']
+			cndts:	[9, 11, 13, 15, 17, 19]
 			risks:	[102]
 
 
 63
-car_alarm['car', 'alex', 'clock']_a19f
+park_under_clock_tower['ann', 'car', 'clock']_d32a
 	preconditions:
-		tower['car']
-			cndts:	[]
-			risks:	[102]
-		existundertower['clock']
-			cndts:	[9, 10, 13, 14, 17, 18]
-			risks:	[102]
-		afternoon['car']
-			cndts:	[72, 73, 74]
+		existundertower['car']
+			cndts:	[10, 12, 14, 16, 18, 20]
 			risks:	[102]
 
 
 64
-car_alarm['car', 'alex', 'car']_4121
+park_under_clock_tower['ann', 'car', 'car']_9d93
 	preconditions:
-		tower['car']
-			cndts:	[]
-			risks:	[102]
 		existundertower['car']
-			cndts:	[11, 12, 15, 16, 19, 20]
-			risks:	[102]
-		afternoon['car']
-			cndts:	[72, 73, 74]
+			cndts:	[10, 12, 14, 16, 18, 20]
 			risks:	[102]
 
 
 65
-car_alarm['car', 'diana', 'clock']_2ffd
+park_under_clock_tower['alex', 'clock', 'clock']_a644
 	preconditions:
-		tower['car']
-			cndts:	[]
-			risks:	[102]
 		existundertower['clock']
-			cndts:	[9, 10, 13, 14, 17, 18]
-			risks:	[102]
-		afternoon['car']
-			cndts:	[72, 73, 74]
+			cndts:	[9, 11, 13, 15, 17, 19]
 			risks:	[102]
 
 
 66
-car_alarm['car', 'diana', 'car']_72bd
+park_under_clock_tower['alex', 'clock', 'car']_584a
 	preconditions:
-		tower['car']
-			cndts:	[]
-			risks:	[102]
-		existundertower['car']
-			cndts:	[11, 12, 15, 16, 19, 20]
-			risks:	[102]
-		afternoon['car']
-			cndts:	[72, 73, 74]
+		existundertower['clock']
+			cndts:	[9, 11, 13, 15, 17, 19]
 			risks:	[102]
 
 
 67
-car_alarm['car', 'ann', 'clock']_ba40
+park_under_clock_tower['alex', 'car', 'clock']_76b8
 	preconditions:
-		tower['car']
-			cndts:	[]
-			risks:	[102]
-		existundertower['clock']
-			cndts:	[9, 10, 13, 14, 17, 18]
-			risks:	[102]
-		afternoon['car']
-			cndts:	[72, 73, 74]
+		existundertower['car']
+			cndts:	[10, 12, 14, 16, 18, 20]
 			risks:	[102]
 
 
 68
-car_alarm['car', 'ann', 'car']_9f61
+park_under_clock_tower['alex', 'car', 'car']_7ffd
 	preconditions:
-		tower['car']
-			cndts:	[]
-			risks:	[102]
 		existundertower['car']
-			cndts:	[11, 12, 15, 16, 19, 20]
-			risks:	[102]
-		afternoon['car']
-			cndts:	[72, 73, 74]
+			cndts:	[10, 12, 14, 16, 18, 20]
 			risks:	[102]
 
 
 69
-afternoon_body_fall['clock', 'alex']_75ab
+afternoon_body_fall['clock', 'diana']_2c94
 	preconditions:
-		bodyontheclock['alex', 'clock']
-			cndts:	[51, 45, 39]
-			risks:	[69, 102]
+		afternoon['clock']
+			cndts:	[9, 10, 11, 12, 13, 14]
+			risks:	[65, 67, 102, 57, 59, 61, 63]
+		not-bodyontheclock['diana', 'clock']
+			cndts:	[102]
+			risks:	[69]
 
 
 70
-afternoon_body_fall['clock', 'diana']_6f35
+afternoon_body_fall['clock', 'ann']_3ee6
 	preconditions:
-		bodyontheclock['diana', 'clock']
-			cndts:	[41, 53, 47]
-			risks:	[102, 70]
+		afternoon['clock']
+			cndts:	[9, 10, 11, 12, 13, 14]
+			risks:	[65, 67, 102, 57, 59, 61, 63]
+		not-bodyontheclock['ann', 'clock']
+			cndts:	[102]
+			risks:	[70]
 
 
 71
-afternoon_body_fall['clock', 'ann']_d9a7
+afternoon_body_fall['clock', 'alex']_d687
 	preconditions:
-		bodyontheclock['ann', 'clock']
-			cndts:	[49, 43, 55]
-			risks:	[102, 71]
+		afternoon['clock']
+			cndts:	[9, 10, 11, 12, 13, 14]
+			risks:	[65, 67, 102, 57, 59, 61, 63]
+		not-bodyontheclock['alex', 'clock']
+			cndts:	[102]
+			risks:	[71]
 
 
 72
-afternoon_body_fall['car', 'alex']_d765
+afternoon_body_fall['car', 'diana']_9e6b
 	preconditions:
-		bodyontheclock['alex', 'car']
-			cndts:	[40, 52, 46]
-			risks:	[72, 102]
+		afternoon['car']
+			cndts:	[15, 16, 17, 18, 19, 20]
+			risks:	[64, 66, 68, 102, 58, 60, 62]
+		not-bodyontheclock['diana', 'car']
+			cndts:	[102]
+			risks:	[72]
 
 
 73
-afternoon_body_fall['car', 'diana']_bf5f
+afternoon_body_fall['car', 'ann']_9d0a
 	preconditions:
-		bodyontheclock['diana', 'car']
-			cndts:	[48, 42, 54]
-			risks:	[73, 102]
+		afternoon['car']
+			cndts:	[15, 16, 17, 18, 19, 20]
+			risks:	[64, 66, 68, 102, 58, 60, 62]
+		not-bodyontheclock['ann', 'car']
+			cndts:	[102]
+			risks:	[73]
 
 
 74
-afternoon_body_fall['car', 'ann']_82be
+afternoon_body_fall['car', 'alex']_d5c9
 	preconditions:
-		bodyontheclock['ann', 'car']
-			cndts:	[56, 50, 44]
-			risks:	[74, 102]
+		afternoon['car']
+			cndts:	[15, 16, 17, 18, 19, 20]
+			risks:	[64, 66, 68, 102, 58, 60, 62]
+		not-bodyontheclock['alex', 'car']
+			cndts:	[102]
+			risks:	[74]
 
 
 75
-want_to_reveal_affair_to['alex', 'alex', 'alex']_2170
+have_an_affair['diana', 'diana']_57e2
 	preconditions:
-		marrywith['alex', 'alex']
-			cndts:	[]
-			risks:	[102]
-		affair['alex', 'alex']
-			cndts:	[0]
+		affair['diana', 'diana']
+			cndts:	[21, 22, 23]
 			risks:	[102]
 
 
 76
-want_to_reveal_affair_to['alex', 'alex', 'diana']_6304
+have_an_affair['diana', 'ann']_7803
 	preconditions:
-		marrywith['alex', 'diana']
-			cndts:	[]
-			risks:	[102]
-		affair['alex', 'alex']
-			cndts:	[0]
+		affair['diana', 'ann']
+			cndts:	[24, 25, 26]
 			risks:	[102]
 
 
 77
-want_to_reveal_affair_to['alex', 'alex', 'ann']_22b1
+have_an_affair['diana', 'alex']_5937
 	preconditions:
-		marrywith['alex', 'ann']
-			cndts:	[102]
-			risks:	[]
-		affair['alex', 'alex']
-			cndts:	[0]
+		affair['diana', 'alex']
+			cndts:	[27, 28, 29]
 			risks:	[102]
 
 
 78
-want_to_reveal_affair_to['alex', 'diana', 'alex']_ea8a
+have_an_affair['ann', 'diana']_5684
 	preconditions:
-		marrywith['alex', 'alex']
-			cndts:	[]
-			risks:	[102]
-		affair['alex', 'diana']
-			cndts:	[1]
+		affair['ann', 'diana']
+			cndts:	[32, 30, 31]
 			risks:	[102]
 
 
 79
-want_to_reveal_affair_to['alex', 'diana', 'diana']_bd7e
+have_an_affair['ann', 'ann']_9395
 	preconditions:
-		marrywith['alex', 'diana']
-			cndts:	[]
-			risks:	[102]
-		affair['alex', 'diana']
-			cndts:	[1]
+		affair['ann', 'ann']
+			cndts:	[33, 34, 35]
 			risks:	[102]
 
 
 80
-want_to_reveal_affair_to['alex', 'diana', 'ann']_e49c
+have_an_affair['ann', 'alex']_d677
 	preconditions:
-		marrywith['alex', 'ann']
-			cndts:	[102]
-			risks:	[]
-		affair['alex', 'diana']
-			cndts:	[1]
+		affair['ann', 'alex']
+			cndts:	[36, 37, 38]
 			risks:	[102]
 
 
 81
-want_to_reveal_affair_to['alex', 'ann', 'alex']_3b78
+have_an_affair['alex', 'diana']_b0c8
 	preconditions:
-		marrywith['alex', 'alex']
-			cndts:	[]
-			risks:	[102]
-		affair['alex', 'ann']
-			cndts:	[2]
+		affair['alex', 'diana']
+			cndts:	[40, 41, 39]
 			risks:	[102]
 
 
 82
-want_to_reveal_affair_to['alex', 'ann', 'diana']_7d86
+have_an_affair['alex', 'ann']_a659
 	preconditions:
-		marrywith['alex', 'diana']
-			cndts:	[]
-			risks:	[102]
 		affair['alex', 'ann']
-			cndts:	[2]
+			cndts:	[42, 43, 44]
 			risks:	[102]
 
 
 83
-want_to_reveal_affair_to['alex', 'ann', 'ann']_b855
+have_an_affair['alex', 'alex']_ec41
 	preconditions:
-		marrywith['alex', 'ann']
-			cndts:	[102]
-			risks:	[]
-		affair['alex', 'ann']
-			cndts:	[2]
+		affair['alex', 'alex']
+			cndts:	[45, 46, 47]
 			risks:	[102]
 
 
 84
-want_to_reveal_affair_to['diana', 'alex', 'alex']_1b5b
+put_body_on_the_clock['diana', 'diana', 'clock']_9e2a
 	preconditions:
-		marrywith['diana', 'alex']
-			cndts:	[]
-			risks:	[102]
-		affair['diana', 'alex']
-			cndts:	[3]
+		bodyontheclock['diana', 'clock']
+			cndts:	[69]
 			risks:	[102]
 
 
 85
-want_to_reveal_affair_to['diana', 'alex', 'diana']_40be
+put_body_on_the_clock['diana', 'diana', 'car']_6653
 	preconditions:
-		marrywith['diana', 'diana']
-			cndts:	[]
-			risks:	[102]
-		affair['diana', 'alex']
-			cndts:	[3]
+		bodyontheclock['diana', 'car']
+			cndts:	[72]
 			risks:	[102]
 
 
 86
-want_to_reveal_affair_to['diana', 'alex', 'ann']_df72
+put_body_on_the_clock['diana', 'ann', 'clock']_24d0
 	preconditions:
-		marrywith['diana', 'ann']
-			cndts:	[]
-			risks:	[102]
-		affair['diana', 'alex']
-			cndts:	[3]
+		bodyontheclock['ann', 'clock']
+			cndts:	[70]
 			risks:	[102]
 
 
 87
-want_to_reveal_affair_to['diana', 'diana', 'alex']_3de3
+put_body_on_the_clock['diana', 'ann', 'car']_3b48
 	preconditions:
-		marrywith['diana', 'alex']
-			cndts:	[]
-			risks:	[102]
-		affair['diana', 'diana']
-			cndts:	[4]
+		bodyontheclock['ann', 'car']
+			cndts:	[73]
 			risks:	[102]
 
 
 88
-want_to_reveal_affair_to['diana', 'diana', 'diana']_6f06
+put_body_on_the_clock['diana', 'alex', 'clock']_91f8
 	preconditions:
-		marrywith['diana', 'diana']
-			cndts:	[]
-			risks:	[102]
-		affair['diana', 'diana']
-			cndts:	[4]
+		bodyontheclock['alex', 'clock']
+			cndts:	[71]
 			risks:	[102]
 
 
 89
-want_to_reveal_affair_to['diana', 'diana', 'ann']_be21
+put_body_on_the_clock['diana', 'alex', 'car']_7e65
 	preconditions:
-		marrywith['diana', 'ann']
-			cndts:	[]
-			risks:	[102]
-		affair['diana', 'diana']
-			cndts:	[4]
+		bodyontheclock['alex', 'car']
+			cndts:	[74]
 			risks:	[102]
 
 
 90
-want_to_reveal_affair_to['diana', 'ann', 'alex']_fa7c
+put_body_on_the_clock['ann', 'diana', 'clock']_fae0
 	preconditions:
-		marrywith['diana', 'alex']
-			cndts:	[]
-			risks:	[102]
-		affair['diana', 'ann']
-			cndts:	[5]
+		bodyontheclock['diana', 'clock']
+			cndts:	[69]
 			risks:	[102]
 
 
 91
-want_to_reveal_affair_to['diana', 'ann', 'diana']_26b4
+put_body_on_the_clock['ann', 'diana', 'car']_b20f
 	preconditions:
-		marrywith['diana', 'diana']
-			cndts:	[]
-			risks:	[102]
-		affair['diana', 'ann']
-			cndts:	[5]
+		bodyontheclock['diana', 'car']
+			cndts:	[72]
 			risks:	[102]
 
 
 92
-want_to_reveal_affair_to['diana', 'ann', 'ann']_e2d8
+put_body_on_the_clock['ann', 'ann', 'clock']_e603
 	preconditions:
-		marrywith['diana', 'ann']
-			cndts:	[]
-			risks:	[102]
-		affair['diana', 'ann']
-			cndts:	[5]
+		bodyontheclock['ann', 'clock']
+			cndts:	[70]
 			risks:	[102]
 
 
 93
-want_to_reveal_affair_to['ann', 'alex', 'alex']_e08d
+put_body_on_the_clock['ann', 'ann', 'car']_50dd
 	preconditions:
-		marrywith['ann', 'alex']
-			cndts:	[]
-			risks:	[102]
-		affair['ann', 'alex']
-			cndts:	[6]
+		bodyontheclock['ann', 'car']
+			cndts:	[73]
 			risks:	[102]
 
 
 94
-want_to_reveal_affair_to['ann', 'alex', 'diana']_be50
+put_body_on_the_clock['ann', 'alex', 'clock']_6d49
 	preconditions:
-		marrywith['ann', 'diana']
-			cndts:	[]
-			risks:	[102]
-		affair['ann', 'alex']
-			cndts:	[6]
+		bodyontheclock['alex', 'clock']
+			cndts:	[71]
 			risks:	[102]
 
 
 95
-want_to_reveal_affair_to['ann', 'alex', 'ann']_2b63
+put_body_on_the_clock['ann', 'alex', 'car']_1e18
 	preconditions:
-		marrywith['ann', 'ann']
-			cndts:	[]
-			risks:	[102]
-		affair['ann', 'alex']
-			cndts:	[6]
+		bodyontheclock['alex', 'car']
+			cndts:	[74]
 			risks:	[102]
 
 
 96
-want_to_reveal_affair_to['ann', 'diana', 'alex']_08ff
+put_body_on_the_clock['alex', 'diana', 'clock']_f4c5
 	preconditions:
-		marrywith['ann', 'alex']
-			cndts:	[]
-			risks:	[102]
-		affair['ann', 'diana']
-			cndts:	[7]
+		bodyontheclock['diana', 'clock']
+			cndts:	[69]
 			risks:	[102]
 
 
 97
-want_to_reveal_affair_to['ann', 'diana', 'diana']_756c
+put_body_on_the_clock['alex', 'diana', 'car']_935c
 	preconditions:
-		marrywith['ann', 'diana']
-			cndts:	[]
-			risks:	[102]
-		affair['ann', 'diana']
-			cndts:	[7]
+		bodyontheclock['diana', 'car']
+			cndts:	[72]
 			risks:	[102]
 
 
 98
-want_to_reveal_affair_to['ann', 'diana', 'ann']_b7e6
+put_body_on_the_clock['alex', 'ann', 'clock']_8028
 	preconditions:
-		marrywith['ann', 'ann']
-			cndts:	[]
-			risks:	[102]
-		affair['ann', 'diana']
-			cndts:	[7]
+		bodyontheclock['ann', 'clock']
+			cndts:	[70]
 			risks:	[102]
 
 
 99
-want_to_reveal_affair_to['ann', 'ann', 'alex']_984b
+put_body_on_the_clock['alex', 'ann', 'car']_200a
 	preconditions:
-		marrywith['ann', 'alex']
-			cndts:	[]
-			risks:	[102]
-		affair['ann', 'ann']
-			cndts:	[8]
+		bodyontheclock['ann', 'car']
+			cndts:	[73]
 			risks:	[102]
 
 
 100
-want_to_reveal_affair_to['ann', 'ann', 'diana']_067c
+put_body_on_the_clock['alex', 'alex', 'clock']_455b
 	preconditions:
-		marrywith['ann', 'diana']
-			cndts:	[]
-			risks:	[102]
-		affair['ann', 'ann']
-			cndts:	[8]
+		bodyontheclock['alex', 'clock']
+			cndts:	[71]
 			risks:	[102]
 
 
 101
-want_to_reveal_affair_to['ann', 'ann', 'ann']_9f64
+put_body_on_the_clock['alex', 'alex', 'car']_23c9
 	preconditions:
-		marrywith['ann', 'ann']
-			cndts:	[]
-			risks:	[102]
-		affair['ann', 'ann']
-			cndts:	[8]
+		bodyontheclock['alex', 'car']
+			cndts:	[74]
 			risks:	[102]
 
 
 102
-dummy_init[]_0b0a
+dummy_init[]_9811
 	preconditions:
-		not-alarm['diana', 'clock']
-		not-marrywith['diana', 'alex']
-		not-have['diana', 'car']
-		not-afternoon['car']
-		not-affair['alex', 'ann']
-		not-affair['ann', 'alex']
-		not-killed['alex', 'diana']
-		have['alex', 'car']
-		not-plantokill['diana', 'diana']
-		not-have['ann', 'clock']
-		not-affair['alex', 'diana']
-		not-affair['diana', 'ann']
 		not-love['ann', 'ann']
-		not-love['ann', 'alex']
-		not-killed['alex', 'ann']
-		not-marrywith['diana', 'diana']
-		not-plantokill['alex', 'ann']
-		not-bodyontheclock['alex', 'car']
-		not-killed['alex', 'alex']
-		not-plantokill['alex', 'alex']
-		not-affair['alex', 'alex']
-		not-existundertower['car']
-		not-plantokill['alex', 'diana']
-		not-bodyontheclock['diana', 'clock']
-		not-love['diana', 'ann']
-		not-killed['ann', 'diana']
-		not-marrywith['alex', 'alex']
-		not-killed['diana', 'ann']
-		not-plantokill['diana', 'alex']
-		not-have['diana', 'clock']
-		not-existundertower['clock']
-		marrywith['alex', 'ann']
-		not-alarm['diana', 'car']
-		not-tower['car']
-		not-bodyontheclock['ann', 'car']
-		not-alarm['ann', 'car']
-		not-have['ann', 'car']
-		not-killed['ann', 'alex']
-		not-afternoon['clock']
-		not-love['diana', 'alex']
-		not-love['alex', 'alex']
-		not-affair['diana', 'alex']
-		not-plantokill['ann', 'alex']
-		not-bodyontheclock['ann', 'clock']
-		not-killed['ann', 'ann']
-		not-killed['diana', 'diana']
-		not-setupalibi['ann']
-		not-affair['diana', 'diana']
-		not-married['ann']
-		not-single['ann']
-		not-alarm['alex', 'clock']
-		not-marrywith['ann', 'alex']
-		not-marrywith['alex', 'diana']
-		tower['clock']
-		not-marrywith['ann', 'ann']
-		single['diana']
-		not-married['diana']
-		not-plantokill['ann', 'diana']
-		married['alex']
-		not-love['alex', 'diana']
-		not-love['ann', 'diana']
-		not-plantokill['diana', 'ann']
-		not-affair['ann', 'ann']
-		not-marrywith['diana', 'ann']
-		not-workat['ann', 'school']
-		not-plantokill['ann', 'ann']
-		not-affair['ann', 'diana']
-		workat['diana', 'school']
-		not-alarm['alex', 'car']
-		not-bodyontheclock['alex', 'clock']
-		not-love['diana', 'diana']
-		not-setupalibi['diana']
-		not-love['alex', 'ann']
-		not-marrywith['ann', 'diana']
-		not-alarm['ann', 'clock']
-		not-setupalibi['alex']
-		workat['alex', 'school']
-		not-bodyontheclock['diana', 'car']
-		not-killed['diana', 'alex']
 		not-have['alex', 'clock']
+		not-plantokill['alex', 'ann']
+		not-plantokill['alex', 'diana']
+		not-married['ann']
+		not-marrywith['alex', 'ann']
+		not-love['ann', 'diana']
+		not-affair['ann', 'diana']
+		not-affair['ann', 'ann']
+		not-killed['diana', 'ann']
+		not-affair['alex', 'alex']
+		not-bodyontheclock['alex', 'car']
+		not-setupalibi['alex']
+		not-killed['alex', 'ann']
+		not-workat['ann', 'school']
+		not-plantokill['diana', 'alex']
+		not-married['alex']
+		not-workat['diana', 'school']
+		not-single['ann']
+		not-killed['alex', 'alex']
+		not-have['diana', 'clock']
+		not-plantokill['diana', 'ann']
+		not-alarm['ann', 'clock']
+		not-affair['diana', 'alex']
+		not-bodyontheclock['alex', 'clock']
+		not-affair['diana', 'ann']
+		not-bodyontheclock['ann', 'car']
+		not-afternoon['car']
+		not-marrywith['ann', 'ann']
+		not-tower['car']
+		not-affair['ann', 'alex']
+		not-plantokill['ann', 'ann']
+		not-love['alex', 'diana']
+		not-marrywith['ann', 'diana']
+		not-killed['ann', 'diana']
+		not-alarm['ann', 'car']
+		not-plantokill['diana', 'diana']
+		not-alarm['alex', 'clock']
+		not-workat['alex', 'school']
+		not-love['ann', 'alex']
+		not-single['diana']
+		not-bodyontheclock['ann', 'clock']
+		not-killed['diana', 'diana']
+		not-existundertower['car']
+		not-love['alex', 'alex']
+		not-marrywith['diana', 'ann']
+		not-killed['ann', 'alex']
+		not-killed['ann', 'ann']
+		not-love['diana', 'ann']
+		not-existundertower['clock']
+		not-marrywith['alex', 'diana']
+		not-marrywith['diana', 'diana']
+		not-alarm['alex', 'car']
+		not-killed['diana', 'alex']
+		not-love['diana', 'alex']
+		not-afternoon['clock']
+		not-marrywith['alex', 'alex']
+		not-affair['alex', 'diana']
+		not-bodyontheclock['diana', 'clock']
+		not-bodyontheclock['diana', 'car']
 		not-single['alex']
+		not-plantokill['ann', 'alex']
+		alarm['diana', 'car']
+		not-married['diana']
+		not-marrywith['ann', 'alex']
+		not-plantokill['alex', 'alex']
+		not-setupalibi['diana']
+		not-love['diana', 'diana']
+		not-affair['diana', 'diana']
+		not-love['alex', 'ann']
+		not-killed['alex', 'diana']
+		not-have['ann', 'clock']
+		not-setupalibi['ann']
+		not-affair['alex', 'ann']
+		not-have['ann', 'car']
+		not-plantokill['ann', 'diana']
+		not-marrywith['diana', 'alex']
+		not-tower['clock']
+		not-alarm['diana', 'clock']
+		not-have['alex', 'car']
+		not-have['diana', 'car']
 
 
 103
-dummy_goal[]_e63f
+dummy_goal[]_c5ba
 	preconditions:
-		alarm['diana', 'car']
-			cndts:	[66, 60]
+		single['diana']
+			cndts:	[81, 75, 78]
+			risks:	[102]
+		marrywith['alex', 'ann']
+			cndts:	[40, 43, 46]
+			risks:	[102]
+		married['alex']
+			cndts:	[81, 82, 83]
+			risks:	[102]
+		workat['diana', 'school']
+			cndts:	[48, 49, 50, 51, 54]
+			risks:	[102]
+		workat['alex', 'school']
+			cndts:	[50, 53, 54, 55, 56]
+			risks:	[102]
+		have['alex', 'car']
+			cndts:	[67, 68]
+			risks:	[102]
+		tower['clock']
+			cndts:	[9, 10, 11, 12, 13, 14, 57, 59, 61, 63, 65, 67, 84, 86, 88, 90, 92, 94, 96, 98, 100]
 			risks:	[102]
 
